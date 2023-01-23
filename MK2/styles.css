@@ -1,0 +1,132 @@
+ html {
+  background-image: url("images/background.png");
+  background-repeat: none;
+  background-size: cover;
+ }
+
+ header {
+  border: 3px solid #FFF;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  border-radius: 15px;
+  background-image: linear-gradient(black, red, black);
+ }
+
+ header h1 {
+  color: black;
+  text-align: center;
+  -webkit-text-stroke-width: .7px;
+  -webkit-text-stroke-color: black;
+ }
+
+ main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+.characterSelect {
+  float: left;
+  width: 38%;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px; 
+  grid-template-rows: 150px 150px 150px;
+  padding: 5px;
+  gap: 5px;
+  margin-left: 2%;
+}
+
+.characterButton {
+    width: 100%;
+    height: 100%;
+}
+
+.characterButton:hover {
+  border: 4px solid lime;
+}
+
+#liuKang {
+  background-image: url("images/liukang.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#kungLao {
+  background-image: url("images/kunglao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#johnnyCage {
+  background-image: url("images/johnnycage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+#reptile {
+  background-image: url("images/reptile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+#subZero {
+  background-image: url("images/subzero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+#kitana {
+  background-image: url("images/kitana.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#shangTsung {
+  background-image: url("images/shangtsung.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jax {
+  background-image: url("images/jax.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+#mileena {
+  background-image: url("images/mileena.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#baraka {
+  background-image: url("images/baraka.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+#scorpion {
+  background-image: url("images/scorpion.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#raiden {
+  background-image: url("images/raiden.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+#characterMoves {
+    width: 55%;
+    float: right;
+    border: 2px solid #FFF;
+    margin-top: 5px;
+    margin-right: 2%;
+    border-radius: 10px;
+    height: 450px;
+    color: #FFF;
+    text-align: center;
+    background-image: radial-gradient(#000, red);
+}
