@@ -91,7 +91,15 @@ color: red;
 color: yellow;
 }
 
-#moveDisplay {
+#storyDisplay { /* Game Story Display (Default when Game is Selected) */
+  display: block;
+}
+
+#tipsCheatsDisplay { /* Tips and Cheats Display */
+  display: none;
+}
+
+#moveDisplay { /* Character Move Display */
 display: none;
 }
 
@@ -116,48 +124,50 @@ display: none;
   grid-template-rows: 135px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('images/mk1bg.png');
+  background-image: url('images/outworld.png');
   text-align: center;
   column-gap: auto;
 }
 
-#mk1JohnnyCage {
+/* MK1 CHARACTER SELECTION */
+
+#mk1JohnnyCage { /* MK1 - JOHNNY CAGE */
   background-image: url("images/mk1/johnnycage.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk1Kano {
+#mk1Kano { /* MK1 - KANO */
   background-image: url("images/mk1/kano.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk1SubZero {
+#mk1SubZero { /* MK1 - SUB ZERO */
   background-image: url("images/mk1/subzero.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk1SonyaBlade {
+#mk1SonyaBlade { /* MK1 - SONYA BLADE */
   background-image: url("images/mk1/sonyablade.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk1Raiden {
+#mk1Raiden { /* MK1 - RAIDEN */
   background-image: url("images/mk1/raiden.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk1LiuKang {
+#mk1LiuKang { /* MK1 - LIU KANG */
   background-image: url("images/mk1/liukang.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk1Scorpion {
+#mk1Scorpion { /* MK1 - SCORPION */
   background-image: url("images/mk1/scorpion.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -262,7 +272,7 @@ display: none;
   padding-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("images/mk3bg.png");
+  background-image: url("images/outworld.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -300,61 +310,61 @@ display: none;
 }
 
 #mk3SonyaBlade {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/sonyablade.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mk3Stryker {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/stryker.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mk3SubZero {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/subzero.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mk3Cyrax {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/cyrax.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mk3Sektor {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/sektor.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mk3Nightwolf {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/nightwolf.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mk3Sheeva {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/sheeva.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mk3KungLao {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/kunglao.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mk3Kabal {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/kabal.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mk3Smoke {
-  background-image: url("images/mk2/liukang.png");
+  background-image: url("images/mk3/smoke.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
