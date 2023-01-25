@@ -25,4 +25,4 @@ I will break down each process into "Issues" on GitHub.
 - Character Endngs will be hidden / revealed with view / hide functionality
 
 ## Credits
-Coming Soon
+- [MK Secrets](https://www.mksecrets.net/) (Move input and character stories)
