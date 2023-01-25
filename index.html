@@ -24,15 +24,15 @@
       <!-- Mortal Kombat 1 Menu -->
         <div class="mk1Select">
           <div></div>
-          <button id="mk1JohnnyCage" class="characterButton" onClick="mk2LiuKang()"></button>
-          <button id="mk1Kano" class="characterButton" onClick="mk2LiuKang()"></button>
-          <button id="mk1SubZero" class="characterButton" onClick="mk2LiuKang()"></button>
+          <button id="mk1JohnnyCage" class="characterButton" onClick="mk1JohnnyCage()"></button>
+          <button id="mk1Kano" class="characterButton" onClick="mk1Kano()"></button>
+          <button id="mk1SubZero" class="characterButton" onClick="mk1SubZero()"></button>
           <div></div>
-          <button id="mk1SonyaBlade" class="characterButton" onClick="mk2LiuKang()"></button>
+          <button id="mk1SonyaBlade" class="characterButton" onClick="mk1SonyaBlade()"></button>
           <div></div>
-          <button id="mk1Raiden" class="characterButton" onClick="mk2LiuKang()"></button>
-          <button id="mk1LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-          <button id="mk1Scorpion" class="characterButton" onClick="mk2LiuKang()"></button>
+          <button id="mk1Raiden" class="characterButton" onClick="mk1Raiden()"></button>
+          <button id="mk1LiuKang" class="characterButton" onClick="mk1LiuKang()"></button>
+          <button id="mk1Scorpion" class="characterButton" onClick="mk1Scorpion()"></button>
           <div></div>
         </div>
       </div>
@@ -52,39 +52,50 @@
           <button id="mk2Baraka" class="characterButton" onClick="mk2Baraka()"></button>
           <button id="mk2Scorpion" class="characterButton" onClick="mk2Scorpion()"></button>
           <button id="mk2Raiden" class="characterButton" onClick="mk2Raiden()"></button>
+          </div>
+      </div>
+
+      <div id="mk3" style="display: none;">
+      <!-- MORTAL KOMBAT 3 CHARACTER MENU -->
+        <div class="mk3Select">
+          <button id="mk3ShangTsung" class="characterButton" onClick="mk3ShangTsung()"></button>
+          <button id="mk3Sindel" class="characterButton" onClick="mk3Sindel()"></button>
+          <button id="mk3Jax" class="characterButton" onClick="mk3Jax()"></button>
+          <button id="mk3Kano" class="characterButton" onClick="mk3Kano()"></button>
+          <button id="mk3SonyaBlade" class="characterButton" onClick="mk3SonyaBlade()"></button>
+          <button id="mk3LiuKang" class="characterButton" onClick="mk3LiuKang()"></button>
+          <button id="mk3Stryker" class="characterButton" onClick="mk3Stryker()"></button>
+          <button id="mk3SubZero" class="characterButton" onClick="mk3SubZero()"></button>
+          <button id="mk3Cyrax" class="characterButton" onClick="mk3Cyrax()"></button>
+          <button id="mk3Sektor" class="characterButton" onClick="mk3Sektor()"></button>
+          <button id="mk3Nightwolf" class="characterButton" onClick="mk3Nightwolf()"></button>
+          <button id="mk3Sheeva" class="characterButton" onClick="mk3Sheeva()"></button>
+          <button id="mk3KungLao" class="characterButton" onClick="mk3KungLao()"></button>
+          <button id="mk3Kabal" class="characterButton" onClick="mk3Kabal()"></button>
+          <button id="mk3Smoke" class="characterButton" onClick="mk3Smoke()"></button>
         </div>
-
       </div>
-
-    </div>
-
-    <div id="mk3" style="display: none;">
-      <div class="mk3Select">
-        <button id="mk3ShangTsung" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3Sindel" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3Jax" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3Kano" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-        <button id="mk3LiuKang" class="characterButton" onClick="mk2LiuKang()"></button>
-      </div>
-    </div>
 
     <div id="gameMenu">
-      <button class="menuButton">Story Details</button>
+      <button class="menuButton" onClick="displayStory()">Story Details</button>
       <button class="menuButton">Tips and Cheats</button>
     </div>
 
     <div id="infoDisplay">
-      <h2 id="displayName">No Selection</h2>
+    <!--H2 Element to Display Titles and Character Names Depending on What is Selected -->
+      <h2 id="displayName">Mortal Kombat</h2>
+
+    <!-- Story Display -->
+      <div id="storyDisplay">
+        <p id="gameStory"></p>
+      </div>
+
+    <!-- Tips and Cheats Display-->
+      <div id = "tipsCheatsDisplay">
+    
+      </div>
+
+    <!--Character Moves Display-->
       <div id="moveDisplay">
       <h3>Biography</h3>
       <p id="bio">Character Biography Here</p>
