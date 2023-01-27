@@ -1,3 +1,5 @@
+**Project is a Work in Progress**
+
 # Mortal Kombat Strategy Guide Project
 Who remembers the hype around Marvel's "Avengers: Infinity War" AND "End Game?" Fans anxiously awaited the debut of Thanos in a major Marvel storyline on the big screen. Later, we anticipated the Blue Ray release. Well, "back in my day" that is how video games were released. First, the game would be released in arcades. Then months later the game would be available for home systems. I can't recall any Arcade title met with greater anticipation than Mortal Kombat.
 
@@ -26,3 +28,4 @@ I will break down each process into "Issues" on GitHub.
 
 ## Credits
 - [MK Secrets](https://www.mksecrets.net/) (Move input and character stories)
+- [Mortal Kombat Online](https://www.mortalkombatonline.com//) (Move input and character stories)
