@@ -28,4 +28,5 @@ I will break down each process into "Issues" on GitHub.
 
 ## Credits
 - [MK Secrets](https://www.mksecrets.net/) (Move input and character stories)
-- [Mortal Kombat Online](https://www.mortalkombatonline.com//) (Move input and character stories)
+- [Mortal Kombat Online](https://www.mortalkombatonline.com/) (Move input and character stories)
+- [Mortal Kombat Wiki](https://mortalkombat.fandom.com/wiki/Mortal_Kombat_Wiki) (Move input, character stories, and Fatality names)
