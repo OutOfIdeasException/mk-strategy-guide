@@ -189,20 +189,24 @@ function mk1JohnnyCage() { // MORTAL KOMBAT 1 - JOHNNY CAGE
 
   document.getElementById("displayName").innerHTML = "Johnny Cage"; 
   document.getElementById("bio").innerHTML = 
-  "A martial arts superstar trained by Great Masters from around the world, Cage "
-  + "uses his talents on the big screenbox-office champ and star of such movies as "
+  "A martial arts superstar trained by Great Masters from around the world, Cage <br>"
+  + "uses his talents on the big screenbox-office champ and star of such movies as <br>"
   + "Dragon Fist and Dragon Fist II as well as the Award-Winning Sudden Violence.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Green Bolt:</div> Back, Forward, Low Punch <br>"
-  + "<div class='moveName'>Shadow Kick:</div> Back, Forward, Low Kick <br>"
-  + "<div class='moveName'>Low Blow:</div> Block + Low Punch<br>";
+  "<div class='moveName'>Green Bolt</div><br>"
+  + "Back, Forward, Low Punch <br><br>"
+  + "<div class='moveName'>Shadow Kick</div><br>"
+  + "Back, Forward, Low Kick <br><br>"
+  + "<div class='moveName'>Low Blow</div><br>"
+  + "Block + Low Punch";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Decapitation: </div>Forward, Forward, Forward, High Punch <div class='distance'>(Close) </div>";
+  "<div class='moveName'>Fatality: Decapitation</div><br>"
+  + "Forward, Forward, Forward, High Punch <div class='distance'>(Close)</div>";
   document.getElementById("ending").innerHTML = 
-  "Through the battles and life or dead situations faced during the tournament Johnny Cage learns "
-  + "the true importance of his fighting skills. He also realizes the full potential of the tournament."
-  + "He returns to Hollywood after defending his new title as grand champion. Cage goes on to film"
-  + "'Mortal Kombat: The Movie' and its many successful sequels."; 
+  "Through the battles and life or dead situations faced during the tournament Johnny Cage<br>"
+  + "learns the true importance of his fighting skills. He also realizes the full potential<br>"
+  + "of the tournament. He returns to Hollywood after defending his new title as grand<br>"
+  + "champion. Cage goes on to film 'Mortal Kombat: The Movie' and its many successful sequels."; 
 }
 
 function mk1Kano() { // MORTAL KOMBAT 1 - KANO
@@ -211,23 +215,25 @@ function mk1Kano() { // MORTAL KOMBAT 1 - KANO
 
   document.getElementById("displayName").innerHTML = "Kano"; 
   document.getElementById("bio").innerHTML = 
-  "A Mercenary, Thug, Extortionist Thief - Kano lives a life of crime and injustice. "
-  + "He is a devoted member of the Black Dragon, a dangerous group of cut-throat madmen "
+  "A Mercenary, Thug, Extortionist Thief - Kano lives a life of crime and injustice.<br>"
+  + "He is a devoted member of the Black Dragon, a dangerous group of cut-throat madmen<br>"
   + "feared and respected throughout all of crime's Inner Circles.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Cannonball: </div><i>(Hold Block)</i> Forward, Down, Back, Up, Forward <i>(Release Block)</i> <br>"
-  + "<div class='moveName'>Knife Throw: </div><i>(Hold Block)</i> Back, Forward <i>(Release Block)</i> <br>";
+  "<div class='moveName'>Cannonball</div><br>"
+  + "<i>(Hold Block)</i> Forward, Down, Back, Up, Forward <i>(Release Block)</i><br><br>"
+  + "<div class='moveName'>Knife Throw</div><br>"
+  + "<i>(Hold Block)</i> Back, Forward <i>(Release Block)</i>";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Heart Rip:</div> Back, Down, Forward, Low Punch <div class='distance'>(Close)</div> <br>"
-  + "<i>*</i> <div class='moveName'>Heart Rip:</div> Back, Back, Back, Low Punch <div class='distance'> (Close)</div> <br>"
-  + "<i>* Sega Genesis only</i>"
-
+  "<div class='moveName'>Fatality: Heart Rip</div> <br>"
+  + "Back, Down, Forward, Low Punch <div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Fatality: Heart Rip</div> <i>(Sega Genesis)</i><br>"
+  + "Back, Back, Back, Low Punch <div class='distance'>(Close)</div>"
   
   document.getElementById("ending").innerHTML = 
-  "With the defeat of Goro and Shang Tsung, Kano will bring his own brand of treachery "
-  + "to the tournament. His Black Dragon organization forms a monopoly over the contest "
-  + "that bring shame and torment to all those involved. Their reign will end in anarchy "
-  + "and death it will result in the final dismantling of the tournament and the battle "
+  "With the defeat of Goro and Shang Tsung, Kano will bring his own brand of treachery<br>"
+  + "to the tournament. His Black Dragon organization forms a monopoly over the contest<br>"
+  + "that bring shame and torment to all those involved. Their reign will end in anarchy<br>"
+  + "and death it will result in the final dismantling of the tournament and the battle<br>"
   + "of the sans."; 
 }
 
@@ -237,22 +243,26 @@ function mk1SubZero() { // MORTAL KOMBAT 1 - SUB ZERO
 
   document.getElementById("displayName").innerHTML = "Sub-Zero"; 
   document.getElementById("bio").innerHTML = 
-  "The actual name or identity of this warrior is unknown. However, based on the "
-  + "markings of his uniform, it is believed he belongs to the Lin Kuei, a legendary "
+  "The actual name or identity of this warrior is unknown. However, based on the<br>"
+  + "markings of his uniform, it is believed he belongs to the Lin Kuei, a legendary<br>"
   + "clan of Chinese ninja.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Freeze:</div> Down, Forward, Low Punch <br>"
-  + "<div class='moveName'>Slide:</div> Back + Low Punch + Low Kick + Block <br>"
-  + "<i>*</i> <div class='moveName'>Slide:</div> Back + Low Kick + High Kick <br>"
-  + "<i>* Sega Genesis only</i>";
+  "<div class='moveName'>Freeze</div><br>"
+  + "Down, Forward, Low Punch<br><br>"
+  + "<div class='moveName'>Slide</div><br>"
+  + "Back + Low Punch + Low Kick + Block<br><br>"
+  + "<div class='moveName'>Slide</div><br>"
+  + "Back + Low Kick + High Kick";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Head Rip:</div> Forward, Down, Forward, High Punch <div class='distance'>(Close)</div> <br>"
-  + "<i>* Sub-Zero will perform a strong uppercut on Super Nintendo";
+  "<div class='moveName'>Fatality: Head Rip</div><br>"
+  + "Forward, Down, Forward, High Punch <div class='distance'>(Close)</div><br>"
+  + "<i>Sub-Zero will perform a strong uppercut on Super Nintendo<br>"
+  + "The Blood Code is required for Sega Genesis and Sega GameGear</i>";
   document.getElementById("ending").innerHTML = 
-  "After receiving the title of grand champion, Sub-Zero disappears back into "
-  + "the shadows from which he came. His only goal in the tournament was the assassination "
-  + "of Shang Tsung. He was paid a large some of money by one of Tsung's wealthy enemies. "
-  + "With his mission accomplished Sub-Zero will collect his fortune and retire from his "
+  "After receiving the title of grand champion, Sub-Zero disappears back into<br>"
+  + "the shadows from which he came. His only goal in the tournament was the assassination<br>"
+  + "of Shang Tsung. He was paid a large some of money by one of Tsung's wealthy enemies.<br>"
+  + "With his mission accomplished Sub-Zero will collect his fortune and retire from his<br>"
   + "dangerous profession."; 
 }
 
@@ -262,20 +272,24 @@ function mk1SonyaBlade() { // MORTAL KOMBAT 1 - SONYA BLADE
 
   document.getElementById("displayName").innerHTML = "Sonya Blade"; 
   document.getElementById("bio").innerHTML = 
-  "Sonya is a member of a top U.S. Special forces unit. Her team was hot on the "
-  + "trail of Kano's Black Dragon organization. They followed them to an uncharted "
+  "Sonya is a member of a top U.S. Special forces unit. Her team was hot on the<br>"
+  + "trail of Kano's Black Dragon organization. They followed them to an uncharted<br>"
   + "island where they were ambushed by Shang Tsung's personal army.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Ring Toss:</div> Back, Back, Low Puch <br>"
-  + "<div class='moveName'>Flying Punch:</div> Forward, Back, High Punch <br>"
-  + "<div class='moveName'>Leg Grab:</div> Down + Block + Low Punch + Low Kick<br>";
+  "<div class='moveName'>Ring Toss</div><br>"
+  + "Back, Back, Low Puch<br><br>"
+  + "<div class='moveName'>Flying Punch</div><br>"
+  + "Forward, Back, High Punch<br><br>"
+  + "<div class='moveName'>Leg Grab</div><br>" 
+  + "Down + Block + Low Punch + Low Kick";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Kiss of Death: </div>Forward, Forward, Back, Back, Block <div class='distance'> (Far)</div>";
+  "<div class='moveName'>Fatality: Kiss of Death</div><br>"
+  + "Forward, Forward, Back, Back, Block <div class='distance'>(Far)</div>";
   document.getElementById("ending").innerHTML = 
-  "Captured by Shang Tsung Sonya's special unit was taken hostage-their only hope was the "
-  + "tournament. Shang Tsung promised to release the entire team only if Sonya could win "
-  + "the contest. Her victory not only released her unit-but also put an end to the Black "
-  + "Dragon and Shang Tsung's powerful grip on the tournament."; 
+  "Captured by Shang Tsung Sonya's special unit was taken hostage-their only hope was the<br>"
+  + "tournament. Shang Tsung promised to release the entire team only if Sonya could win<br>"
+  + "the contest. Her victory not only released her unit-but also put an end to the Black<br>"
+  + "Dragon and Shang Tsung's powerful grip on the tournament.<br>"; 
 }
 
 function mk1Raiden() { // MORTAL KOMBAT 1 - RAIDEN
@@ -284,20 +298,24 @@ function mk1Raiden() { // MORTAL KOMBAT 1 - RAIDEN
 
   document.getElementById("displayName").innerHTML = "Raiden"; 
   document.getElementById("bio").innerHTML = 
-  "The name Raiden is actually that of a deity known as The Thunder God. It is rumored "
-  + "he received a personal invitation by Shang Tsung himself and took the form of a "
+  "The name Raiden is actually that of a deity known as The Thunder God. It is rumored<br>"
+  + "he received a personal invitation by Shang Tsung himself and took the form of a<br>"
   + "human to compete in the Tournament.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Teleport:</div> Down, Up<br>"
-  + "<div class='moveName'>Lightning:</div> Down, Forward, Low Punch<br>"
-  + "<div class='moveName'>Torpedo: </div> Back, Back, Forward";
+  "<div class='moveName'>Teleport</div><br>" 
+  + "Down, Up<br><br>"
+  + "<div class='moveName'>Lightning</div><br>" 
+  + "Down, Forward, Low Punch<br><br>"
+  + "<div class='moveName'>Torpedo</div><br>" 
+  + "Back, Back, Forward";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Electrocution: </div> Forward, Back, Back, Back, High Punch <div class='distance'>(Close) </div>";
+  "<div class='moveName'>Fatality: Electrocution</div><br>" 
+  + "Forward, Back, Back, Back, High Punch <div class='distance'>(Close)</div>";
   document.getElementById("ending").innerHTML = 
-  "Raiden's victory comes as no surprise to him. He was never impressed by Shang Tsung's "
-  + "inferior sorcery, Goro's brute force, or the challenge of the other contestants. "
-  + "He quickly becomes bored with his mortal competition and soon invites other gods to "
-  + "participate on the contest. The ensuing battles rage on for years. And the wars result "
+  "Raiden's victory comes as no surprise to him. He was never impressed by Shang Tsung's<br>"
+  + "inferior sorcery, Goro's brute force, or the challenge of the other contestants.<br>"
+  + "He quickly becomes bored with his mortal competition and soon invites other gods to<br>"
+  + "participate on the contest. The ensuing battles rage on for years. And the wars result<br>"
   + "in our world's final destruction. Have a nice day."; 
 }
 
@@ -307,18 +325,22 @@ function mk1LiuKang() { // MORTAL KOMBAT 1 - LIU KANG
 
   document.getElementById("displayName").innerHTML = "Liu Kang"; 
   document.getElementById("bio").innerHTML = 
-  "Once a member of the super secret White Lotus Society, Liu Kang left the "
-  + "organization in order to represent Shaolin temples in the Tournament. "
-  + "Kang is strong in his beliefs and despises Shang Tsung.";
+  "Once a member of the super secret White Lotus Society, Liu Kang left the<br>"
+  + "organization in order to represent Shaolin temples in the Tournament.<br> "
+  + "Kang is strong in his beliefs and despises Shang Tsung.<br>";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Fireball: </div>Forward, Forward, High Punch <br>"
-  + "<div class='moveName'>Flying Kick: </div>Forward, Forward, High Kick <br>";
+  "<div class='moveName'>Fireball</div><br>"
+  + "Forward, Forward, High Punch<br><br>"
+  + "<div class='moveName'>Flying Kick</div><br>"
+  + "Forward, Forward, High Kick";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Cartwheel Uppercut: </div> <i>(Hold Block)</i> Forward, Down, Back, Up, Forward <i>(Release Block)</i> <div class='distance'>(Half Screen) </div>";
+  "<div class='moveName'>Fatality: Cartwheel Uppercut</div><br>"
+  + "Forward, Down, Back, Up, Forward <div class='distance'>(Half Screen)</div><br>"
+  + "<i>Block can be held to avoid jumping</i>";
   document.getElementById("ending").innerHTML = 
-  "After defeating mighty Goro and putting an end to Shang Tsung's rule over the tournament, "
-  + "Kang is able to return the contest to its rightfull hosts - The Shaolin temples. "
-  + "Kang's heroics will always be remembered. He will continue the traditions of the "
+  "After defeating mighty Goro and putting an end to Shang Tsung's rule over the tournament,<br>"
+  + "Kang is able to return the contest to its rightfull hosts - The Shaolin temples.<br>"
+  + "Kang's heroics will always be remembered. He will continue the traditions of the<br>"
   + "Shaolin temples and restore the true pride and respect of this once great tournament."; 
 }
 
@@ -328,19 +350,23 @@ function mk1Scorpion() { // MORTAL KOMBAT 1 - SCORPION
 
   document.getElementById("displayName").innerHTML = "Scorpion"; 
   document.getElementById("bio").innerHTML = 
-  "Like Sub-Zero, Scorpion's true name and origin are not known. He has shown "
-  + "from time to time distrust and hatred towards Sub-Zero. Between Ninjas, "
+  "Like Sub-Zero, Scorpion's true name and origin are not known. He has shown<br>"
+  + "from time to time distrust and hatred towards Sub-Zero. Between Ninjas,<br>"
   + "this is usually a sign of opposing clans.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Spear: </div> Back, Back, Low Punch <br>"
-  + "<div class='moveName'>Teleport Punch: </div> Down, Back, High Punch <br>";
+  "<div class='moveName'>Spear</div><br>"
+  + "Back, Back, Low Punch<br><br>"
+  + "<div class='moveName'>Teleport Punch</div><br>" 
+  + "Down, Back, High Punch";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Fire Breath: </div><i>(Hold Block)</i> Up, Up <i>(Release Block)</i> <div class='distance'>(Half Screen)</div>";
+  "<div class='moveName'>Fatality: Fire Breath</div><br>"
+  + "Up, Up <div class='distance'>(Half Screen)</div><br>"
+  + "<i>Block can be held to avoid jumping</i>";
   document.getElementById("ending").innerHTML = 
-  "Marked for death years ago by the Lin Kuei, Scorpion was murdered by Sub-Zero. "
-  + "He left behind a wife and child in his former life but was allowed to return and "
-  + "avenge his death. Even with Scorpion's triumph in the tournament and new title as "
-  + "grand champion the price he paid was high. He can never again know his family and "
+  "Marked for death years ago by the Lin Kuei, Scorpion was murdered by Sub-Zero.<br>"
+  + "He left behind a wife and child in his former life but was allowed to return and<br>"
+  + "avenge his death. Even with Scorpion's triumph in the tournament and new title as<br>"
+  + "grand champion the price he paid was high. He can never again know his family and<br>"
   + "must exist forever with his secret curse."; 
 }
 
@@ -357,20 +383,37 @@ function mk2LiuKang() { // MORTAL KOMBAT 2 - LIU KANG
   
   document.getElementById("displayName").innerHTML = "Liu Kang";
   document.getElementById("bio").innerHTML = 
-  "After winning the Shaolin Tournament from Shang Tsung's clutches Kang returns to his temples. He discovers his sacred home in ruins, his Shaolin brothers killed in a vicious battle with a horde of Outworld warriors. Now he travels into the Dark Realm to seek revenge.";
+  "After winning the Shaolin Tournament from Shang Tsung's clutches Kang returns to his temples.<br>"
+  + "He discovers his sacred home in ruins, his Shaolin brothers killed in a vicious battle<br>"
+  + "with a horde of Outworld warriors. Now he travels into the Dark Realm to seek revenge.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Low Fireball:</div> Forward, Forward, Low Punch <br>"
-  + "<div class='moveName'>High Fireball:</div> Forward, Forward, High Punch <br>"
-  + "<div class='moveName'>Flying Kick:</div> Forward, Forward, High Kick <br>" 
-  + "<div class='moveName'>Bicycle Kick:</div> Hold Low Kick <i>(3 seconds)</i>, Release";
+  "<div class='moveName'>Low Fireball</div><br>" 
+  + "Forward, Forward, Low Punch <br><br>"
+  + "<div class='moveName'>High Fireball</div><br>"
+  + "Forward, Forward, High Punch<br>"
+  + "<i>Can be done in air</i><br><br>"
+  + "<div class='moveName'>Flying Kick</div><br>"
+  + "Forward, Forward, High Kick<br><br>" 
+  + "<div class='moveName'>Bicycle Kick</div><br>" 
+  + "Hold Low Kick <i>(3 seconds)</i>, Release";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Dragon Morph:</div> Down, Forward, Back, Back, High Kick <div class='distance'>(Close)</div> <br>"
-  + "<div class='moveName'>Cartwheel Uppercut:</div> <i>(Hold Block)</i> Rotate D-Pad Away Counter-Clockwise <div class='distance'>(Half Screen)</div> <br>" 
-  + "<div class='moveName'>Friendship:</div> Forward, Back, Back, Back, Low Kick <br>" 
-  + "<div class='moveName'>Babality:</div>Down, Down, Forward, Back, Low Kick <br>" 
-  + "<div class='moveName'>Stage:</div> Back, Forward, Forward, Low Kick";
+  "<div class='moveName'>Fatality 1: Dragon Morph</div><br>" 
+  + "Down, Forward, Back, Back, High Kick <div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Fatality 2: Cartwheel Uppercut</div><br>"
+  + "Rotate D-Pad Away Counter-Clockwise <div class='distance'>(Half Screen)</div><br>"
+  + "<i>Block can be held to avoid jumping</i><br><br>"
+  + "<div class='moveName'>Friendship</div><br>"
+  + "Forward, Back, Back, Back, Low Kick<br><br>" 
+  + "<div class='moveName'>Babality</div><br>"
+  + "Down, Down, Forward, Back, Low Kick<br><br>" 
+  + "<div class='moveName'>Stage</div><br>" 
+  + "Back, Forward, Forward, Low Kick";
   document.getElementById("ending").innerHTML = 
-  "With his Shaolin temple in ruins, Liu Kang journeys into the Outworld, enters Shao Kahn's tournament and unleashes a fury that does not end until the defeat of Shao Kahn. Liu Kang then returns to the seclusion of his Shaolin temple. He pays his respects to his lost brothers and finally realizes that the events which have taken place were all fulfillment of his destiny.";
+  "With his Shaolin temple in ruins, Liu Kang journeys into the Outworld, enters Shao Kahn's<br>"
+  + "tournament and unleashes a fury that does not end until the defeat of Shao Kahn. Liu Kang<br>"
+  + "then returns to the seclusion of his Shaolin temple. He pays his respects to his lost<br>"
+  + "brothers and finally realizes that the events which have taken place were all fulfillment<br>"
+  + "of his destiny.";
 }
 
 function mk2KungLao() { // MORTAL KOMBAT 2 - KUNG LAO
@@ -379,21 +422,39 @@ function mk2KungLao() { // MORTAL KOMBAT 2 - KUNG LAO
 
   document.getElementById("displayName").innerHTML = "Kung Lao"; 
   document.getElementById("bio").innerHTML = 
-  "A former Shaolin Monk and a member of the White Lotus society, he is the last descendant of the Great Kung Lao who was defeated by Goro 500 years ago. Realizing the danger of the Outworld menace he joins Liu Kang in entering Shao Kahn's contest.";
+  "A former Shaolin Monk and a member of the White Lotus society, he is the last descendant of<br>"
+  + "the Great Kung Lao who was defeated by Goro 500 years ago. Realizing the danger of the Outworld<br>"
+  + "menace he joins Liu Kang in entering Shao Kahn's contest.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Teleport:</div> Down, Up <br>" 
-  + "<div class='moveName'>Diving Kick:</div> Down + High Kick <br>"
-  + "<i>*</i> <div class='moveName'>Hat Throw:</div> Back, Forward, Low Punch <br>" 
-  + "<div class='moveName'>Whirlwind Spin:</div> (Hold Block) Up, Up, Low Kick <br>"
-  + "<i>* Note: Hat Throw can be directed with up or down</i>";
+  "<div class='moveName'>Teleport</div><br>" 
+  + "Down, Up <br>"
+  + "<i>Press Punch or Kick in air to add a strike<br><br></i>" 
+  + "<div class='moveName'>Diving Kick</div><br>" 
+  + "Down + High Kick <br>"
+  + "<i>Can be used with Teleport</i><br><br>"
+  + "<div class='moveName'>Hat Throw</div><br>"
+  + "Back, Forward, Low Punch<br>" 
+  + "<i>Can be directed using Up or Down</i><br><br>"
+  + "<div class='moveName'>Whirlwind Spin</div><br>" 
+  + "Up, Up, Low Kick <br>"
+  + "<i>Block can be held to avoid jumping</i>";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Vertical Hat Slice:</div> Forward, Forward, Forward, Low Kick <div class='distance'>(Sweep)</div> <br>"
-  + "<div class='moveName'>Decapitation:</div> <i>(Hold Low Punch)</i> Back, Forward <i>(Release Low Punch) (Direct Hat with Up)</i> <div class='distance'>(Full Screen)</div> <br>"
-  + "<div class='moveName'>Friendship:</div> Back, Back, Back, Down, High Kick<br>"
-  + "<div class='moveName'>Babality:</div> Back, Back, Forward, Forward, High Kick<br>"
-  + "<div class='moveName'>Stage:</div> Forward, Forward, Forward, High Punch";
+  "<div class='moveName'>Fatality 1: Vertical Hat Slice</div><br>" 
+  + "Forward, Forward, Forward, Low Kick <div class='distance'>(Sweep)</div><br><br>"
+  + "<div class='moveName'>Fatality 2: Decapitation</div><br>"
+  + "<i>(Hold Low Punch)</i> Back, Forward <i>(Release Low Punch)</i> <div class='distance'>(Full Screen)</div><br>"
+  + "<i>Use Up and Down to direct the hat. Aim for the neck.<br><br></i>"
+  + "<div class='moveName'>Friendship</div><br>"
+  + "Back, Back, Back, Down, High Kick<br><br>"
+  + "<div class='moveName'>Babality</div><br>"
+  + "Back, Back, Forward, Forward, High Kick<br><br>"
+  + "<div class='moveName'>Stage</div><br>"
+  + "Forward, Forward, Forward, High Punch";
   document.getElementById("ending").innerHTML = 
-  "A former Shaolin Monk alongside Liu Kang, Kung Lao also grieves the loss of their Shaolin brothers. He realizes that his ultimate fate lies within the dark realm of the Outworld. He defeats his Outworld opponents until he emerges the supreme champion. With his strength and spirit in complete alignment he finally avenges the death of his great ancestor. Although his greatest challenges lie ahead..."; 
+  "A former Shaolin Monk alongside Liu Kang, Kung Lao also grieves the loss of their Shaolin brothers.<br>" 
+  + "He realizes that his ultimate fate lies within the dark realm of the Outworld. He defeats his<br>"
+  + "Outworld opponents until he emerges the supreme champion. With his strength and spirit in complete<br>" 
+  + "alignment he finally avenges the death of his great ancestor. Although his greatest challenges lie ahead..."; 
 }
 
 function mk2JohnnyCage() { // MORTAL KOMBAT 2 - JOHNNY CAGE
@@ -402,22 +463,38 @@ function mk2JohnnyCage() { // MORTAL KOMBAT 2 - JOHNNY CAGE
 
   document.getElementById("displayName").innerHTML = "Johnny Cage"; 
   document.getElementById("bio").innerHTML = 
-  "After Shang Tsung's tournament, the martial arts superstar disappears. He follows Liu Kang into the Outworld. There he will compete in a twisted tournament which holds the balance of earth's existence- as well as a script for another blockbuster movie.";
+  "After Shang Tsung's tournament, the martial arts superstar disappears. He follows Liu Kang into<br>"
+  + "the Outworld. There he will compete in a twisted tournament which holds the balance of earth's<br>"
+  + "existence- as well as a script for another blockbuster movie.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Shadow Kick:</div> Back, Forward, Low Kick <br>"
-  + "<div class='moveName'>Low Green Bolt:</div> Back, Down, Forward, Low Punch <br>" 
-  + "<div class='moveName'>High Green Bold:</div> Forward, Down, Back, High Punch <br>"
-  + "<div class='moveName'>Low Blow:</div> Block + Low Punch <br>"
-  + "<div class='moveName'>Shadow Uppercut:</div> Back, Down, Back, High Punch <br>";
+  "<div class='moveName'>Shadow Kick</div><br>"
+  + "Back, Forward, Low Kick <br><br>"
+  + "<div class='moveName'>Low Green Bolt</div><br>"
+  + "Back, Down, Forward, Low Punch <br><br>" 
+  + "<div class='moveName'>High Green Bold</div><br>" 
+  + "Forward, Down, Back, High Punch<br><br>"
+  + "<div class='moveName'>Low Blow</div><br>"
+  + "Block + Low Punch <br><br>"
+  + "<div class='moveName'>Shadow Uppercut<br></div>" 
+  + "Back, Down, Back, High Punch";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Torso Rip:</div> Down, Down, Forward, Forward, High Punch <div class='distance'>(Close)</div> <br>"
-  + "<i>*</i> <div class='moveName'>Uppercut:</div> Forward, Forward, Down, Up <div class='distance'>(Close)</div> <br>"
-  + "<div class='moveName'>Friendship:</div> Down, Down, Down, Down, High Kick <br>"
-  + "<div class='moveName'>Babality:</div> Back, Back, Back, High Kick <br>"
-  + "<div class='moveName'>Stage:</div> Down, Down, Down, High Kick <br>"
-  + "<i>* Note: Press Down + Low Punch + Low Kick + Block to knock the opponent's head off 3 times</i>";
+  "<div class='moveName'>Fatality 1: Torso Rip</div><br>" 
+  + "Down, Down, Forward, Forward, High Punch <div class='distance'>(Close)</div><br><br>"
+  + "<i>*</i> <div class='moveName'>Fatality 2: Uppercut</div><br>"
+  + "Forward, Forward, Down, Up <div class='distance'>(Close)</div><br>"
+  + "<i>Note: Press Down + Low Punch + Low Kick + Block to knock the opponent's head off 3 times<br><br></i>"
+  + "<div class='moveName'>Friendship</div><br>" 
+  + "Down, Down, Down, Down, High Kick<br><br>"
+  + "<div class='moveName'>Babality</div><br>" 
+  + "Back, Back, Back, High Kick<br><br>"
+  + "<div class='moveName'>Stage</div><br>" 
+  + "Down, Down, Down, High Kick";
   document.getElementById("ending").innerHTML = 
-  "After disappearing from the set of his latest movie, Cage finally resurfaces. He used all his knowledge and experiences as a fighter to end the Outworld menace. Now heralded as a true hero, Cage receives the respect he rightfully deserves. He also gets his inspiration for the sequel to his blockbuster movie Mortal Kombat. MK II is released and quickly becomes the greatest motion picture event of all time. Cage realizes that MK III is inevitable."; 
+  "After disappearing from the set of his latest movie, Cage finally resurfaces. He used all his<br>"
+  + "knowledge and experiences as a fighter to end the Outworld menace. Now heralded as a true hero, Cage<br>" 
+  + "receives the respect he rightfully deserves. He also gets his inspiration for the sequel to his<br>"
+  + "blockbuster movie Mortal Kombat. MK II is released and quickly becomes the greatest motion picture<br>"
+  + "event of all time. Cage realizes that MK III is inevitable."; 
 }
 
 function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE 
@@ -426,20 +503,36 @@ function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE
 
   document.getElementById("displayName").innerHTML = "Reptile";  
   document.getElementById("bio").innerHTML = 
-  "As Shang Tsung's personal protector the elusive Reptile lurks in the shadows stopping all those who would do his master harm. His human form is believed to disguise a horrid reptilian creature whose race was thought extinct millions of years ago.";
+  "As Shang Tsung's personal protector the elusive Reptile lurks in the shadows stopping all those who<br>"
+  + "would do his master harm. His human form is believed to disguise a horrid reptilian creature whose<br>"
+  + "race was thought extinct millions of years ago.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Acid Spit:</div> Forward, Forward, High Punch <br>"
-  + "<div class='moveName'>Force Ball:</div> Back, Back, High Punch + Low Punch <br>" 
-  + "<div class='moveName'>Slide:</div> Back + Low Punch + Low Kick + Block <br>"
-  + "<div class='moveName'>Invisibility:</div> (Hold Block) Up, Up, Down, High Punch";
+  "<div class='moveName'>Acid Spit</div><br>" 
+  + "Forward, Forward, High Punch<br><br>"
+  + "<div class='moveName'>Force Ball</div><br>"
+  + "Back, Back, High Punch + Low Punch<br><br>" 
+  + "<div class='moveName'>Slide</div><br>"
+  + "Back + Low Punch + Low Kick + Block<br><br>"
+  + "<div class='moveName'>Invisibility</div><br>" 
+  + "<i>(Hold Block)</i> Up, Up, Down, High Punch";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Decapitation:</div> Back, Back, Down, Low Punch <div class='distance'>(Full Screen)</div><br>"
-  + "<div class='moveName'>Torso Rip:</div> Forward, Forward, Down, High Kick <i>(Must Be Invisible)</i> <div class='distance'>(Close)</div> <br>"
-  + "<div class='moveName'>Friendship:</div> Back, Back, Down, Low Kick <br>"
-  + "<div class='moveName'>Babality:</div> Down, Back, Back, Low Kick <br>"
-  + "<div class='moveName'>Stage:</div> Down, Down, Forward, Forward, Block";
+  "<div class='moveName'>Fatality 1: Decapitation</div><br>" 
+  + "Back, Back, Down, Low Punch <div class='distance'>(Full Screen)</div><br><br>"
+  + "<div class='moveName'>Fatality 2: Torso Rip</div><br>" 
+  + "Forward, Forward, Down, High Kick <div class='distance'>(Close)</div><br>"
+  + "<i>(Must Be Invisible)</i><br><br>"
+  + "<div class='moveName'>Friendship</div><br>" 
+  + "Back, Back, Down, Low Kick<br><br>"
+  + "<div class='moveName'>Babality</div><br>"
+  + "Down, Back, Back, Low Kick<br><br>"
+  + "<div class='moveName'>Stage</div><br>" 
+  + "Down, Down, Forward, Forward, Block";
   document.getElementById("ending").innerHTML = 
-  "Reptile has always loyally served as Shang Tsung's protector. While maintaining a very low profile in the first tournament he discovered Tsung's plot to force the remaining members of his near extinct race into slavery under Shao Kahn's rule. Reptile then devises a plan of his own. He enters the Outworld tournament, defeats Shao Kahn and turns against Shang Tsung, ending his master's scheme. Now his race can live on in their own peaceful existence."; 
+  "Reptile has always loyally served as Shang Tsung's protector. While maintaining a very low profile <br>"
+  + "in the first tournament he discovered Tsung's plot to force the remaining members of his near extinct<br>" 
+  + "race into slavery under Shao Kahn's rule. Reptile then devises a plan of his own. He enters the Outworld<br>"
+  + "tournament, defeats Shao Kahn and turns against Shang Tsung, ending his master's scheme. Now his race can<br>" 
+  + "live on in their own peaceful existence."; 
 }
 
 function mk2SubZero() { // MORTAL KOMBAT 2 - SUB ZERO 
@@ -448,19 +541,35 @@ function mk2SubZero() { // MORTAL KOMBAT 2 - SUB ZERO
 
   document.getElementById("displayName").innerHTML = "Sub Zero";  
   document.getElementById("bio").innerHTML = 
-  "Thought to have been killed in the Shaolin Tournament, Sub-Zero mysteriously returns. It is believed he travelled into the Outworld to again attempt to assassinate Shang Tsung. To do so he must fight his way through Shao Kahn's tournament.";
+  "Thought to have been killed in the Shaolin Tournament, Sub-Zero mysteriously returns. It is believed he<br>"
+  + "travelled into the Outworld to again attempt to assassinate Shang Tsung. To do so he must fight his way<br>"
+  + "through Shao Kahn's tournament.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Freeze:</div> Down, Forward, Low Punch <br>"
-  + "<div class='moveName'>Ground Freeze:</div> Down, Back, Low Kick <br>" 
-  + "<div class='moveName'>Slide:</div> Back + Low Punch + Low Kick + Block <br>";
+  "<div class='moveName'>Freeze</div><br>" 
+  + "Down, Forward, Low Punch<br><br>"
+  + "<div class='moveName'>Ground Freeze</div><br>"
+  + "Down, Back, Low Kick<br><br>" 
+  + "<div class='moveName'>Slide</div><br>" 
+  + "Back + Low Punch + Low Kick + Block";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Ice Shatter:</div> Forward, Forward, Down, High Kick <div class='distance'>(Sweep)</div>, then Forward, Down, Forward, Forward, High Punch <div class='distance'>(Close)</div> <br>"
-  + "<div class='moveName'>Ice Grenade:</div> <i>(Hold Low Punch)</i> Back, Back, Down, Forward <i>(Release Low Punch)</i> <div class='distance'>(Full Screen)</div> <br>"
-  + "<div class='moveName'>Friendship:</div> Back, Back, Down, High Kick<br>"
-  + "<div class='moveName'>Babality:</div> Down, Back, Back, High Kick <br>"
-  + "<div class='moveName'>Stage:</div> Down, Forward, Forward Block";
+  "<div class='moveName'>Fatality 1: Ice Shatter</div><br>" 
+  + "<strong>First:</strong> Forward, Forward, Down, High Kick <div class='distance'>(Sweep)</div><br>" 
+  + "<strong>Then:</strong> Forward, Down, Forward, Forward, High Punch <div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Fatalit 2: Ice Grenade</div>"
+  + "<br><i>(Hold Low Punch)</i> Back, Back, Down, Forward <i>(Release Low Punch)</i> "
+  + "<div class='distance'>(Full Screen)</div><br><br>"
+  + "<div class='moveName'>Friendship</div><br>" 
+  + "Back, Back, Down, High Kick<br><br>"
+  + "<div class='moveName'>Babality</div><br>" 
+  + "Down, Back, Back, High Kick<br><br>"
+  + "<div class='moveName'>Stage</div><br>" 
+  + "Down, Forward, Forward Block";
   document.getElementById("ending").innerHTML = 
-  "When Sub-Zero failed to return from the Shaolin tournament and rumor of Shang Tsung's survival reached the Lin Kuei clan, they immediately sent another assassin to complete the task. This new warrior is actually the younger brother of the original Sub-Zero. He enters the outworld contest and accomplishes his task. He learns of Scorpion's foul vendetta against his brother but will never know why his life was spared. Perhaps a third tournament is in his future?"; 
+  "When Sub-Zero failed to return from the Shaolin tournament and rumor of Shang Tsung's survival reached<br>"
+  + "the Lin Kuei clan, they immediately sent another assassin to complete the task. This new warrior is actually<br>" 
+  + "the younger brother of the original Sub-Zero. He enters the outworld contest and accomplishes his task. He<br>"
+  + "learns of Scorpion's foul vendetta against his brother but will never know why his life was spared. Perhaps a<br>" 
+  + "third tournament is in his future?"; 
 }
 
 function mk2ShangTsung() { // MORTAL KOMBAT 2 - SHANG TSUNG
@@ -469,32 +578,48 @@ function mk2ShangTsung() { // MORTAL KOMBAT 2 - SHANG TSUNG
 
   document.getElementById("displayName").innerHTML = "Shang Tsung";  
   document.getElementById("bio").innerHTML = 
-  "After losing control of the Shaolin Tournament, Tsung promises his ruler Shao Kahn to shape events that will lure the earth warriors to compete in his own contest. Convinced of this plan, Shao Kahn restores Tsung's youth and allows him to live.";
+  "After losing control of the Shaolin Tournament, Tsung promises his ruler Shao Kahn to shape events that will lure<br>"
+  + "the earth warriors to compete in his own contest. Convinced of this plan, Shao Kahn restores Tsung's youth<br>"
+  + "and allows him to live.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>One Flaming Skull:</div> Back, Back, High Punch <br>"
-  + "<div class='moveName'>Two Flaming Skuls:</div> Back, Back, Forward, Forward, High Punch <br>" 
-  + "<div class='moveName'>Three Flaming Skulls</div> Back, Back, Forward, Forward, High Punch <br>"
-  + "<div class='moveName'>Liu Kang Morph:</div> Back, Forward, Forward, Block <br>" 
-  + "<div class='moveName'>Kung Lao Morph:</div> Back, Down, Back, High Kick<br>"
-  + "<div class='moveName'>Johnny Cage Morph:</div> Back, Back, Down, Low Punch<br>"
-  + "<div class='moveName'>Reptile Morph:</div> <i>(Hold Block)</i> Up, Down, High Punch <br>" 
-  + "<div class='moveName'>Sub Zero Morph:</div> Forward, Down, Forward, High Punch<br>"
-  + "<div class='moveName'>Kitana Morph:</div> Block, Block, Block<br>"
-  + "<div class='moveName'>Jax Morph:</div> Down, Forward, Back, High Kick<br>" 
-  + "<div class='moveName'>Mileena Morph:</div> Hold High Punch <i>(2 Seconds)</i>, Release<br>"
-  + "<div class='moveName'>Baraka Morph:</div> Down, Down, Low Kick<br>"
-  + "<div class='moveName'>Scorpion Morph:</div> <i>(Hold Block)</i> Up, Up <br>" 
-  + "<div class='moveName'>Raiden Morph:</div> Down, Back, Forward, Low Kick <br>";
+  "<div class='moveName'>One Flaming Skull</div><br>"
+  + "Back, Back, High Punch <br><br>"
+  + "<div class='moveName'>Two Flaming Skuls</div><br>"
+  + "Back, Back, Forward, Forward, High Punch<br><br>" 
+  + "<div class='moveName'>Three Flaming Skulls</div><br>" 
+  + "Back, Back, Forward, Forward, High Punch"
+  + "<h3>Morphs</h3>"
+  + "<div class='moveName'>Liu Kang:</div> Back, Forward, Forward, Block <br>" 
+  + "<div class='moveName'>Kung Lao:</div> Back, Down, Back, High Kick<br>"
+  + "<div class='moveName'>Johnny Cage:</div> Back, Back, Down, Low Punch<br>"
+  + "<div class='moveName'>Reptile:</div> <i>(Hold Block)</i> Up, Down, High Punch <br>" 
+  + "<div class='moveName'>Sub-Zero:</div> Forward, Down, Forward, High Punch<br>"
+  + "<div class='moveName'>Kitana:</div> Block, Block, Block<br>"
+  + "<div class='moveName'>Jax:</div> Down, Forward, Back, High Kick<br>" 
+  + "<div class='moveName'>Mileena:</div> Hold High Punch <i>(2 Seconds)</i>, Release<br>"
+  + "<div class='moveName'>Baraka:</div> Down, Down, Low Kick<br>"
+  + "<div class='moveName'>Scorpion:</div> <i>(Hold Block)</i> Up, Up <br>" 
+  + "<div class='moveName'>Raiden:</div> Down, Back, Forward, Low Kick <br>";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Possession:</div> Hold High Kick <i>(2 Seconds)</i>, Release <div class='distance'>(Sweep) </div><br>"
-  + "<div class='moveName'>Soul Steal:</div><i>(Hold Block)</i> Up, Down, Up, Low Kick <div class='distance'>(Close)</div><br>"
-  + "<i>*</i> <div class='moveName'>Kintaro Morph:</div> Low Punch (30 Seconds), Release Low Punch <div class='distance'>(Sweep)</div><br>"
-  + "<div class='moveName'>Friendship:</div> Back, Back, Down, Forward, High Kick<br>"
-  + "<div class='moveName'>Babality:</div> Back, Forward, Down, High Kick<br>"
-  + "<div class='moveName'>Stage:</div> <i>(Hold Block)</i>, Down, Down, Up, <i>(Release Block)</i>, Down <br>"
-  + "<i>* Note: Begin holding Low Punch before the round ends, then release after you'e promoted to Finish Him/Her";
+  "<div class='moveName'>Fatality 1: Possession</div><br>"
+  + "Hold High Kick <i>(2 Seconds)</i>, Release <div class='distance'>(Sweep)</div><br><br>"
+  + "<div class='moveName'>Fatality 2: Soul Steal:</div><br>"
+  + "<i>(Hold Block)</i> Up, Down, Up, Low Kick <div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Fatality 3: Kintaro Morph</div><br>" 
+  + "Low Punch (30 Seconds), Release Low Punch <div class='distance'>(Sweep)</div><br>"
+  + "<i>* You can begin holding Low Punch before the round ends</i><br><br>"
+  + "<div class='moveName'>Friendship</div><br>" 
+  + "Back, Back, Down, Forward, High Kick<br><br>"
+  + "<div class='moveName'>Babality</div><br>"
+  + "Back, Forward, Down, High Kick<br><br>"
+  + "<div class='moveName'>Stage</div><br>" 
+  + "<i>(Hold Block)</i>, Down, Down, Up, <i>(Release Block)</i>, Down";
   document.getElementById("ending").innerHTML = 
-  "Shang Tsung not only turns against and defeats both Kintaro and Shao Kahn, he also takes over their rule of the Outworld. With Shao Kahn's armies at his command, he finally unbalances the Furies, and weakens the dimensional gates between the Outworld and the Earth Realm. Along with his elite group of sorcerers he uses this weakness to march a never-ending horde of demons onto the earth and doom its inhabitants to eternal darkness. Have a nice day."; 
+  "Shang Tsung not only turns against and defeats both Kintaro and Shao Kahn, he also takes over their rule of the<br>" 
+  + "Outworld. With Shao Kahn's armies at his command, he finally unbalances the Furies, and weakens the dimensional<br>" 
+  + "gates between the Outworld and the Earth Realm. Along with his elite group of sorcerers he uses this weakness<br>"
+  + "to march a never-ending horde of demons onto the earth and doom its inhabitants to eternal darkness.<br>" 
+  + "Have a nice day."; 
 }
   
 function mk2Kitana() { // MORTAL KOMBAT 2 - KITANA
@@ -503,20 +628,35 @@ function mk2Kitana() { // MORTAL KOMBAT 2 - KITANA
 
   document.getElementById("displayName").innerHTML = "Kitana"; 
   document.getElementById("bio").innerHTML = 
-  "Her beauty hides her true role as personal assassin for Shao Kahn. Seen talking to an earth-realm warrior, her motives have come under suspicion by her twin sister Mileena. But only Kitana knows her own true intentions.";
+  "Her beauty hides her true role as personal assassin for Shao Kahn. Seen talking to an earth-realm warrior, her<br>"
+  + "motives have come under suspicion by her twin sister Mileena. But only Kitana knows her own true intentions.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Fan Swipe:</div> Back + High Punch <br>"
-  + "<div class='moveName'>Fan Throw:</div> Forward, Forward, High Punch + Low Punch <br>" 
-  + "<div class='moveName'>Fan Lift:</div> Back, Back, Back, High Kick <br>"
-  + "<div class='moveName'>Flying Punch:</div> Forward, Down, Back, High Punch<br>";
+  "<div class='moveName'>Fan Swipe</div><br>" 
+  + "Back + High Punch<br><br>"
+  + "<div class='moveName'>Fan Throw</div><br>" 
+  + "Forward, Forward, High Punch + Low Punch<br><br>" 
+  + "<div class='moveName'>Fan Lift</div><br>" 
+  + "Back, Back, Back, High Kick<br><br>"
+  + "<div class='moveName'>Flying Punch</div><br>" 
+  + "Forward, Down, Back, High Punch";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Decapitation:</div> Block, Block, Block, High Kick <div class='distance'>(Close)</div><br>"
-  + "<div class='moveName'>Kiss of Death:</div> <i>(Hold Low Kick)</i> Forward, Forward, Down, Forward <i>(Release Low Kick)</i> <div class='distance'>(Close)</div> <br>"
-  + "<div class='moveName'>Friendship:</div> <i>(Hold Block)</i> Down, Down, Down, Up, Low Kick <br>"
-  + "<div class='moveName'>Babality:</div> Down, Down, Down, Low Kick<br>"
-  + "<div class='moveName'>Stage:</div> Forward, Down, Forward, High Kick";
+  "<div class='moveName'>Fatality 1: Decapitation</div><br>"
+  + "Block, Block, Block, High Kick <div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Fatality 2: Kiss of Death</div><br>" 
+  + "<i>(Hold Low Kick)</i> Forward, Forward, Down, Forward <i>(Release Low Kick)</i> "
+  + "<div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Friendship</div><br>" 
+  + "<i>(Hold Block)</i> Down, Down, Down, Up, Low Kick<br><br>"
+  + "<div class='moveName'>Babality</div><br>" 
+  + "Down, Down, Down, Low Kick<br><br>"
+  + "<div class='moveName'>Stage</div><br>"
+  + "Forward, Down, Forward, High Kick";
   document.getElementById("ending").innerHTML = 
-  "As a result of her years of work as an assassin, Kitana has learned many secrets, especially about her past. She discovers that Mileena is not her twin but a grotesque clone created by Shang Tsung. She learns that her parents were former rulers of the Outworld overthrown by Shao Kahn. Determined to take back what is hers, she must defeat Kahn. She does so by entering the tournament. She reclaims her parents' castle and restores the Outworld to a realm of beauty."; 
+  "As a result of her years of work as an assassin, Kitana has learned many secrets, especially about her past.<br>"
+  + "She discovers that Mileena is not her twin but a grotesque clone created by Shang Tsung. She learns that<br>"
+  + "her parents were former rulers of the Outworld overthrown by Shao Kahn. Determined to take back what is<br>"
+  + "hers, she must defeat Kahn. She does so by entering the tournament. She reclaims her parents' castle and<br>"
+  + "restores the Outworld to a realm of beauty."; 
 }
   
 function mk2Jax() { // MORTAL KOMBAT 2 - JAX
@@ -525,21 +665,37 @@ function mk2Jax() { // MORTAL KOMBAT 2 - JAX
 
   document.getElementById("displayName").innerHTML = "Jax";  
   document.getElementById("bio").innerHTML = 
-  "His real name is Major Jackson Briggs, leader of a top US special forces unit. After receiving a distress signal from Lt. Sonya Blade, Jax embarks on a rescue mission. One that leads him into a ghastly world where he believes that Sonya is still alive.";
+  "His real name is Major Jackson Briggs, leader of a top US special forces unit. After receiving a distress<br>"
+  + "signal from Lt. Sonya Blade, Jax embarks on a rescue mission. One that leads him into a ghastly world<br>"
+  + "where he believes that Sonya is still alive.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>Energy Wave:</div> Forward, Down, Back, High Kick<br>"
-  + "<div class='moveName'>Gotcha Grab:</div> Forward, Forward, Low Punch <i>(Keep Tapping Low Punch to Keep Punching)</i> <br>" 
-  + "<div class='moveName'>Ground Pound:</div> <i>(Hold Low Kick)</i> 3 Seconds <i>(Release Low Kick)</i></div> <br>"
-  + "<div class='moveName'>Back Breaker:</div> Block  <div class='distance'>(Next to Opponent in Air)</div><br>"
-  + "<div class='moveName'>Body Slam:</div> Throw Opponent <i>(Using Low Punch, Close to Opponent) (Tap High Punch for Additional Slams)</i> ";
+  "<div class='moveName'>Energy Wave</div><br>" 
+  + "Forward, Down, Back, High Kick<br><br>"
+  + "<div class='moveName'>Gotcha Grab</div><br>" 
+  + "Forward, Forward, Low Punch <i>(Keep Tapping Low Punch to Keep Punching)</i><br><br>" 
+  + "<div class='moveName'>Ground Pound</div><br>" 
+  + "<i>(Hold Low Kick)</i> 3 Seconds <i>(Release Low Kick)</i></div><br><br>"
+  + "<div class='moveName'>Back Breaker</div><br>" 
+  + "Block  <div class='distance'>(Next to Opponent in Air)</div><br><br>"
+  + "<div class='moveName'>Body Slam</div><br>" 
+  + "Throw Opponent <i>(Using Low Punch, Close to Opponent) (Tap High Punch for Additional Slams)</i>";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Arm Rip:</div> Block, Block, Block, Block, Low Punch <div class='distance'>(Sweep)</div>  <br>"
-  + "<div class='moveName'>Head Smash:</div> <i>(Hold Low Punch)</i> Forward, Forward, Forward <i>(Release Low Punch)</i> <div class='distance'>(Close)</div> <br>"
-  + "<div class='moveName'>Friendship:</div> <i>(Hold Block)</i> Down, Down, Up, Up, Low Kick <br>"
-  + "<div class='moveName'>Babality:</div> <i>(Hold Block)</i> Down, Up, Down, Up, Low Kick <br>"
-  + "<div class='moveName'>Stage: </div> <i>(Hold Block)</i> Up, Up, Down, Low Kick";
+  "<div class='moveName'>Fatality 1: Arm Rip</div><br>" 
+  + "Block, Block, Block, Block, Low Punch <div class='distance'>(Sweep)</div><br><br>"
+  + "<div class='moveName'>Fatality 2: Head Smash</div><br>" 
+  + "<i>(Hold Low Punch)</i> Forward, Forward, Forward <i>(Release Low Punch)</i> <div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Friendship</div><br>"
+  + "<i>(Hold Block)</i>Down, Down, Up, Up, Low Kick<br><br><br>"
+  + "<div class='moveName'>Babality</div><br>"
+  + "<i>(Hold Block)</i>Down, Up, Down, Up, Low Kick<br><br>"
+  + "<div class='moveName'>Stage</div><br>" 
+  + "<i>(Hold Block)</i>Up, Up, Down, Low Kick";
   document.getElementById("ending").innerHTML = 
-  "Jax finds Sonya held captive alongside their arch enemy Kano. Her only chance of escape is by Jax entering Shao Kahn's contest. With fierce determination he catches the Outworld Warriors off guard and Wins the Tournament bringing Shao Kahn's rule to a crashing halt. During the Chaos that follows, Jax and Sonya escape through the dimensional gate from which they entered. Kano once again eludes capture but Jax and Sonya know they will cross paths with him in the future."; 
+  "Jax finds Sonya held captive alongside their arch enemy Kano. Her only chance of escape is by Jax entering<br>"
+  + "Shao Kahn's contest. With fierce determination he catches the Outworld Warriors off guard and Wins the<br>" 
+  + "Tournament bringing Shao Kahn's rule to a crashing halt. During the Chaos that follows, Jax and Sonya<br>" 
+  + "escape through the dimensional gate from which they entered. Kano once again eludes capture but Jax<br>"
+  + "and Sonya know they will cross paths with him in the future."; 
 }
   
 function mk2Mileena() { // MORTAL KOMBAT 2 - MILEENA
@@ -548,20 +704,33 @@ function mk2Mileena() { // MORTAL KOMBAT 2 - MILEENA
 
   document.getElementById("displayName").innerHTML = "Mileena";  
   document.getElementById("bio").innerHTML = 
-  "Serving as an assassin along with her twin sister Kitana, Mileena's dazzling appearances conceal her hideous intentions. At Shao Kahn's request she is asked to watch for her twin's suspected dissension. She must put a stop to it at any costs.";
+  "Serving as an assassin along with her twin sister Kitana, Mileena's dazzling appearances conceal her hideous<br>"
+  + "intentions. At Shao Kahn's request she is asked to watch for her twin's suspected dissension. She must put a<br>"
+  + "stop to it at any costs.";
   document.getElementById("specialMoves").innerHTML = 
-  "<i>*</i> <div class='moveName'>Sai Throw:</div> <i>(Hold High Punch)</i> 2 Seconds <i>(Release High Punch)</i><br>"
-  + "<div class='moveName'>Teleport Kick:</div> Forward, Forward, Low Kick <br>" 
-  + "<div class='moveName'>Ground Roll:</div> Back, Back, Down, High Kick <br>"
-  + "<i>* Can be done in air</i>";
+  "<div class='moveName'>Sai Throw</div><br>"
+  + "<i>(Hold High Punch)</i> 2 Seconds <i>(Release High Punch)</i><br>"
+  + "<i>Can be done in air</i><br><br>"
+  + "<div class='moveName'>Teleport Kick</div><br>" 
+  + "Forward, Forward, Low Kick<br><br>" 
+  + "<div class='moveName'>Ground Roll</div><br>"
+  + "Back, Back, Down, High Kick";
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>Chew Up and Spit Out:</div> <i>(Hold High Kick)</i> 3 Seconds <i>(Release High Kick) <div class='distance'>(Close)</div></i>  <br>"
-  + "<div class='moveName'>Rapid Stab:</div> Forward, Back, Forward, Low Punch <div class='distance'>(Close)</div><br>"
-  + "<div class='moveName'>Friendship:</div> Down, Down, Down, High Kick<br>"
-  + "<div class='moveName'>Babality:</div> Down, Down, Down, Up, High Kick<br>"
-  + "<div class='moveName'>Stage:</div> Forward, Down, Forward, Low Kick";
+  "<div class='moveName'>Fatality 1: Chew Up and Spit Out</div><br>" 
+  + "<i>(Hold High Kick)</i> 3 Seconds <i>(Release High Kick) <div class='distance'>(Close)</div></i><br><br>"
+  + "<div class='moveName'>Fatality 2: Rapid Stab</div><br>" 
+  + "Forward, Back, Forward, Low Punch <div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Friendship</div><br>"
+  + "Down, Down, Down, High Kick<br><br>"
+  + "<div class='moveName'>Babality</div><br>"
+  + "Down, Down, Down, Up, High Kick<br><br>"
+  + "<div class='moveName'>Stage</div><br>" 
+  + "Forward, Down, Forward, Low Kick";
   document.getElementById("ending").innerHTML = 
-  "Once thought to be Kitana's twin sister, Mileena is actually a grotesque clone created by Shang Tsung. With Shao Kahn's suspicions of Kitana's motives, Mileena seizes the opportunity to attack Kahn and his minions. Caught off guard, they are no match for Mileena's speed. She wins the tournament and together with her secret companion, Baraka, they rule the world as king and queen."; 
+  "Once thought to be Kitana's twin sister, Mileena is actually a grotesque clone created by Shang Tsung. With<br>"
+  + "Shao Kahn's suspicions of Kitana's motives, Mileena seizes the opportunity to attack Kahn and his minions.<br>"
+  + "Caught off guard, they are no match for Mileena's speed. She wins the tournament and together with her secret<br>"
+  + "companion, Baraka, they rule the world as king and queen."; 
 }
   
 function mk2Baraka() { // MORTAL KOMBAT 2 - BARAKA
@@ -570,64 +739,120 @@ function mk2Baraka() { // MORTAL KOMBAT 2 - BARAKA
 
   document.getElementById("displayName").innerHTML = "Baraka";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "He led the attack against Liu Kang's Shaolin temples. Baraka belongs <br>"
+  + "to a nomadic race of mutants living in the wastelands of the Outworld. <br>"
+  + "His fighting skills gained the attention of Shao Kahn who recruited <br>"
+  + "him into his army.";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" 
-  + "MOVE 3 <br>"
-  + "MOVE 4 <br>";
+  "<div class='moveName'>Blade Spark:</div> <br>"
+  + "Down, Back, High Punch <br><br>"
+  + "<div class='moveName'>Blade Fury:</div> <br>" 
+  + "Back, Back, Back, Low Punch <br>"
+  + "<i>(Keep Tapping Low Punch to Swipe Longer)</i> <br><br>" 
+  + "<div class='moveName'>Blade Swipe:</div> <br>"
+  + "Back + High Punch <br><br>"
+  + "<div class='moveName'>Double Kick:</div> <br>"
+  + "High Kick, High Kick <div class='distance'>(Close)</div><br><br>";
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>Fatality 1: Blade Decapitation</div><br>"
+  + "Back, Back, Back, Back, High Punch <div class='distance'>(Close)</div><br>"
+  + "<i>Hold Down immediately and the opponent will slide down the blades</i><br><br>"
+  + "<div class='moveName'>Ftality 2: Blade Lift</div><br>"
+  + "Back, Forward, Down, Forward, Low Punch <div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Friendship:</div><br>"
+  + "Up, Forward, Forward, High Kick <br><br>"
+  + "<div class='moveName'>Babality:</div><br>"
+  + "Forward, Forward, Forward, High Kick<br><br>"
+  + "<div class='moveName'>Stage:</div><br>"
+  + "Forward, Forward, Down, High Kick";
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "Known for his unpredictable actions and wild fits of anger, Baraka goes on a <br>" 
+  + "rampage. After defeating the earth warriors, he attacks Shang Tsung, Kintaro <br>"
+  + "and finally Shao Kahn himself. After defeating Shao Kahn, Baraka's race of <br>"
+  + "mutants rise from the wastelands and rebel against what is left of Kahn's army. <br>"
+  + "They eventually win, and the Outworld comes under the rule of king Baraka."; 
 }
 
 function mk2Scorpion() { // MORTAL KOMBAT 2 - SCORPION
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Scorpion";  
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "The hell-spawned spectre rises from the pits. After learning of Sub-Zero's return, he again<br>"
+  + "stalks the ninja assassin - following him into the dark realm of the Outworld where he<br>"
+  + "continues his own unholy mission.";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" 
-  + "MOVE 3 <br>"
-  + "MOVE 4 <br>";
+  "<div class='moveName'>Spear</div> <br>"
+  + "Back, Back, Low Punch<br><br>" 
+  + "<div class='moveName'>Teleport Punch</div> <br>" 
+  + "Down, Back, High Punch<br><br>" 
+  + "<div class='moveName'>Air Throw</div> <br>" 
+  + "Block<br>" 
+  + "<i>Next to your opponent while in the air</i><br><br>"
+  + "<div class='moveName'>Body Scissor Leg Sweep</div><br>" 
+  + "Forward, Down, Back, Low Kick";
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>Fatality 1: Fire Breath</div> <br>"
+  + "Up, Up, High Punch <div class='distance'>(Sweep)</div><br>"
+  + "<i>Press Down, Down, Up, Up, High Punch to add 'Toasty!'</i><br>"
+  + "<i>Block can be used to avoid jumping</i><br><br>"
+  + "<div class='moveName'>Fatality 2: Spear Slice</div> <br>"
+  + "<i>(Hold High Punch)</i> Down, Forward, Forward, Forward <i>(Release High Punch)</i>"
+  + "<div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Friendship</div> <br>"
+  + "Back, Back, Down, High Kick<br><br>" 
+  + "<div class='moveName'>Babality</div> <br>"
+  + "Down, Back, Back, High Kick<br><br>" 
+  + "<div class='moveName'>Stage</div> <br>"
+  + "Down, Forward, Forward, Block<br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "Upon learning of Sub-Zero's reappearance, Scorpion enters Shao Kahn's tournament.<br>"
+  + "He witnesses Sub-Zero spare the life of an opponent and realises that this is not<br>"
+  + "the same Sub-Zero who murdered him so long ago. He lets the ninja live and goes on<br>"
+  + "to defeat the Outworlders in their unholy contest. With the defeat of Shao Kahn, he <br>"
+  + "discovers a new purpose for his existence. He becomes the guardian of the new Sub-Zero<br>"
+  + "to atone for murdering his older brother."; 
 }
     
 function mk2Raiden() { // MORTAL KOMBAT 2 - RAIDEN
   hideEnding();
-  clearAllButMoves(); 
- 
-  document.getElementById("displayName").innerHTML = "Raiden";
+  clearAllButMoves();
+
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "Watching events unfold from high above, the thunder god realises the grim intentions of Shao Kahn.<br>"
+  + "After warning the remaining members of the Shaolin Tournament, Raiden soon disappears. He is<br>" 
+  + "believed to have ventured into the Outworld alone.";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" 
-  + "MOVE 3 <br>"
-  + "MOVE 4 <br>";
+  "<div class='moveName'>Lightning Toss</div><br>"
+  + "Down, Forward, Low Punch<br><br>" 
+  + "<div class='moveName'>Torpedo</div><br>" 
+  + "Back, Back, Forward<br><br>" 
+  + "<div class='moveName'>Teleport</div><br>" 
+  + "Down, Up<br>" 
+  + "<i>Can be done in air</i><br><br>"
+  + "<div class='moveName'>Shock</div><br>" 
+  + "<i>(Hold High Punch)</i> 5 Seconds </i>(Release High Punch)<br>" 
+  + "<i>Keep tapping High Punch to prolong the move</i>"
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>Fatality 1: Electrocution</div> <br>"
+  + "<i>(Hold Low Kick)</i> 3 Seconds <i>(Release Low Kick)</i>, Tap Kick + Block repeatedly"
+  + "<div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Fatality 2: Explosive Uppercut</div> <br>"
+  + "<i>(Hold High Punch)</i> 5 Seconds <i>(Release High Punch)</i> <div class='distance'>(Close)</div><br><br>"
+  + "<div class='moveName'>Friendship</div><br>"
+  + "Down, Back, Forward, High Kick<br><br>" 
+  + "<div class='moveName'>Babality</div><br>"
+  + "Down, Down, Up, High Kick<br><br>" 
+  + "<div class='moveName'>Stage</div><br>"
+  + "Up, Up, Up, High Punch<br><br>";
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "Familiar with Shang Tsung's lies and Shao Kahn's brutality, Raiden accepts their challenge to compete<br>"
+  + "in an Outworld tournament. He is well aware of their scheme to unbalance the furies and invade the<br>"
+  + "earth realm. Raiden vows to use all his might to end their treachery. By winning the tournament,<br>"
+  + "Raiden destroys Shao Kahn and all his minions. He also destroys the dimensional gates which would<br>"
+  + "have been their passageway to the earth realm."; 
 }
 
 /*
@@ -639,336 +864,543 @@ MORTAL KOMBAT 3 CHARACTER SELECT AREA
 
 function mk3ShangTsung() { // MORTAL KOMBAT 3 - SHANG TSUNG
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Shang Tsung";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY" 
+  + "<h3>Morphs</h3>"
+  + "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY" 
+  + "<h3>Combos</h3>"
+  + "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>Fatality 1: </div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Fatality 2: </div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage</div> <br>"
+  + "BUTTONENTRY <br><br>";
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3Sindel() { // MORTAL KOMBAT 3 - SINDEL
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Sindel";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3Jax() { // MORTAL KOMBAT 3 - JAX
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Jax";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3Kano() { // MORTAL KOMBAT 3 - KANO
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Kano";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Sonya Blade";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
-}
 
 function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Liu Kang";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3Stryker() { // MORTAL KOMBAT 3 - STRYKER
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Stryker";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3SubZero() { // MORTAL KOMBAT 3 - SUB-ZERO
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Sub-Zero";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3Cyrax() { // MORTAL KOMBAT 3 - CYRAX
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Cyrax";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
-function mk3Sektor() { // MORTAL KOMBAT 3 - SEKTOR
-  hideEnding();
-  clearAllButMoves(); 
+hideEnding();
+clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Sektor";
-  document.getElementById("bio").innerHTML = 
-  "story";
-  document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
-  document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
-  document.getElementById("ending").innerHTML = 
-  "Ending"; 
+document.getElementById("displayName").innerHTML = "";  
+document.getElementById("bio").innerHTML = 
+"story";
+document.getElementById("specialMoves").innerHTML = 
+"<div class='moveName'>MOVE</div> <br>"
++ "BUTTONENTRY <br><br>" 
++ "<div class='moveName'>MOVE</div> <br>" 
++ "BUTTONENTRY <br><br>" 
++ "<div class='moveName'>MOVE</div> <br>" 
++ "BUTTONENTRY <br><br>" 
++ "<div class='moveName'>MOVE</div> <br>" 
++ "BUTTONENTRY <br><br>" 
++ "<div class='moveName'>MOVE</div> <br>" 
++ "BUTTONENTRY <br><br>" 
+document.getElementById("finishingMoves").innerHTML = 
+"<div class='moveName'>FATALITY:</div> <br>"
++ "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
++ "<div class='moveName'>FATALITY:</div> <br>"
++ "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
++ "<div class='moveName'>Animality:</div> <br>"
++ "BUTTONENTRY <br><br>" 
++ "<div class='moveName'>Friendship:</div> <br>"
++ "BUTTONENTRY <br><br>" 
++ "<div class='moveName'>Babality:</div> <br>"
++ "BUTTONENTRY <br><br>" 
++ "<div class='moveName'>Stage:</div> <br>"
++ "BUTTONENTRY <br><br>" ;
+document.getElementById("ending").innerHTML = 
+"Ending"; 
 }
 
 function mk3Nightwolf() { // MORTAL KOMBAT 3 - NIGHTWOLF
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Nightwolf";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3Sheeva() { // MORTAL KOMBAT 3 - SHEEVA
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Sheeva";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3KungLao() { // MORTAL KOMBAT 3 - KUNG LAO
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Kung Lao";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3Kabal() { // MORTAL KOMBAT 3 - KABAL
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Kabal";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
 
 function mk3Smoke() { // MORTAL KOMBAT 3 - SMOKE
   hideEnding();
-  clearAllButMoves(); 
+  clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "Smoke";
+  document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
   "story";
   document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
-  document.getElementById("ending").innerHTML = 
-  "Ending"; 
-}
-
-function mk3ShangTsung() { // MORTAL KOMBAT 3 - SHANG TSUNG
-  hideEnding();
-  clearAllButMoves(); 
-
-  document.getElementById("displayName").innerHTML = "Shang Tsung";
-  document.getElementById("bio").innerHTML = 
-  "story";
-  document.getElementById("specialMoves").innerHTML = 
-  "MOVE1 <br>"
-  + "MOVE 2 <br>" ;
-  document.getElementById("finishingMoves").innerHTML = 
-  "FATALITY1 <br>"
-  + "FATALITY2 <br>",
-  + "Friendship: <br>"
-  + "Babality: <br>"
-  + "Animality: <br>"
-  + "Stage: ";
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
 }
