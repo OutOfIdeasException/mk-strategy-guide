@@ -1432,8 +1432,4 @@ function showEnding() {
 
 function hideEnding() {
     document.getElementById("ending").style.display = "none";
-<<<<<<< HEAD
-  }
-=======
-  }
->>>>>>> 9a12f62acde694b6ce6abaa849fece55c43e4659
+}
