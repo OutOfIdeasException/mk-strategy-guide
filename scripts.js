@@ -879,7 +879,7 @@ function mk3ShangTsung() { // MORTAL KOMBAT 3 - SHANG TSUNG
   + "<div class='moveName'>Three Flaming Skulls</div> <br>" 
   + "Back, Back, Forward, Forward, High Punch<br><br>" 
   + "<div class='moveName'>Ground Flaming Skulls</div> <br>" 
-  + "Forward, Back, Back, Low Kick<br><br>" 
+  + "Forward, Back, Back, Low Kick" 
   + "<h3>Morphs</h3>"
   + "<div class='moveName'>Sindel</div> <br>"
   + "Back, Down, Back, Low Kick <br><br>" 
@@ -944,7 +944,9 @@ function mk3Sindel() { // MORTAL KOMBAT 3 - SINDEL
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "Sindel once ruled the Outworld at Shao Kahn's side as queen. Now <br>"
+  + "10,000 years later after her untimely death, she is reborn on Earth <br>"
+  + "with evil intentions. Sindel is the key to Kahn's occupation of Earth.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -979,7 +981,9 @@ function mk3Jax() { // MORTAL KOMBAT 3 - JAX
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "After failing to convince his superiors of the coming Outworld invasion,<br>"
+  + "Jax prepares to covertly for the future battle with Kahn's minions.<br>"
+  + "He fits both arms with indestructible bionic implants. This is a war Jax is prepared to win.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1014,7 +1018,7 @@ function mk3Kano() { // MORTAL KOMBAT 3 - KANO
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "Kano was thought to have been killed in the first tournament. Instead, he is found alive in the Outworld where he again escapes capture by Sonya. Before the actual Outworld invasion, Kano convinces Kahn to spare his soul. Kahn needs someone to teach his warriors how to use Earth's weapons... Kano is the man to do it.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1049,7 +1053,7 @@ function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "Sonya disappears in the first tournament, but is later rescued by Jax. After returning to Earth, she and Jax try to warn the U.S government of the looming Outworld menace. Lacking proof, they watch helplessly as Shao Kahn begins his invasion.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1076,6 +1080,7 @@ function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "Ending"; 
+}
 
 function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
   hideEnding();
@@ -1083,7 +1088,7 @@ function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "After the Outworld invasion, Liu Kang finds himself the prime target of Kahn's extermination squads. He is the Shaolin Champion and has thwarted Kahn's schemes in the past. Of all the humans, Kang poses the greatest threat to Shao Kahn's rule.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1118,7 +1123,7 @@ function mk3Stryker() { // MORTAL KOMBAT 3 - STRYKER
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "When the Outworld portal opens over a large city in North America, panic and chaos rage out of control. Kurtis Stryker was the leader of the Riot Control Brigade when Shao Kahn began taking souls. He finds himself the lone survivor of a city once populated by millions.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1153,7 +1158,7 @@ function mk3SubZero() { // MORTAL KOMBAT 3 - SUB-ZERO
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "The ninja returns- unmasked. Betrayed by his own clan, the Lin Kuei, he broke sacred codes of honor by leaving his clan and is marked for death. But unlike the ninja of old, his pursuers comes as machines. He must not only defend himself against the Outworld menace, but he must also elude his soulless assassins.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1188,7 +1193,7 @@ function mk3Cyrax() { // MORTAL KOMBAT 3 - CYRAX
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "Cyrax is unit LK-4D4, The second of three prototype Cybernetic Ninjas built by the Lin Kuei. Like his counterparts, his last program is to find and terminate the rouge ninja Sub-Zero. Without a soul, Cyrax goes undetected by Shao Kahn and remains a possible threat against his occupation of Earth.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1217,38 +1222,39 @@ function mk3Cyrax() { // MORTAL KOMBAT 3 - CYRAX
   "Ending"; 
 }
 
-hideEnding();
-clearAllButMoves();
+function mk3Sektor() { // MORTAL KOMBAT 3 - SEKTOR
+  hideEnding();
+  clearAllButMoves();
 
-document.getElementById("displayName").innerHTML = "";  
-document.getElementById("bio").innerHTML = 
-"story";
-document.getElementById("specialMoves").innerHTML = 
-"<div class='moveName'>MOVE</div> <br>"
-+ "BUTTONENTRY <br><br>" 
-+ "<div class='moveName'>MOVE</div> <br>" 
-+ "BUTTONENTRY <br><br>" 
-+ "<div class='moveName'>MOVE</div> <br>" 
-+ "BUTTONENTRY <br><br>" 
-+ "<div class='moveName'>MOVE</div> <br>" 
-+ "BUTTONENTRY <br><br>" 
-+ "<div class='moveName'>MOVE</div> <br>" 
-+ "BUTTONENTRY <br><br>" 
-document.getElementById("finishingMoves").innerHTML = 
-"<div class='moveName'>FATALITY:</div> <br>"
-+ "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
-+ "<div class='moveName'>FATALITY:</div> <br>"
-+ "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
-+ "<div class='moveName'>Animality:</div> <br>"
-+ "BUTTONENTRY <br><br>" 
-+ "<div class='moveName'>Friendship:</div> <br>"
-+ "BUTTONENTRY <br><br>" 
-+ "<div class='moveName'>Babality:</div> <br>"
-+ "BUTTONENTRY <br><br>" 
-+ "<div class='moveName'>Stage:</div> <br>"
-+ "BUTTONENTRY <br><br>" ;
-document.getElementById("ending").innerHTML = 
-"Ending"; 
+  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("bio").innerHTML = 
+  "Sektor is actually the code name for unit LK-9T9. He was the first of three prototype cybernetic ninjas built by the Lin Kuei. Sektor was once a human assassin trained by the by the Lin Kuei. He volunteered for automation because of his loyalty to the Outworld invasion because he has no soul to take.";
+  document.getElementById("specialMoves").innerHTML = 
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  document.getElementById("finishingMoves").innerHTML = 
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
+  document.getElementById("ending").innerHTML = 
+  "Ending"; 
 }
 
 function mk3Nightwolf() { // MORTAL KOMBAT 3 - NIGHTWOLF
@@ -1257,7 +1263,7 @@ function mk3Nightwolf() { // MORTAL KOMBAT 3 - NIGHTWOLF
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "Nightwolf works as a historian and preserver of his peoples culture. When Kahn's portal opens over North America, Nightwolf uses the magic of his Shamen to protect his tribes sacred land. This area becomes a vital threat to Kahn's occupation of Earth.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1292,7 +1298,7 @@ function mk3Sheeva() { // MORTAL KOMBAT 3 - SHEEVA
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "Sheeva was hand picked by Shao Kahn to serve as Sindel's personal protector. She becomes suspicious of Shao Kahn's loyalty toward her race of Shokan when he places Motaro as the head of his extermination squads. On the Outworld, Motaro's race of Centurions is the natural enemy of the Shokan.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1327,7 +1333,7 @@ function mk3KungLao() { // MORTAL KOMBAT 3 - KUNG LAO
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "Kung Lao's plan to reform the White Lotus Society comes to a halt when Shao Kahn's invasion takes the Earth by storm. As a chosen warrior, Kung Lao must use his greatest fighting skills to bring down Shao Kahn's reign of terror.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1362,7 +1368,7 @@ function mk3Kabal() { // MORTAL KOMBAT 3 - KABAL
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "As a chosen warrior, his identity is a mystery to all. It is believed he is a survivor of a attack by Shao Kahn's extermination squads. As a result, he is viciously scarred, kept alive by artificial respirators and a rage for ending Shao Kahn's conquest.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1397,7 +1403,7 @@ function mk3Smoke() { // MORTAL KOMBAT 3 - SMOKE
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "story";
+  "Smoke, unit LK-7T2, is the third prototype cyber-ninja built by the Lin Kuei. He tried to escape the automation process with Sub-Zero but was captured. His memories were stripped away, leaving behind an emotionless killer. However, Sub-Zero believes that within this machine is a human soul trying to escape.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
