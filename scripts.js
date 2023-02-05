@@ -198,7 +198,7 @@ function displayTipsCheats() {
     
     clearAllButTips();
     
-    document.getElementById("displayName").innerHTML = "Mortal Kombat II";
+    document.getElementById("displayName").innerHTML = "Mortal Kombat 3";
     document.getElementById("tipsCheatsDisplay").innerHTML = 
     "<h3>Stage Fatalities</h3>" 
     + "<p>MK 3 Info Here</p>";
@@ -306,9 +306,10 @@ function mk1SonyaBlade() { // MORTAL KOMBAT 1 - SONYA BLADE
 
   document.getElementById("displayName").innerHTML = "Sonya Blade"; 
   document.getElementById("bio").innerHTML = 
-  "<p>Sonya is a member of a top U.S. Special forces unit. Her team was hot on the"
-  + "trail of Kano's Black Dragon organization. They followed them to an uncharted"
-  + "island where they were ambushed by Shang Tsung's personal army.</p>";
+  "<p>Sonya is a member of a top U.S. Special forces unit. Her team was hot on"
+  + " the trail of Kano's Black Dragon organization. They followed them to an"
+  + " uncharted island where they were ambushed by Shang Tsung's personal"
+  + " army.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Ring Toss</div><br>"
   + "Back, Back, Low Puch<br><br>"
@@ -320,10 +321,11 @@ function mk1SonyaBlade() { // MORTAL KOMBAT 1 - SONYA BLADE
   "<div class='moveName'>Fatality: Kiss of Death</div><br>"
   + "Forward, Forward, Back, Back, Block <div class='distance'>(Far)</div>";
   document.getElementById("ending").innerHTML = 
-  "Captured by Shang Tsung Sonya's special unit was taken hostage-their only hope was the"
-  + "tournament. Shang Tsung promised to release the entire team only if Sonya could win"
-  + "the contest. Her victory not only released her unit-but also put an end to the Black"
-  + "Dragon and Shang Tsung's powerful grip on the tournament."; 
+  "<p>Captured by Shang Tsung Sonya's special unit was taken hostage-their" 
+  + " only hope was the tournament. Shang Tsung promised to release the entire"
+  + " team only if Sonya could win the contest. Her victory not only released"
+  + "her unit-but also put an end to the Black Dragon and Shang Tsung's"
+  + " powerful grip on the tournament.</p>"; 
 }
 
 function mk1Raiden() { // MORTAL KOMBAT 1 - RAIDEN
@@ -332,9 +334,9 @@ function mk1Raiden() { // MORTAL KOMBAT 1 - RAIDEN
 
   document.getElementById("displayName").innerHTML = "Raiden"; 
   document.getElementById("bio").innerHTML = 
-  "The name Raiden is actually that of a deity known as The Thunder God. It is rumored"
-  + "he received a personal invitation by Shang Tsung himself and took the form of a"
-  + "human to compete in the Tournament.";
+  "<p>The name Raiden is actually that of a deity known as The Thunder God."
+  + "It is rumored he received a personal invitation by Shang Tsung himself"
+  + " and took the form of a human to compete in the Tournament.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Teleport</div><br>" 
   + "Down, Up<br><br>"
@@ -346,11 +348,12 @@ function mk1Raiden() { // MORTAL KOMBAT 1 - RAIDEN
   "<div class='moveName'>Fatality: Electrocution</div><br>" 
   + "Forward, Back, Back, Back, High Punch <div class='distance'>(Close)</div>";
   document.getElementById("ending").innerHTML = 
-  "Raiden's victory comes as no surprise to him. He was never impressed by Shang Tsung's"
-  + "inferior sorcery, Goro's brute force, or the challenge of the other contestants."
-  + "He quickly becomes bored with his mortal competition and soon invites other gods to"
-  + "participate on the contest. The ensuing battles rage on for years. And the wars result"
-  + "in our world's final destruction. Have a nice day."; 
+  "<p>Raiden's victory comes as no surprise to him. He was never impressed by"
+  + " Shang Tsung's inferior sorcery, Goro's brute force, or the challenge of"
+  + " the other contestants. He quickly becomes bored with his mortal"
+  + " competition and soon invites other gods to participate on the contest." 
+  + "The ensuing battles rage on for years. And the wars result in our world's"
+  + "final destruction. Have a nice day.</p>"; 
 }
 
 function mk1LiuKang() { // MORTAL KOMBAT 1 - LIU KANG
