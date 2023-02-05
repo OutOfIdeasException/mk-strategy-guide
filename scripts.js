@@ -6,18 +6,24 @@ var gameSelected = 1;
   function clearAllButStory() {
     document.getElementById("storyDisplay").style.display = "block";
     document.getElementById("tipsCheatsDisplay").style.display = "none";
+    document.getElementById("characterDetails").style.display = "none";
+    document.getElementById("characterStory").style.display = "none";
     document.getElementById("moveDisplay").style.display = "none";
   }
 
   function clearAllButTips() {
     document.getElementById("storyDisplay").style.display = "none";
     document.getElementById("tipsCheatsDisplay").style.display = "block";
+    document.getElementById("characterDetails").style.display = "none";
+    document.getElementById("characterStory").style.display = "none";
     document.getElementById("moveDisplay").style.display = "none";
   }
   
   function clearAllButMoves() {
     document.getElementById("storyDisplay").style.display = "none";
     document.getElementById("tipsCheatsDisplay").style.display = "none";
+    document.getElementById("characterDetails").style.display = "grid";
+    document.getElementById("characterStory").style.display = "block";
     document.getElementById("moveDisplay").style.display = "block";
   }
 
@@ -189,8 +195,8 @@ function mk1JohnnyCage() { // MORTAL KOMBAT 1 - JOHNNY CAGE
 
   document.getElementById("displayName").innerHTML = "Johnny Cage"; 
   document.getElementById("bio").innerHTML = 
-  "A martial arts superstar trained by Great Masters from around the world, Cage <br>"
-  + "uses his talents on the big screenbox-office champ and star of such movies as <br>"
+  "A martial arts superstar trained by Great Masters from around the world, Cage"
+  + "uses his talents on the big screenbox-office champ and star of such movies as"
   + "Dragon Fist and Dragon Fist II as well as the Award-Winning Sudden Violence.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Green Bolt</div><br>"
@@ -203,9 +209,9 @@ function mk1JohnnyCage() { // MORTAL KOMBAT 1 - JOHNNY CAGE
   "<div class='moveName'>Fatality: Decapitation</div><br>"
   + "Forward, Forward, Forward, High Punch <div class='distance'>(Close)</div>";
   document.getElementById("ending").innerHTML = 
-  "Through the battles and life or dead situations faced during the tournament Johnny Cage<br>"
-  + "learns the true importance of his fighting skills. He also realizes the full potential<br>"
-  + "of the tournament. He returns to Hollywood after defending his new title as grand<br>"
+  "Through the battles and life or dead situations faced during the tournament Johnny Cage"
+  + "learns the true importance of his fighting skills. He also realizes the full potential"
+  + "of the tournament. He returns to Hollywood after defending his new title as grand"
   + "champion. Cage goes on to film 'Mortal Kombat: The Movie' and its many successful sequels."; 
 }
 
@@ -215,8 +221,8 @@ function mk1Kano() { // MORTAL KOMBAT 1 - KANO
 
   document.getElementById("displayName").innerHTML = "Kano"; 
   document.getElementById("bio").innerHTML = 
-  "A Mercenary, Thug, Extortionist Thief - Kano lives a life of crime and injustice.<br>"
-  + "He is a devoted member of the Black Dragon, a dangerous group of cut-throat madmen<br>"
+  "A Mercenary, Thug, Extortionist Thief - Kano lives a life of crime and injustice."
+  + "He is a devoted member of the Black Dragon, a dangerous group of cut-throat madmen"
   + "feared and respected throughout all of crime's Inner Circles.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Cannonball</div><br>"
@@ -230,10 +236,10 @@ function mk1Kano() { // MORTAL KOMBAT 1 - KANO
   + "Back, Back, Back, Low Punch <div class='distance'>(Close)</div>"
   
   document.getElementById("ending").innerHTML = 
-  "With the defeat of Goro and Shang Tsung, Kano will bring his own brand of treachery<br>"
-  + "to the tournament. His Black Dragon organization forms a monopoly over the contest<br>"
-  + "that bring shame and torment to all those involved. Their reign will end in anarchy<br>"
-  + "and death it will result in the final dismantling of the tournament and the battle<br>"
+  "With the defeat of Goro and Shang Tsung, Kano will bring his own brand of treachery"
+  + "to the tournament. His Black Dragon organization forms a monopoly over the contest"
+  + "that bring shame and torment to all those involved. Their reign will end in anarchy"
+  + "and death it will result in the final dismantling of the tournament and the battle"
   + "of the sans."; 
 }
 
@@ -243,8 +249,8 @@ function mk1SubZero() { // MORTAL KOMBAT 1 - SUB ZERO
 
   document.getElementById("displayName").innerHTML = "Sub-Zero"; 
   document.getElementById("bio").innerHTML = 
-  "The actual name or identity of this warrior is unknown. However, based on the<br>"
-  + "markings of his uniform, it is believed he belongs to the Lin Kuei, a legendary<br>"
+  "The actual name or identity of this warrior is unknown. However, based on the"
+  + "markings of his uniform, it is believed he belongs to the Lin Kuei, a legendary"
   + "clan of Chinese ninja.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Freeze</div><br>"
@@ -260,9 +266,9 @@ function mk1SubZero() { // MORTAL KOMBAT 1 - SUB ZERO
   + "The Blood Code is required for Sega Genesis and Sega GameGear</i>";
   document.getElementById("ending").innerHTML = 
   "After receiving the title of grand champion, Sub-Zero disappears back into<br>"
-  + "the shadows from which he came. His only goal in the tournament was the assassination<br>"
-  + "of Shang Tsung. He was paid a large some of money by one of Tsung's wealthy enemies.<br>"
-  + "With his mission accomplished Sub-Zero will collect his fortune and retire from his<br>"
+  + "the shadows from which he came. His only goal in the tournament was the assassination"
+  + "of Shang Tsung. He was paid a large some of money by one of Tsung's wealthy enemies."
+  + "With his mission accomplished Sub-Zero will collect his fortune and retire from his"
   + "dangerous profession."; 
 }
 
@@ -272,8 +278,8 @@ function mk1SonyaBlade() { // MORTAL KOMBAT 1 - SONYA BLADE
 
   document.getElementById("displayName").innerHTML = "Sonya Blade"; 
   document.getElementById("bio").innerHTML = 
-  "Sonya is a member of a top U.S. Special forces unit. Her team was hot on the<br>"
-  + "trail of Kano's Black Dragon organization. They followed them to an uncharted<br>"
+  "Sonya is a member of a top U.S. Special forces unit. Her team was hot on the"
+  + "trail of Kano's Black Dragon organization. They followed them to an uncharted"
   + "island where they were ambushed by Shang Tsung's personal army.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Ring Toss</div><br>"
@@ -286,10 +292,10 @@ function mk1SonyaBlade() { // MORTAL KOMBAT 1 - SONYA BLADE
   "<div class='moveName'>Fatality: Kiss of Death</div><br>"
   + "Forward, Forward, Back, Back, Block <div class='distance'>(Far)</div>";
   document.getElementById("ending").innerHTML = 
-  "Captured by Shang Tsung Sonya's special unit was taken hostage-their only hope was the<br>"
-  + "tournament. Shang Tsung promised to release the entire team only if Sonya could win<br>"
-  + "the contest. Her victory not only released her unit-but also put an end to the Black<br>"
-  + "Dragon and Shang Tsung's powerful grip on the tournament.<br>"; 
+  "Captured by Shang Tsung Sonya's special unit was taken hostage-their only hope was the"
+  + "tournament. Shang Tsung promised to release the entire team only if Sonya could win"
+  + "the contest. Her victory not only released her unit-but also put an end to the Black"
+  + "Dragon and Shang Tsung's powerful grip on the tournament."; 
 }
 
 function mk1Raiden() { // MORTAL KOMBAT 1 - RAIDEN
@@ -298,8 +304,8 @@ function mk1Raiden() { // MORTAL KOMBAT 1 - RAIDEN
 
   document.getElementById("displayName").innerHTML = "Raiden"; 
   document.getElementById("bio").innerHTML = 
-  "The name Raiden is actually that of a deity known as The Thunder God. It is rumored<br>"
-  + "he received a personal invitation by Shang Tsung himself and took the form of a<br>"
+  "The name Raiden is actually that of a deity known as The Thunder God. It is rumored"
+  + "he received a personal invitation by Shang Tsung himself and took the form of a"
   + "human to compete in the Tournament.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Teleport</div><br>" 
@@ -312,10 +318,10 @@ function mk1Raiden() { // MORTAL KOMBAT 1 - RAIDEN
   "<div class='moveName'>Fatality: Electrocution</div><br>" 
   + "Forward, Back, Back, Back, High Punch <div class='distance'>(Close)</div>";
   document.getElementById("ending").innerHTML = 
-  "Raiden's victory comes as no surprise to him. He was never impressed by Shang Tsung's<br>"
-  + "inferior sorcery, Goro's brute force, or the challenge of the other contestants.<br>"
-  + "He quickly becomes bored with his mortal competition and soon invites other gods to<br>"
-  + "participate on the contest. The ensuing battles rage on for years. And the wars result<br>"
+  "Raiden's victory comes as no surprise to him. He was never impressed by Shang Tsung's"
+  + "inferior sorcery, Goro's brute force, or the challenge of the other contestants."
+  + "He quickly becomes bored with his mortal competition and soon invites other gods to"
+  + "participate on the contest. The ensuing battles rage on for years. And the wars result"
   + "in our world's final destruction. Have a nice day."; 
 }
 
@@ -325,9 +331,9 @@ function mk1LiuKang() { // MORTAL KOMBAT 1 - LIU KANG
 
   document.getElementById("displayName").innerHTML = "Liu Kang"; 
   document.getElementById("bio").innerHTML = 
-  "Once a member of the super secret White Lotus Society, Liu Kang left the<br>"
-  + "organization in order to represent Shaolin temples in the Tournament.<br> "
-  + "Kang is strong in his beliefs and despises Shang Tsung.<br>";
+  "Once a member of the super secret White Lotus Society, Liu Kang left the"
+  + "organization in order to represent Shaolin temples in the Tournament."
+  + "Kang is strong in his beliefs and despises Shang Tsung.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Fireball</div><br>"
   + "Forward, Forward, High Punch<br><br>"
@@ -338,9 +344,9 @@ function mk1LiuKang() { // MORTAL KOMBAT 1 - LIU KANG
   + "Forward, Down, Back, Up, Forward <div class='distance'>(Half Screen)</div><br>"
   + "<i>Block can be held to avoid jumping</i>";
   document.getElementById("ending").innerHTML = 
-  "After defeating mighty Goro and putting an end to Shang Tsung's rule over the tournament,<br>"
-  + "Kang is able to return the contest to its rightfull hosts - The Shaolin temples.<br>"
-  + "Kang's heroics will always be remembered. He will continue the traditions of the<br>"
+  "After defeating mighty Goro and putting an end to Shang Tsung's rule over the tournament,"
+  + "Kang is able to return the contest to its rightfull hosts - The Shaolin temples."
+  + "Kang's heroics will always be remembered. He will continue the traditions of the"
   + "Shaolin temples and restore the true pride and respect of this once great tournament."; 
 }
 
@@ -350,8 +356,8 @@ function mk1Scorpion() { // MORTAL KOMBAT 1 - SCORPION
 
   document.getElementById("displayName").innerHTML = "Scorpion"; 
   document.getElementById("bio").innerHTML = 
-  "Like Sub-Zero, Scorpion's true name and origin are not known. He has shown<br>"
-  + "from time to time distrust and hatred towards Sub-Zero. Between Ninjas,<br>"
+  "Like Sub-Zero, Scorpion's true name and origin are not known. He has shown"
+  + "from time to time distrust and hatred towards Sub-Zero. Between Ninjas,"
   + "this is usually a sign of opposing clans.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Spear</div><br>"
@@ -363,10 +369,10 @@ function mk1Scorpion() { // MORTAL KOMBAT 1 - SCORPION
   + "Up, Up <div class='distance'>(Half Screen)</div><br>"
   + "<i>Block can be held to avoid jumping</i>";
   document.getElementById("ending").innerHTML = 
-  "Marked for death years ago by the Lin Kuei, Scorpion was murdered by Sub-Zero.<br>"
-  + "He left behind a wife and child in his former life but was allowed to return and<br>"
-  + "avenge his death. Even with Scorpion's triumph in the tournament and new title as<br>"
-  + "grand champion the price he paid was high. He can never again know his family and<br>"
+  "Marked for death years ago by the Lin Kuei, Scorpion was murdered by Sub-Zero."
+  + "He left behind a wife and child in his former life but was allowed to return and"
+  + "avenge his death. Even with Scorpion's triumph in the tournament and new title as"
+  + "grand champion the price he paid was high. He can never again know his family and"
   + "must exist forever with his secret curse."; 
 }
 
@@ -383,8 +389,8 @@ function mk2LiuKang() { // MORTAL KOMBAT 2 - LIU KANG
   
   document.getElementById("displayName").innerHTML = "Liu Kang";
   document.getElementById("bio").innerHTML = 
-  "After winning the Shaolin Tournament from Shang Tsung's clutches Kang returns to his temples.<br>"
-  + "He discovers his sacred home in ruins, his Shaolin brothers killed in a vicious battle<br>"
+  "After winning the Shaolin Tournament from Shang Tsung's clutches Kang returns to his temples."
+  + "He discovers his sacred home in ruins, his Shaolin brothers killed in a vicious battle"
   + "with a horde of Outworld warriors. Now he travels into the Dark Realm to seek revenge.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Low Fireball</div><br>" 
@@ -409,10 +415,10 @@ function mk2LiuKang() { // MORTAL KOMBAT 2 - LIU KANG
   + "<div class='moveName'>Stage</div><br>" 
   + "Back, Forward, Forward, Low Kick";
   document.getElementById("ending").innerHTML = 
-  "With his Shaolin temple in ruins, Liu Kang journeys into the Outworld, enters Shao Kahn's<br>"
-  + "tournament and unleashes a fury that does not end until the defeat of Shao Kahn. Liu Kang<br>"
-  + "then returns to the seclusion of his Shaolin temple. He pays his respects to his lost<br>"
-  + "brothers and finally realizes that the events which have taken place were all fulfillment<br>"
+  "With his Shaolin temple in ruins, Liu Kang journeys into the Outworld, enters Shao Kahn's"
+  + "tournament and unleashes a fury that does not end until the defeat of Shao Kahn. Liu Kang"
+  + "then returns to the seclusion of his Shaolin temple. He pays his respects to his lost"
+  + "brothers and finally realizes that the events which have taken place were all fulfillment"
   + "of his destiny.";
 }
 
@@ -422,8 +428,8 @@ function mk2KungLao() { // MORTAL KOMBAT 2 - KUNG LAO
 
   document.getElementById("displayName").innerHTML = "Kung Lao"; 
   document.getElementById("bio").innerHTML = 
-  "A former Shaolin Monk and a member of the White Lotus society, he is the last descendant of<br>"
-  + "the Great Kung Lao who was defeated by Goro 500 years ago. Realizing the danger of the Outworld<br>"
+  "A former Shaolin Monk and a member of the White Lotus society, he is the last descendant of"
+  + "the Great Kung Lao who was defeated by Goro 500 years ago. Realizing the danger of the Outworld"
   + "menace he joins Liu Kang in entering Shao Kahn's contest.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Teleport</div><br>" 
@@ -451,9 +457,9 @@ function mk2KungLao() { // MORTAL KOMBAT 2 - KUNG LAO
   + "<div class='moveName'>Stage</div><br>"
   + "Forward, Forward, Forward, High Punch";
   document.getElementById("ending").innerHTML = 
-  "A former Shaolin Monk alongside Liu Kang, Kung Lao also grieves the loss of their Shaolin brothers.<br>" 
-  + "He realizes that his ultimate fate lies within the dark realm of the Outworld. He defeats his<br>"
-  + "Outworld opponents until he emerges the supreme champion. With his strength and spirit in complete<br>" 
+  "A former Shaolin Monk alongside Liu Kang, Kung Lao also grieves the loss of their Shaolin brothers." 
+  + "He realizes that his ultimate fate lies within the dark realm of the Outworld. He defeats his"
+  + "Outworld opponents until he emerges the supreme champion. With his strength and spirit in complete" 
   + "alignment he finally avenges the death of his great ancestor. Although his greatest challenges lie ahead..."; 
 }
 
@@ -463,8 +469,8 @@ function mk2JohnnyCage() { // MORTAL KOMBAT 2 - JOHNNY CAGE
 
   document.getElementById("displayName").innerHTML = "Johnny Cage"; 
   document.getElementById("bio").innerHTML = 
-  "After Shang Tsung's tournament, the martial arts superstar disappears. He follows Liu Kang into<br>"
-  + "the Outworld. There he will compete in a twisted tournament which holds the balance of earth's<br>"
+  "After Shang Tsung's tournament, the martial arts superstar disappears. He follows Liu Kang into"
+  + "the Outworld. There he will compete in a twisted tournament which holds the balance of earth's"
   + "existence- as well as a script for another blockbuster movie.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Shadow Kick</div><br>"
@@ -490,10 +496,10 @@ function mk2JohnnyCage() { // MORTAL KOMBAT 2 - JOHNNY CAGE
   + "<div class='moveName'>Stage</div><br>" 
   + "Down, Down, Down, High Kick";
   document.getElementById("ending").innerHTML = 
-  "After disappearing from the set of his latest movie, Cage finally resurfaces. He used all his<br>"
-  + "knowledge and experiences as a fighter to end the Outworld menace. Now heralded as a true hero, Cage<br>" 
-  + "receives the respect he rightfully deserves. He also gets his inspiration for the sequel to his<br>"
-  + "blockbuster movie Mortal Kombat. MK II is released and quickly becomes the greatest motion picture<br>"
+  "After disappearing from the set of his latest movie, Cage finally resurfaces. He used all his "
+  + "knowledge and experiences as a fighter to end the Outworld menace. Now heralded as a true hero, Cage" 
+  + "receives the respect he rightfully deserves. He also gets his inspiration for the sequel to his"
+  + "blockbuster movie Mortal Kombat. MK II is released and quickly becomes the greatest motion picture"
   + "event of all time. Cage realizes that MK III is inevitable."; 
 }
 
@@ -503,8 +509,8 @@ function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE
 
   document.getElementById("displayName").innerHTML = "Reptile";  
   document.getElementById("bio").innerHTML = 
-  "As Shang Tsung's personal protector the elusive Reptile lurks in the shadows stopping all those who<br>"
-  + "would do his master harm. His human form is believed to disguise a horrid reptilian creature whose<br>"
+  "As Shang Tsung's personal protector the elusive Reptile lurks in the shadows stopping all those who"
+  + "would do his master harm. His human form is believed to disguise a horrid reptilian creature whose"
   + "race was thought extinct millions of years ago.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Acid Spit</div><br>" 
@@ -528,10 +534,10 @@ function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE
   + "<div class='moveName'>Stage</div><br>" 
   + "Down, Down, Forward, Forward, Block";
   document.getElementById("ending").innerHTML = 
-  "Reptile has always loyally served as Shang Tsung's protector. While maintaining a very low profile <br>"
-  + "in the first tournament he discovered Tsung's plot to force the remaining members of his near extinct<br>" 
-  + "race into slavery under Shao Kahn's rule. Reptile then devises a plan of his own. He enters the Outworld<br>"
-  + "tournament, defeats Shao Kahn and turns against Shang Tsung, ending his master's scheme. Now his race can<br>" 
+  "Reptile has always loyally served as Shang Tsung's protector. While maintaining a very low profile"
+  + "in the first tournament he discovered Tsung's plot to force the remaining members of his near extinct" 
+  + "race into slavery under Shao Kahn's rule. Reptile then devises a plan of his own. He enters the Outworld"
+  + "tournament, defeats Shao Kahn and turns against Shang Tsung, ending his master's scheme. Now his race can" 
   + "live on in their own peaceful existence."; 
 }
 
@@ -565,10 +571,10 @@ function mk2SubZero() { // MORTAL KOMBAT 2 - SUB ZERO
   + "<div class='moveName'>Stage</div><br>" 
   + "Down, Forward, Forward Block";
   document.getElementById("ending").innerHTML = 
-  "When Sub-Zero failed to return from the Shaolin tournament and rumor of Shang Tsung's survival reached<br>"
-  + "the Lin Kuei clan, they immediately sent another assassin to complete the task. This new warrior is actually<br>" 
-  + "the younger brother of the original Sub-Zero. He enters the outworld contest and accomplishes his task. He<br>"
-  + "learns of Scorpion's foul vendetta against his brother but will never know why his life was spared. Perhaps a<br>" 
+  "When Sub-Zero failed to return from the Shaolin tournament and rumor of Shang Tsung's survival reached"
+  + "the Lin Kuei clan, they immediately sent another assassin to complete the task. This new warrior is actually" 
+  + "the younger brother of the original Sub-Zero. He enters the outworld contest and accomplishes his task. He"
+  + "learns of Scorpion's foul vendetta against his brother but will never know why his life was spared. Perhaps a" 
   + "third tournament is in his future?"; 
 }
 

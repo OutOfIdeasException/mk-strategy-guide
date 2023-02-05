@@ -99,8 +99,21 @@ color: yellow;
   display: none;
 }
 
-#moveDisplay { /* Character Move Display */
-display: none;
+#characterDetails {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+#characterStory {
+  display: none;
+}
+
+#moveDisplay {
+  display: none;
 }
 
 .moveName {
