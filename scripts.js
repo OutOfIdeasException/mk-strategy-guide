@@ -362,9 +362,9 @@ function mk1LiuKang() { // MORTAL KOMBAT 1 - LIU KANG
 
   document.getElementById("displayName").innerHTML = "Liu Kang"; 
   document.getElementById("bio").innerHTML = 
-  "Once a member of the super secret White Lotus Society, Liu Kang left the"
+  "<p>Once a member of the super secret White Lotus Society, Liu Kang left the"
   + "organization in order to represent Shaolin temples in the Tournament."
-  + "Kang is strong in his beliefs and despises Shang Tsung.";
+  + "Kang is strong in his beliefs and despises Shang Tsung.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Fireball</div><br>"
   + "Forward, Forward, High Punch<br><br>"
@@ -372,13 +372,15 @@ function mk1LiuKang() { // MORTAL KOMBAT 1 - LIU KANG
   + "Forward, Forward, High Kick";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality: Cartwheel Uppercut</div><br>"
-  + "Forward, Down, Back, Up, Forward <div class='distance'>(Half Screen)</div><br>"
+  + "Forward, Down, Back, Up, Forward <div class='distance'>(Half Screen)"
+  + "</div><br>"
   + "<i>Block can be held to avoid jumping</i>";
   document.getElementById("ending").innerHTML = 
-  "After defeating mighty Goro and putting an end to Shang Tsung's rule over the tournament,"
-  + "Kang is able to return the contest to its rightfull hosts - The Shaolin temples."
-  + "Kang's heroics will always be remembered. He will continue the traditions of the"
-  + "Shaolin temples and restore the true pride and respect of this once great tournament."; 
+  "<p>After defeating mighty Goro and putting an end to Shang Tsung's rule over" 
+  + "the tournament, Kang is able to return the contest to its rightfull hosts"
+  + " - The Shaolin temples. Kang's heroics will always be remembered. He will"
+  + " continue the traditions of the Shaolin temples and restore the true pride"
+  + " and respect of this once great tournament.</p>"; 
 }
 
 function mk1Scorpion() { // MORTAL KOMBAT 1 - SCORPION
@@ -387,9 +389,9 @@ function mk1Scorpion() { // MORTAL KOMBAT 1 - SCORPION
 
   document.getElementById("displayName").innerHTML = "Scorpion"; 
   document.getElementById("bio").innerHTML = 
-  "Like Sub-Zero, Scorpion's true name and origin are not known. He has shown"
-  + "from time to time distrust and hatred towards Sub-Zero. Between Ninjas,"
-  + "this is usually a sign of opposing clans.";
+  "<p>Like Sub-Zero, Scorpion's true name and origin are not known. He has"
+  + "shown from time to time distrust and hatred towards Sub-Zero. Between"
+  + "Ninjas, this is usually a sign of opposing clans.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Spear</div><br>"
   + "Back, Back, Low Punch<br><br>"
@@ -400,11 +402,12 @@ function mk1Scorpion() { // MORTAL KOMBAT 1 - SCORPION
   + "Up, Up <div class='distance'>(Half Screen)</div><br>"
   + "<i>Block can be held to avoid jumping</i>";
   document.getElementById("ending").innerHTML = 
-  "Marked for death years ago by the Lin Kuei, Scorpion was murdered by Sub-Zero."
-  + "He left behind a wife and child in his former life but was allowed to return and"
-  + "avenge his death. Even with Scorpion's triumph in the tournament and new title as"
-  + "grand champion the price he paid was high. He can never again know his family and"
-  + "must exist forever with his secret curse."; 
+  "Marked for death years ago by the Lin Kuei, Scorpion was murdered by"
+  + "<p>Sub-Zero. He left behind a wife and child in his former life but was"
+  + " allowed to return and avenge his death. Even with Scorpion's triumph"
+  + " in the tournament and new title as grand champion the price he paid was"
+  + " high. He can never again know his family and must exist forever with his"
+  + " secret curse.</p>"; 
 }
 
 /*
@@ -420,9 +423,10 @@ function mk2LiuKang() { // MORTAL KOMBAT 2 - LIU KANG
   
   document.getElementById("displayName").innerHTML = "Liu Kang";
   document.getElementById("bio").innerHTML = 
-  "After winning the Shaolin Tournament from Shang Tsung's clutches Kang returns to his temples."
-  + "He discovers his sacred home in ruins, his Shaolin brothers killed in a vicious battle"
-  + "with a horde of Outworld warriors. Now he travels into the Dark Realm to seek revenge.";
+  "<p>After winning the Shaolin Tournament from Shang Tsung's clutches Kang"
+  + "returns to his temples. He discovers his sacred home in ruins, his"
+  + " Shaolin brothers killed in a vicious battle with a horde of Outworld"
+  + "warriors. Now he travels into the Dark Realm to seek revenge.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Low Fireball</div><br>" 
   + "Forward, Forward, Low Punch <br><br>"
@@ -435,9 +439,11 @@ function mk2LiuKang() { // MORTAL KOMBAT 2 - LIU KANG
   + "Hold Low Kick <i>(3 seconds)</i>, Release";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Dragon Morph</div><br>" 
-  + "Down, Forward, Back, Back, High Kick <div class='distance'>(Close)</div><br><br>"
+  + "Down, Forward, Back, Back, High Kick <div class='distance'>(Close)</div>"
+  + "<br><br>"
   + "<div class='moveName'>Fatality 2: Cartwheel Uppercut</div><br>"
-  + "Rotate D-Pad Away Counter-Clockwise <div class='distance'>(Half Screen)</div><br>"
+  + "Rotate D-Pad Away Counter-Clockwise <div class='distance'>(Half Screen)"
+  + "</div><br>"
   + "<i>Block can be held to avoid jumping</i><br><br>"
   + "<div class='moveName'>Friendship</div><br>"
   + "Forward, Back, Back, Back, Low Kick<br><br>" 
@@ -446,11 +452,12 @@ function mk2LiuKang() { // MORTAL KOMBAT 2 - LIU KANG
   + "<div class='moveName'>Stage</div><br>" 
   + "Back, Forward, Forward, Low Kick";
   document.getElementById("ending").innerHTML = 
-  "With his Shaolin temple in ruins, Liu Kang journeys into the Outworld, enters Shao Kahn's"
-  + "tournament and unleashes a fury that does not end until the defeat of Shao Kahn. Liu Kang"
-  + "then returns to the seclusion of his Shaolin temple. He pays his respects to his lost"
-  + "brothers and finally realizes that the events which have taken place were all fulfillment"
-  + "of his destiny.";
+  "<p>With his Shaolin temple in ruins, Liu Kang journeys into the Outworld,"
+  + "enters Shao Kahn's tournament and unleashes a fury that does not end"
+  + " until the defeat of Shao Kahn. Liu Kang then returns to the seclusion"
+  + " of his Shaolin temple. He pays his respects to his lost brothers and"
+  + " finally realizes that the events which have taken place were all"
+  + " fulfillment of his destiny.</p>";
 }
 
 function mk2KungLao() { // MORTAL KOMBAT 2 - KUNG LAO
@@ -459,9 +466,10 @@ function mk2KungLao() { // MORTAL KOMBAT 2 - KUNG LAO
 
   document.getElementById("displayName").innerHTML = "Kung Lao"; 
   document.getElementById("bio").innerHTML = 
-  "A former Shaolin Monk and a member of the White Lotus society, he is the last descendant of"
-  + "the Great Kung Lao who was defeated by Goro 500 years ago. Realizing the danger of the Outworld"
-  + "menace he joins Liu Kang in entering Shao Kahn's contest.";
+  "<p>A former Shaolin Monk and a member of the White Lotus society, he is the"
+  + " last descendant of the Great Kung Lao who was defeated by Goro 500 years"
+  + " ago. Realizing the danger of the Outworld menace he joins Liu Kang in"
+  + " entering Shao Kahn's contest.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Teleport</div><br>" 
   + "Down, Up <br>"
@@ -477,9 +485,11 @@ function mk2KungLao() { // MORTAL KOMBAT 2 - KUNG LAO
   + "<i>Block can be held to avoid jumping</i>";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Vertical Hat Slice</div><br>" 
-  + "Forward, Forward, Forward, Low Kick <div class='distance'>(Sweep)</div><br><br>"
+  + "Forward, Forward, Forward, Low Kick <div class='distance'>(Sweep)</div>"
+  + "<br><br>"
   + "<div class='moveName'>Fatality 2: Decapitation</div><br>"
-  + "<i>(Hold Low Punch)</i> Back, Forward <i>(Release Low Punch)</i> <div class='distance'>(Full Screen)</div><br>"
+  + "<i>(Hold Low Punch)</i> Back, Forward <i>(Release Low Punch)</i>"
+  + "<div class='distance'>(Full Screen)</div><br>"
   + "<i>Use Up and Down to direct the hat. Aim for the neck.<br><br></i>"
   + "<div class='moveName'>Friendship</div><br>"
   + "Back, Back, Back, Down, High Kick<br><br>"
@@ -488,10 +498,12 @@ function mk2KungLao() { // MORTAL KOMBAT 2 - KUNG LAO
   + "<div class='moveName'>Stage</div><br>"
   + "Forward, Forward, Forward, High Punch";
   document.getElementById("ending").innerHTML = 
-  "A former Shaolin Monk alongside Liu Kang, Kung Lao also grieves the loss of their Shaolin brothers." 
-  + "He realizes that his ultimate fate lies within the dark realm of the Outworld. He defeats his"
-  + "Outworld opponents until he emerges the supreme champion. With his strength and spirit in complete" 
-  + "alignment he finally avenges the death of his great ancestor. Although his greatest challenges lie ahead..."; 
+  "<p>A former Shaolin Monk alongside Liu Kang, Kung Lao also grieves the loss"
+  + " of their Shaolin brothers. He realizes that his ultimate fate lies within"
+  + " the dark realm of the Outworld. He defeats his Outworld opponents until"
+  + " he emerges the supreme champion. With his strength and spirit in complete"
+  + " alignment he finally avenges the death of his great ancestor. Although"
+  + " his greatest challenges lie ahead...</p>"; 
 }
 
 function mk2JohnnyCage() { // MORTAL KOMBAT 2 - JOHNNY CAGE
@@ -500,9 +512,10 @@ function mk2JohnnyCage() { // MORTAL KOMBAT 2 - JOHNNY CAGE
 
   document.getElementById("displayName").innerHTML = "Johnny Cage"; 
   document.getElementById("bio").innerHTML = 
-  "After Shang Tsung's tournament, the martial arts superstar disappears. He follows Liu Kang into"
-  + "the Outworld. There he will compete in a twisted tournament which holds the balance of earth's"
-  + "existence- as well as a script for another blockbuster movie.";
+  "<p>After Shang Tsung's tournament, the martial arts superstar disappears."
+  + " He follows Liu Kang into the Outworld. There he will compete in a twisted"
+  + " tournament which holds the balance of earth's existence- as well as a"
+  + " script for another blockbuster movie.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Shadow Kick</div><br>"
   + "Back, Forward, Low Kick <br><br>"
@@ -516,10 +529,12 @@ function mk2JohnnyCage() { // MORTAL KOMBAT 2 - JOHNNY CAGE
   + "Back, Down, Back, High Punch";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Torso Rip</div><br>" 
-  + "Down, Down, Forward, Forward, High Punch <div class='distance'>(Close)</div><br><br>"
+  + "Down, Down, Forward, Forward, High Punch <div class='distance'>(Close)"
+  + "</div><br><br>"
   + "<i>*</i> <div class='moveName'>Fatality 2: Uppercut</div><br>"
   + "Forward, Forward, Down, Up <div class='distance'>(Close)</div><br>"
-  + "<i>Note: Press Down + Low Punch + Low Kick + Block to knock the opponent's head off 3 times<br><br></i>"
+  + "<i>Note: Press Down + Low Punch + Low Kick + Block to knock the opponent's"
+  + "head off 3 times<br><br></i>"
   + "<div class='moveName'>Friendship</div><br>" 
   + "Down, Down, Down, Down, High Kick<br><br>"
   + "<div class='moveName'>Babality</div><br>" 
@@ -527,11 +542,13 @@ function mk2JohnnyCage() { // MORTAL KOMBAT 2 - JOHNNY CAGE
   + "<div class='moveName'>Stage</div><br>" 
   + "Down, Down, Down, High Kick";
   document.getElementById("ending").innerHTML = 
-  "After disappearing from the set of his latest movie, Cage finally resurfaces. He used all his "
-  + "knowledge and experiences as a fighter to end the Outworld menace. Now heralded as a true hero, Cage" 
-  + "receives the respect he rightfully deserves. He also gets his inspiration for the sequel to his"
-  + "blockbuster movie Mortal Kombat. MK II is released and quickly becomes the greatest motion picture"
-  + "event of all time. Cage realizes that MK III is inevitable."; 
+  "<p>After disappearing from the set of his latest movie, Cage finally"
+  + " resurfaces. He used all his knowledge and experiences as a fighter"
+  + " to end the Outworld menace. Now heralded as a true hero, Cage receives the"
+  + " respect he rightfully deserves. He also gets his inspiration for the sequel"
+  + " to his blockbuster movie Mortal Kombat. MK II is released and quickly"
+  + " becomes the greatest motion picture event of all time. Cage realizes that"
+  + " MK III is inevitable.</p>"; 
 }
 
 function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE 
@@ -540,9 +557,10 @@ function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE
 
   document.getElementById("displayName").innerHTML = "Reptile";  
   document.getElementById("bio").innerHTML = 
-  "As Shang Tsung's personal protector the elusive Reptile lurks in the shadows stopping all those who"
-  + "would do his master harm. His human form is believed to disguise a horrid reptilian creature whose"
-  + "race was thought extinct millions of years ago.";
+  "<p>As Shang Tsung's personal protector the elusive Reptile lurks in the shadows"
+  + " stopping all those who would do his master harm. His human form is"
+  + " believed to disguise a horrid reptilian creature whose race was thought"
+  + " extinct millions of years ago.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Acid Spit</div><br>" 
   + "Forward, Forward, High Punch<br><br>"
@@ -554,7 +572,8 @@ function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE
   + "<i>(Hold Block)</i> Up, Up, Down, High Punch";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Decapitation</div><br>" 
-  + "Back, Back, Down, Low Punch <div class='distance'>(Full Screen)</div><br><br>"
+  + "Back, Back, Down, Low Punch <div class='distance'>(Full Screen)</div>"
+  + "<br><br>"
   + "<div class='moveName'>Fatality 2: Torso Rip</div><br>" 
   + "Forward, Forward, Down, High Kick <div class='distance'>(Close)</div><br>"
   + "<i>(Must Be Invisible)</i><br><br>"
@@ -565,11 +584,13 @@ function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE
   + "<div class='moveName'>Stage</div><br>" 
   + "Down, Down, Forward, Forward, Block";
   document.getElementById("ending").innerHTML = 
-  "Reptile has always loyally served as Shang Tsung's protector. While maintaining a very low profile"
-  + "in the first tournament he discovered Tsung's plot to force the remaining members of his near extinct" 
-  + "race into slavery under Shao Kahn's rule. Reptile then devises a plan of his own. He enters the Outworld"
-  + "tournament, defeats Shao Kahn and turns against Shang Tsung, ending his master's scheme. Now his race can" 
-  + "live on in their own peaceful existence."; 
+  "<p>Reptile has always loyally served as Shang Tsung's protector. While"
+  + " maintaining a very low profile in the first tournament he discovered"
+  + " Tsung's plot to force the remaining members of his near extinct race"
+  + " into slavery under Shao Kahn's rule. Reptile then devises a plan of his"
+  + " own. He enters the Outworld tournament, defeats Shao Kahn and turns"
+  + " against Shang Tsung, ending his master's scheme. Now his race can" 
+  + " live on in their own peaceful existence.</p>"; 
 }
 
 function mk2SubZero() { // MORTAL KOMBAT 2 - SUB ZERO 
@@ -578,9 +599,10 @@ function mk2SubZero() { // MORTAL KOMBAT 2 - SUB ZERO
 
   document.getElementById("displayName").innerHTML = "Sub Zero";  
   document.getElementById("bio").innerHTML = 
-  "Thought to have been killed in the Shaolin Tournament, Sub-Zero mysteriously returns. It is believed he<br>"
-  + "travelled into the Outworld to again attempt to assassinate Shang Tsung. To do so he must fight his way<br>"
-  + "through Shao Kahn's tournament.";
+  "<p>Thought to have been killed in the Shaolin Tournament, Sub-Zero"
+  + " mysteriously returns. It is believed he travelled into the Outworld to"
+  + " again attempt to assassinate Shang Tsung. To do so he must fight his"
+  + " way through Shao Kahn's tournament.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Freeze</div><br>" 
   + "Down, Forward, Low Punch<br><br>"
@@ -590,10 +612,13 @@ function mk2SubZero() { // MORTAL KOMBAT 2 - SUB ZERO
   + "Back + Low Punch + Low Kick + Block";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Ice Shatter</div><br>" 
-  + "<strong>First:</strong> Forward, Forward, Down, High Kick <div class='distance'>(Sweep)</div><br>" 
-  + "<strong>Then:</strong> Forward, Down, Forward, Forward, High Punch <div class='distance'>(Close)</div><br><br>"
+  + "<strong>First:</strong> Forward, Forward, Down, High Kick"
+  + " <div class='distance'>(Sweep)</div><br>" 
+  + "<strong>Then:</strong> Forward, Down, Forward, Forward, High Punch"
+  + " <div class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>Fatalit 2: Ice Grenade</div>"
-  + "<br><i>(Hold Low Punch)</i> Back, Back, Down, Forward <i>(Release Low Punch)</i> "
+  + "<br><i>(Hold Low Punch)</i> Back, Back, Down, Forward <i>(Release"
+  + " Low Punch)</i> "
   + "<div class='distance'>(Full Screen)</div><br><br>"
   + "<div class='moveName'>Friendship</div><br>" 
   + "Back, Back, Down, High Kick<br><br>"
@@ -602,11 +627,13 @@ function mk2SubZero() { // MORTAL KOMBAT 2 - SUB ZERO
   + "<div class='moveName'>Stage</div><br>" 
   + "Down, Forward, Forward Block";
   document.getElementById("ending").innerHTML = 
-  "When Sub-Zero failed to return from the Shaolin tournament and rumor of Shang Tsung's survival reached"
-  + "the Lin Kuei clan, they immediately sent another assassin to complete the task. This new warrior is actually" 
-  + "the younger brother of the original Sub-Zero. He enters the outworld contest and accomplishes his task. He"
-  + "learns of Scorpion's foul vendetta against his brother but will never know why his life was spared. Perhaps a" 
-  + "third tournament is in his future?"; 
+  "<p>When Sub-Zero failed to return from the Shaolin tournament and rumor of"
+  + " Shang Tsung's survival reached the Lin Kuei clan, they immediately sent"
+  + " another assassin to complete the task. This new warrior is actually the"
+  + " younger brother of the original Sub-Zero. He enters the outworld contest"
+  + " and accomplishes his task. He learns of Scorpion's foul vendetta against"
+  + " his brother but will never know why his life was spared. Perhaps a third"
+  + " tournament is in his future?</p>"; 
 }
 
 function mk2ShangTsung() { // MORTAL KOMBAT 2 - SHANG TSUNG
@@ -615,9 +642,10 @@ function mk2ShangTsung() { // MORTAL KOMBAT 2 - SHANG TSUNG
 
   document.getElementById("displayName").innerHTML = "Shang Tsung";  
   document.getElementById("bio").innerHTML = 
-  "After losing control of the Shaolin Tournament, Tsung promises his ruler Shao Kahn to shape events that will lure"
-  + "the earth warriors to compete in his own contest. Convinced of this plan, Shao Kahn restores Tsung's youth"
-  + "and allows him to live.";
+  "<p>After losing control of the Shaolin Tournament, Tsung promises his ruler"
+  + " Shao Kahn to shape events that will lure the earth warriors to compete"
+  + " in his own contest. Convinced of this plan, Shao Kahn restores Tsung's"
+  + " youth and allows him to live.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>One Flaming Skull</div><br>"
   + "Back, Back, High Punch <br><br>"
@@ -625,25 +653,39 @@ function mk2ShangTsung() { // MORTAL KOMBAT 2 - SHANG TSUNG
   + "Back, Back, Forward, Forward, High Punch<br><br>" 
   + "<div class='moveName'>Three Flaming Skulls</div><br>" 
   + "Back, Back, Forward, Forward, High Punch"
-  + "<h3>Morphs</h3>"
-  + "<div class='moveName'>Liu Kang:</div> Back, Forward, Forward, Block <br>" 
-  + "<div class='moveName'>Kung Lao:</div> Back, Down, Back, High Kick<br>"
-  + "<div class='moveName'>Johnny Cage:</div> Back, Back, Down, Low Punch<br>"
-  + "<div class='moveName'>Reptile:</div> <i>(Hold Block)</i> Up, Down, High Punch <br>" 
-  + "<div class='moveName'>Sub-Zero:</div> Forward, Down, Forward, High Punch<br>"
-  + "<div class='moveName'>Kitana:</div> Block, Block, Block<br>"
-  + "<div class='moveName'>Jax:</div> Down, Forward, Back, High Kick<br>" 
-  + "<div class='moveName'>Mileena:</div> Hold High Punch <i>(2 Seconds)</i>, Release<br>"
-  + "<div class='moveName'>Baraka:</div> Down, Down, Low Kick<br>"
-  + "<div class='moveName'>Scorpion:</div> <i>(Hold Block)</i> Up, Up <br>" 
-  + "<div class='moveName'>Raiden:</div> Down, Back, Forward, Low Kick <br>";
+  + "<h3>Morphs</h3>" /* Shang Tsung's Morph Section */
+  + "<div class='moveName'>Liu Kang</div><br>"
+  + "Back, Forward, Forward, Block<br><br>" 
+  + "<div class='moveName'>Kung Lao</div><br>"
+  + "Back, Down, Back, High Kick<br><br>"
+  + "<div class='moveName'>Johnny Cage</div><br>"
+  + "Back, Back, Down, Low Punch<br><br>"
+  + "<div class='moveName'>Reptile</div><br>"
+  + "<i>(Hold Block)</i> Up, Down, High Punch<br><br>" 
+  + "<div class='moveName'>Sub-Zero</div><br>"
+  + "Forward, Down, Forward, High Punch<br><br>"
+  + "<div class='moveName'>Kitana</div><br>"
+  + "Block, Block, Block<br><br>"
+  + "<div class='moveName'>Jax</div><br>"
+  + "Down, Forward, Back, High Kick<br><br>" 
+  + "<div class='moveName'>Mileena</div><br>"
+  + "Hold High Punch <i>(2 Seconds)</i>, Release<br><br>"
+  + "<div class='moveName'>Baraka</div><br>"
+  + "Down, Down, Low Kick<br><br>"
+  + "<div class='moveName'>Scorpion</div><br>"
+  + "<i>(Hold Block)</i> Up, Up<br><br>" 
+  + "<div class='moveName'>Raiden</div><br>"
+  + "Down, Back, Forward, Low Kick<br><br>";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Possession</div><br>"
-  + "Hold High Kick <i>(2 Seconds)</i>, Release <div class='distance'>(Sweep)</div><br><br>"
+  + "Hold High Kick <i>(2 Seconds)</i>, Release <div class='distance'>(Sweep)"
+  + "</div><br><br>"
   + "<div class='moveName'>Fatality 2: Soul Steal:</div><br>"
-  + "<i>(Hold Block)</i> Up, Down, Up, Low Kick <div class='distance'>(Close)</div><br><br>"
+  + "<i>(Hold Block)</i> Up, Down, Up, Low Kick <div class='distance'>(Close)"
+  + "</div><br><br>"
   + "<div class='moveName'>Fatality 3: Kintaro Morph</div><br>" 
-  + "Low Punch (30 Seconds), Release Low Punch <div class='distance'>(Sweep)</div><br>"
+  + "Low Punch (30 Seconds), Release Low Punch <div class='distance'>(Sweep)"
+  + "</div><br>"
   + "<i>* You can begin holding Low Punch before the round ends</i><br><br>"
   + "<div class='moveName'>Friendship</div><br>" 
   + "Back, Back, Down, Forward, High Kick<br><br>"
@@ -652,11 +694,13 @@ function mk2ShangTsung() { // MORTAL KOMBAT 2 - SHANG TSUNG
   + "<div class='moveName'>Stage</div><br>" 
   + "<i>(Hold Block)</i>, Down, Down, Up, <i>(Release Block)</i>, Down";
   document.getElementById("ending").innerHTML = 
-  "Shang Tsung not only turns against and defeats both Kintaro and Shao Kahn, he also takes over their rule of the" 
-  + "Outworld. With Shao Kahn's armies at his command, he finally unbalances the Furies, and weakens the dimensional" 
-  + "gates between the Outworld and the Earth Realm. Along with his elite group of sorcerers he uses this weakness<br>"
-  + "to march a never-ending horde of demons onto the earth and doom its inhabitants to eternal darkness." 
-  + "Have a nice day."; 
+  "<p>Shang Tsung not only turns against and defeats both Kintaro and Shao"
+  + " Kahn, he also takes over their rule of the Outworld. With Shao Kahn's"
+  + "armies at his command, he finally unbalances the Furies, and weakens the"
+  + "dimensional gates between the Outworld and the Earth Realm. Along with"
+  + " his elite group of sorcerers he uses this weakness to march a"
+  + "never-ending horde of demons onto the earth and doom its inhabitants to"
+  + "eternal darkness. Have a nice day.</p>"; 
 }
   
 function mk2Kitana() { // MORTAL KOMBAT 2 - KITANA
@@ -665,8 +709,10 @@ function mk2Kitana() { // MORTAL KOMBAT 2 - KITANA
 
   document.getElementById("displayName").innerHTML = "Kitana"; 
   document.getElementById("bio").innerHTML = 
-  "Her beauty hides her true role as personal assassin for Shao Kahn. Seen talking to an earth-realm warrior, her"
-  + "motives have come under suspicion by her twin sister Mileena. But only Kitana knows her own true intentions.";
+  "<p>Her beauty hides her true role as personal assassin for Shao Kahn. Seen"
+  + " talking to an earth-realm warrior, her motives have come under suspicion"
+  + " by her twin sister Mileena. But only Kitana knows her own true"
+  + " intentions.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Fan Swipe</div><br>" 
   + "Back + High Punch<br><br>"
@@ -680,7 +726,8 @@ function mk2Kitana() { // MORTAL KOMBAT 2 - KITANA
   "<div class='moveName'>Fatality 1: Decapitation</div><br>"
   + "Block, Block, Block, High Kick <div class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>Fatality 2: Kiss of Death</div><br>" 
-  + "<i>(Hold Low Kick)</i> Forward, Forward, Down, Forward <i>(Release Low Kick)</i> "
+  + "<i>(Hold Low Kick)</i> Forward, Forward, Down, Forward <i>(Release Low" 
+  + "Kick)</i> "
   + "<div class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>Friendship</div><br>" 
   + "<i>(Hold Block)</i> Down, Down, Down, Up, Low Kick<br><br>"
@@ -689,11 +736,13 @@ function mk2Kitana() { // MORTAL KOMBAT 2 - KITANA
   + "<div class='moveName'>Stage</div><br>"
   + "Forward, Down, Forward, High Kick";
   document.getElementById("ending").innerHTML = 
-  "As a result of her years of work as an assassin, Kitana has learned many secrets, especially about her past."
-  + "She discovers that Mileena is not her twin but a grotesque clone created by Shang Tsung. She learns that "
-  + "her parents were former rulers of the Outworld overthrown by Shao Kahn. Determined to take back what is "
-  + "hers, she must defeat Kahn. She does so by entering the tournament. She reclaims her parents' castle and "
-  + "restores the Outworld to a realm of beauty."; 
+  "As a result of her years of work as an assassin, Kitana has learned many"
+  + " secrets, especially about her past. She discovers that Mileena is not her"
+  + " twin but a grotesque clone created by Shang Tsung. She learns that her" 
+  + " parents were former rulers of the Outworld overthrown by Shao Kahn."
+  + " Determined to take back what is hers, she must defeat Kahn. She does so by"
+  + " entering the tournament. She reclaims her parents' castle and restores the"
+  + " Outworld to a realm of beauty."; 
 }
   
 function mk2Jax() { // MORTAL KOMBAT 2 - JAX
@@ -702,25 +751,30 @@ function mk2Jax() { // MORTAL KOMBAT 2 - JAX
 
   document.getElementById("displayName").innerHTML = "Jax";  
   document.getElementById("bio").innerHTML = 
-  "His real name is Major Jackson Briggs, leader of a top US special forces unit. After receiving a distress<br>"
-  + "signal from Lt. Sonya Blade, Jax embarks on a rescue mission. One that leads him into a ghastly world<br>"
-  + "where he believes that Sonya is still alive.";
+  "<p>His real name is Major Jackson Briggs, leader of a top US special forces" 
+  + " unit. After receiving a distress signal from Lt. Sonya Blade, Jax embarks"
+  + " on a rescue mission. One that leads him into a ghastly world where he"
+  + " believes that Sonya is still alive.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Energy Wave</div><br>" 
   + "Forward, Down, Back, High Kick<br><br>"
   + "<div class='moveName'>Gotcha Grab</div><br>" 
-  + "Forward, Forward, Low Punch <i>(Keep Tapping Low Punch to Keep Punching)</i><br><br>" 
+  + "Forward, Forward, Low Punch <i>(Keep Tapping Low Punch to Keep Punching)"
+  + "</i><br><br>" 
   + "<div class='moveName'>Ground Pound</div><br>" 
   + "<i>(Hold Low Kick)</i> 3 Seconds <i>(Release Low Kick)</i></div><br><br>"
   + "<div class='moveName'>Back Breaker</div><br>" 
   + "Block  <div class='distance'>(Next to Opponent in Air)</div><br><br>"
   + "<div class='moveName'>Body Slam</div><br>" 
-  + "Throw Opponent <i>(Using Low Punch, Close to Opponent) (Tap High Punch for Additional Slams)</i>";
+  + "Throw Opponent <i>(Using Low Punch, Close to Opponent) (Tap High Punch"
+  + "for Additional Slams)</i>";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Arm Rip</div><br>" 
-  + "Block, Block, Block, Block, Low Punch <div class='distance'>(Sweep)</div><br><br>"
+  + "Block, Block, Block, Block, Low Punch <div class='distance'>(Sweep)</div>"
+  + "<br><br>"
   + "<div class='moveName'>Fatality 2: Head Smash</div><br>" 
-  + "<i>(Hold Low Punch)</i> Forward, Forward, Forward <i>(Release Low Punch)</i> <div class='distance'>(Close)</div><br><br>"
+  + "<i>(Hold Low Punch)</i> Forward, Forward, Forward <i>(Release Low Punch)"
+  + "</i> <div class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>Friendship</div><br>"
   + "<i>(Hold Block)</i>Down, Down, Up, Up, Low Kick<br><br><br>"
   + "<div class='moveName'>Babality</div><br>"
@@ -728,11 +782,13 @@ function mk2Jax() { // MORTAL KOMBAT 2 - JAX
   + "<div class='moveName'>Stage</div><br>" 
   + "<i>(Hold Block)</i>Up, Up, Down, Low Kick";
   document.getElementById("ending").innerHTML = 
-  "Jax finds Sonya held captive alongside their arch enemy Kano. Her only chance of escape is by Jax entering<br>"
-  + "Shao Kahn's contest. With fierce determination he catches the Outworld Warriors off guard and Wins the<br>" 
-  + "Tournament bringing Shao Kahn's rule to a crashing halt. During the Chaos that follows, Jax and Sonya<br>" 
-  + "escape through the dimensional gate from which they entered. Kano once again eludes capture but Jax<br>"
-  + "and Sonya know they will cross paths with him in the future."; 
+  "<p>Jax finds Sonya held captive alongside their arch enemy Kano. Her only"
+  + " chance of escape is by Jax entering Shao Kahn's contest. With fierce"
+  + " determination he catches the Outworld Warriors off guard and Wins the"
+  + " Tournament bringing Shao Kahn's rule to a crashing halt. During the Chaos"
+  + " that follows, Jax and Sonya escape through the dimensional gate from which"
+  + " they entered. Kano once again eludes capture but Jax and Sonya know they"
+  + " will cross paths with him in the future.</p>"; 
 }
   
 function mk2Mileena() { // MORTAL KOMBAT 2 - MILEENA
@@ -741,9 +797,10 @@ function mk2Mileena() { // MORTAL KOMBAT 2 - MILEENA
 
   document.getElementById("displayName").innerHTML = "Mileena";  
   document.getElementById("bio").innerHTML = 
-  "Serving as an assassin along with her twin sister Kitana, Mileena's dazzling appearances conceal her hideous<br>"
-  + "intentions. At Shao Kahn's request she is asked to watch for her twin's suspected dissension. She must put a<br>"
-  + "stop to it at any costs.";
+  "<p>Serving as an assassin along with her twin sister Kitana, Mileena's"
+  + " dazzling appearances conceal her hideous intentions. At Shao Kahn's"
+  + " request she is asked to watch for her twin's suspected dissension. She"
+  + " must put a stop to it at any costs.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Sai Throw</div><br>"
   + "<i>(Hold High Punch)</i> 2 Seconds <i>(Release High Punch)</i><br>"
@@ -754,9 +811,11 @@ function mk2Mileena() { // MORTAL KOMBAT 2 - MILEENA
   + "Back, Back, Down, High Kick";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Chew Up and Spit Out</div><br>" 
-  + "<i>(Hold High Kick)</i> 3 Seconds <i>(Release High Kick) <div class='distance'>(Close)</div></i><br><br>"
+  + "<i>(Hold High Kick)</i> 3 Seconds <i>(Release High Kick)"
+  + " <div class='distance'>(Close)</div></i><br><br>"
   + "<div class='moveName'>Fatality 2: Rapid Stab</div><br>" 
-  + "Forward, Back, Forward, Low Punch <div class='distance'>(Close)</div><br><br>"
+  + "Forward, Back, Forward, Low Punch <div class='distance'>(Close)</div>"
+  + "<br><br>"
   + "<div class='moveName'>Friendship</div><br>"
   + "Down, Down, Down, High Kick<br><br>"
   + "<div class='moveName'>Babality</div><br>"
@@ -764,10 +823,12 @@ function mk2Mileena() { // MORTAL KOMBAT 2 - MILEENA
   + "<div class='moveName'>Stage</div><br>" 
   + "Forward, Down, Forward, Low Kick";
   document.getElementById("ending").innerHTML = 
-  "Once thought to be Kitana's twin sister, Mileena is actually a grotesque clone created by Shang Tsung. With<br>"
-  + "Shao Kahn's suspicions of Kitana's motives, Mileena seizes the opportunity to attack Kahn and his minions.<br>"
-  + "Caught off guard, they are no match for Mileena's speed. She wins the tournament and together with her secret<br>"
-  + "companion, Baraka, they rule the world as king and queen."; 
+  "<p>Once thought to be Kitana's twin sister, Mileena is actually a grotesque"
+  + " clone created by Shang Tsung. With Shao Kahn's suspicions of Kitana's"
+  + " motives, Mileena seizes the opportunity to attack Kahn and his minions."
+  + " Caught off guard, they are no match for Mileena's speed. She wins the"
+  + " tournament and together with her secret companion, Baraka, they rule the"
+  + " world as king and queen.</p>"; 
 }
   
 function mk2Baraka() { // MORTAL KOMBAT 2 - BARAKA
@@ -776,10 +837,10 @@ function mk2Baraka() { // MORTAL KOMBAT 2 - BARAKA
 
   document.getElementById("displayName").innerHTML = "Baraka";  
   document.getElementById("bio").innerHTML = 
-  "He led the attack against Liu Kang's Shaolin temples. Baraka belongs <br>"
-  + "to a nomadic race of mutants living in the wastelands of the Outworld. <br>"
-  + "His fighting skills gained the attention of Shao Kahn who recruited <br>"
-  + "him into his army.";
+  "<p>He led the attack against Liu Kang's Shaolin temples. Baraka belongs to"
+  + " a nomadic race of mutants living in the wastelands of the Outworld. His"
+  + " fighting skills gained the attention of Shao Kahn who recruited him into"
+  + " his army.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Blade Spark:</div> <br>"
   + "Down, Back, High Punch <br><br>"
@@ -793,9 +854,11 @@ function mk2Baraka() { // MORTAL KOMBAT 2 - BARAKA
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Blade Decapitation</div><br>"
   + "Back, Back, Back, Back, High Punch <div class='distance'>(Close)</div><br>"
-  + "<i>Hold Down immediately and the opponent will slide down the blades</i><br><br>"
+  + "<i>Hold Down immediately and the opponent will slide down the blades</i>"
+  + "<br><br>"
   + "<div class='moveName'>Ftality 2: Blade Lift</div><br>"
-  + "Back, Forward, Down, Forward, Low Punch <div class='distance'>(Close)</div><br><br>"
+  + "Back, Forward, Down, Forward, Low Punch <div class='distance'>(Close)</div>"
+  + "<br><br>"
   + "<div class='moveName'>Friendship:</div><br>"
   + "Up, Forward, Forward, High Kick <br><br>"
   + "<div class='moveName'>Babality:</div><br>"
@@ -803,11 +866,12 @@ function mk2Baraka() { // MORTAL KOMBAT 2 - BARAKA
   + "<div class='moveName'>Stage:</div><br>"
   + "Forward, Forward, Down, High Kick";
   document.getElementById("ending").innerHTML = 
-  "Known for his unpredictable actions and wild fits of anger, Baraka goes on a <br>" 
-  + "rampage. After defeating the earth warriors, he attacks Shang Tsung, Kintaro <br>"
-  + "and finally Shao Kahn himself. After defeating Shao Kahn, Baraka's race of <br>"
-  + "mutants rise from the wastelands and rebel against what is left of Kahn's army. <br>"
-  + "They eventually win, and the Outworld comes under the rule of king Baraka."; 
+  "<p>Known for his unpredictable actions and wild fits of anger, Baraka goes"
+  + " on a rampage. After defeating the earth warriors, he attacks Shang Tsung"
+  + ", Kintaro and finally Shao Kahn himself. After defeating Shao Kahn,"
+  + " Baraka's race of mutants rise from the wastelands and rebel against what"
+  + " is left of Kahn's army. They eventually win, and the Outworld comes under"
+  + " the rule of king Baraka.</p>"; 
 }
 
 function mk2Scorpion() { // MORTAL KOMBAT 2 - SCORPION
@@ -816,9 +880,10 @@ function mk2Scorpion() { // MORTAL KOMBAT 2 - SCORPION
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "The hell-spawned spectre rises from the pits. After learning of Sub-Zero's return, he again<br>"
-  + "stalks the ninja assassin - following him into the dark realm of the Outworld where he<br>"
-  + "continues his own unholy mission.";
+  "<p>The hell-spawned spectre rises from the pits. After learning of"
+  + " Sub-Zero's return, he again stalks the ninja assassin - following"
+  + " him into the dark realm of the Outworld where he continues his own"
+  + " unholy mission.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Spear</div> <br>"
   + "Back, Back, Low Punch<br><br>" 
@@ -835,7 +900,8 @@ function mk2Scorpion() { // MORTAL KOMBAT 2 - SCORPION
   + "<i>Press Down, Down, Up, Up, High Punch to add 'Toasty!'</i><br>"
   + "<i>Block can be used to avoid jumping</i><br><br>"
   + "<div class='moveName'>Fatality 2: Spear Slice</div> <br>"
-  + "<i>(Hold High Punch)</i> Down, Forward, Forward, Forward <i>(Release High Punch)</i>"
+  + "<i>(Hold High Punch)</i> Down, Forward, Forward, Forward"
+  + " <i>(Release High Punch)</i>"
   + "<div class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>Friendship</div> <br>"
   + "Back, Back, Down, High Kick<br><br>" 
@@ -844,12 +910,13 @@ function mk2Scorpion() { // MORTAL KOMBAT 2 - SCORPION
   + "<div class='moveName'>Stage</div> <br>"
   + "Down, Forward, Forward, Block<br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Upon learning of Sub-Zero's reappearance, Scorpion enters Shao Kahn's tournament.<br>"
-  + "He witnesses Sub-Zero spare the life of an opponent and realises that this is not<br>"
-  + "the same Sub-Zero who murdered him so long ago. He lets the ninja live and goes on<br>"
-  + "to defeat the Outworlders in their unholy contest. With the defeat of Shao Kahn, he <br>"
-  + "discovers a new purpose for his existence. He becomes the guardian of the new Sub-Zero<br>"
-  + "to atone for murdering his older brother."; 
+  "<p>Upon learning of Sub-Zero's reappearance, Scorpion enters Shao Kahn's"
+  + " tournament. He witnesses Sub-Zero spare the life of an opponent and"
+  + " realises that this is not the same Sub-Zero who murdered him so long"
+  + " ago. He lets the ninja live and goes on to defeat the Outworlders in"
+  + " their unholy contest. With the defeat of Shao Kahn, he discovers a"
+  + " new purpose for his existence. He becomes the guardian of the new"
+  + " Sub-Zero to atone for murdering his older brother.</p>"; 
 }
     
 function mk2Raiden() { // MORTAL KOMBAT 2 - RAIDEN
@@ -858,9 +925,10 @@ function mk2Raiden() { // MORTAL KOMBAT 2 - RAIDEN
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Watching events unfold from high above, the thunder god realises the grim intentions of Shao Kahn.<br>"
-  + "After warning the remaining members of the Shaolin Tournament, Raiden soon disappears. He is<br>" 
-  + "believed to have ventured into the Outworld alone.";
+  "<p>Watching events unfold from high above, the thunder god realises the"
+  + " grim intentions of Shao Kahn. After warning the remaining members of"
+  + " the Shaolin Tournament, Raiden soon disappears. He is believed to"
+  + " have ventured into the Outworld alone.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>Lightning Toss</div><br>"
   + "Down, Forward, Low Punch<br><br>" 
@@ -874,10 +942,12 @@ function mk2Raiden() { // MORTAL KOMBAT 2 - RAIDEN
   + "<i>Keep tapping High Punch to prolong the move</i>"
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>Fatality 1: Electrocution</div> <br>"
-  + "<i>(Hold Low Kick)</i> 3 Seconds <i>(Release Low Kick)</i>, Tap Kick + Block repeatedly"
+  + "<i>(Hold Low Kick)</i> 3 Seconds <i>(Release Low Kick)</i>, Tap Kick +"
+  + " Block repeatedly"
   + "<div class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>Fatality 2: Explosive Uppercut</div> <br>"
-  + "<i>(Hold High Punch)</i> 5 Seconds <i>(Release High Punch)</i> <div class='distance'>(Close)</div><br><br>"
+  + "<i>(Hold High Punch)</i> 5 Seconds <i>(Release High Punch)</i> <div "
+  + "class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>Friendship</div><br>"
   + "Down, Back, Forward, High Kick<br><br>" 
   + "<div class='moveName'>Babality</div><br>"
@@ -885,11 +955,13 @@ function mk2Raiden() { // MORTAL KOMBAT 2 - RAIDEN
   + "<div class='moveName'>Stage</div><br>"
   + "Up, Up, Up, High Punch<br><br>";
   document.getElementById("ending").innerHTML = 
-  "Familiar with Shang Tsung's lies and Shao Kahn's brutality, Raiden accepts their challenge to compete<br>"
-  + "in an Outworld tournament. He is well aware of their scheme to unbalance the furies and invade the<br>"
-  + "earth realm. Raiden vows to use all his might to end their treachery. By winning the tournament,<br>"
-  + "Raiden destroys Shao Kahn and all his minions. He also destroys the dimensional gates which would<br>"
-  + "have been their passageway to the earth realm."; 
+  "<p>Familiar with Shang Tsung's lies and Shao Kahn's brutality, Raiden"
+  + " accepts their challenge to compete in an Outworld tournament. He is"
+  + " well aware of their scheme to unbalance the furies and invade the"
+  + " earth realm. Raiden vows to use all his might to end their treachery."
+  + " By winning the tournament, Raiden destroys Shao Kahn and all his"
+  + " minions. He also destroys the dimensional gates which would have been"
+  + " their passageway to the earth realm.</p>"; 
 }
 
 /*
@@ -957,7 +1029,8 @@ function mk3ShangTsung() { // MORTAL KOMBAT 3 - SHANG TSUNG
   + "<i>(Hold Low Punch)</i> Run, Block, Run, Block <i>(Release Low Punch)</i> "
   + "<div class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>Fatality 2: Bed of Spikes</div> <br>"
-  + "<i>(Hold Low Punch)</i> Down, Forward, Forward, Down <i>(Release Low Punch)</i>"
+  + "<i>(Hold Low Punch)</i> Down, Forward, Forward, Down <i>(Release Low"
+  + " Punch)</i>"
   + "<div class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>Animality</div> <br>"
   + "<i>(Hold High Punch)</i> Run, Run, Run <i>(Release High Punch)</i> "
@@ -969,13 +1042,13 @@ function mk3ShangTsung() { // MORTAL KOMBAT 3 - SHANG TSUNG
   + "<div class='moveName'>Stage</div> <br>"
   + "Up, Up, Back, Low Punch <br><br>";
   document.getElementById("ending").innerHTML = 
-  "When Shao Kahn overtakes the Earth, he needs Shang Tsung to"
-  + " help locate the surviving humans.Granted new powers, Tsung"
-  + " soon discovers his dark emperor's true plan: as soon as the"
-  + "remaining<br>"
-  + "warriors are disposed of, Kahn will take Tsung's own soul. After learning this, Tsung turns on his<br>"
-  + "master. He catches Motaro off guard and then defeats Shao Kahn. But before the Earth can return to<br>"
-  + "normal, Tsung takes all the souls as his own. He will forever rule the Earth with his own brand of evil."; 
+  "<p>When Shao Kahn overtakes the Earth, he needs Shang Tsung to help locate"
+  + " the surviving humans.Granted new powers, Tsung soon discovers his dark"
+  + " emperor's true plan: as soon as the remaining warriors are disposed of,"
+  + " Kahn will take Tsung's own soul. After learning this, Tsung turns on"
+  + " his master. He catches Motaro off guard and then defeats Shao Kahn. But"
+  + " before the Earth can return to normal, Tsung takes all the souls as his"
+  + " own. He will forever rule the Earth with his own brand of evil.</p>"; 
 }
 
 function mk3Sindel() { // MORTAL KOMBAT 3 - SINDEL
@@ -984,9 +1057,9 @@ function mk3Sindel() { // MORTAL KOMBAT 3 - SINDEL
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Sindel once ruled the Outworld at Shao Kahn's side as queen. Now <br>"
-  + "10,000 years later after her untimely death, she is reborn on Earth <br>"
-  + "with evil intentions. Sindel is the key to Kahn's occupation of Earth.";
+  "<p>Sindel once ruled the Outworld at Shao Kahn's side as queen. Now 10,000"
+  + " years later after her untimely death, she is reborn on Earth with evil"
+  + " intentions. Sindel is the key to Kahn's occupation of Earth.";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1021,9 +1094,10 @@ function mk3Jax() { // MORTAL KOMBAT 3 - JAX
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "After failing to convince his superiors of the coming Outworld invasion,<br>"
-  + "Jax prepares to covertly for the future battle with Kahn's minions.<br>"
-  + "He fits both arms with indestructible bionic implants. This is a war Jax is prepared to win.";
+  "<p>After failing to convince his superiors of the coming Outworld invasion,"
+  + "Jax prepares to covertly for the future battle with Kahn's minions. He"
+  + " fits both arms with indestructible bionic implants. This is a war Jax is"
+  + " prepared to win.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1058,7 +1132,11 @@ function mk3Kano() { // MORTAL KOMBAT 3 - KANO
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Kano was thought to have been killed in the first tournament. Instead, he is found alive in the Outworld where he again escapes capture by Sonya. Before the actual Outworld invasion, Kano convinces Kahn to spare his soul. Kahn needs someone to teach his warriors how to use Earth's weapons... Kano is the man to do it.";
+  "<p>Kano was thought to have been killed in the first tournament. Instead,"
+  + " he is found alive in the Outworld where he again escapes capture by"
+  + " Sonya. Before the actual Outworld invasion, Kano convinces Kahn to"
+  + " spare his soul. Kahn needs someone to teach his warriors how to use"
+  + " Earth's weapons... Kano is the man to do it.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1093,7 +1171,10 @@ function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Sonya disappears in the first tournament, but is later rescued by Jax. After returning to Earth, she and Jax try to warn the U.S government of the looming Outworld menace. Lacking proof, they watch helplessly as Shao Kahn begins his invasion.";
+  "<p>Sonya disappears in the first tournament, but is later rescued by Jax."
+  + " After returning to Earth, she and Jax try to warn the U.S government"
+  + " of the looming Outworld menace. Lacking proof, they watch helplessly"
+  + " as Shao Kahn begins his invasion.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1128,7 +1209,10 @@ function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "After the Outworld invasion, Liu Kang finds himself the prime target of Kahn's extermination squads. He is the Shaolin Champion and has thwarted Kahn's schemes in the past. Of all the humans, Kang poses the greatest threat to Shao Kahn's rule.";
+  "<p>After the Outworld invasion, Liu Kang finds himself the prime target of"
+  + " Kahn's extermination squads. He is the Shaolin Champion and has thwarted"
+  + " Kahn's schemes in the past. Of all the humans, Kang poses the greatest"
+  + " threat to Shao Kahn's rule.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1163,7 +1247,10 @@ function mk3Stryker() { // MORTAL KOMBAT 3 - STRYKER
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "When the Outworld portal opens over a large city in North America, panic and chaos rage out of control. Kurtis Stryker was the leader of the Riot Control Brigade when Shao Kahn began taking souls. He finds himself the lone survivor of a city once populated by millions.";
+  "<p>When the Outworld portal opens over a large city in North America, panic"
+  + " and chaos rage out of control. Kurtis Stryker was the leader of the Riot"
+  + " Control Brigade when Shao Kahn began taking souls. He finds himself the"
+  + "lone survivor of a city once populated by millions.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1198,7 +1285,11 @@ function mk3SubZero() { // MORTAL KOMBAT 3 - SUB-ZERO
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "The ninja returns- unmasked. Betrayed by his own clan, the Lin Kuei, he broke sacred codes of honor by leaving his clan and is marked for death. But unlike the ninja of old, his pursuers comes as machines. He must not only defend himself against the Outworld menace, but he must also elude his soulless assassins.";
+  "<p>The ninja returns- unmasked. Betrayed by his own clan, the Lin Kuei, he"
+  + " broke sacred codes of honor by leaving his clan and is marked for death."
+  + " But unlike the ninja of old, his pursuers comes as machines. He must not"
+  + " only defend himself against the Outworld menace, but he must also elude"
+  + " his soulless assassins.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1233,7 +1324,11 @@ function mk3Cyrax() { // MORTAL KOMBAT 3 - CYRAX
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Cyrax is unit LK-4D4, The second of three prototype Cybernetic Ninjas built by the Lin Kuei. Like his counterparts, his last program is to find and terminate the rouge ninja Sub-Zero. Without a soul, Cyrax goes undetected by Shao Kahn and remains a possible threat against his occupation of Earth.";
+  "<p>Cyrax is unit LK-4D4, The second of three prototype Cybernetic Ninjas"
+  + " built by the Lin Kuei. Like his counterparts, his last program is to"
+  + " find and terminate the rouge ninja Sub-Zero. Without a soul, Cyrax goes"
+  + " undetected by Shao Kahn and remains a possible threat against his"
+  + " occupation of Earth.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1268,7 +1363,11 @@ function mk3Sektor() { // MORTAL KOMBAT 3 - SEKTOR
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Sektor is actually the code name for unit LK-9T9. He was the first of three prototype cybernetic ninjas built by the Lin Kuei. Sektor was once a human assassin trained by the by the Lin Kuei. He volunteered for automation because of his loyalty to the Outworld invasion because he has no soul to take.";
+  "<p>Sektor is actually the code name for unit LK-9T9. He was the first of"
+  + " three prototype cybernetic ninjas built by the Lin Kuei. Sektor was once"
+  + " a human assassin trained by the by the Lin Kuei. He volunteered for"
+  + " automation because of his loyalty to the Outworld invasion because he has"
+  + " no soul to take.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1303,7 +1402,10 @@ function mk3Nightwolf() { // MORTAL KOMBAT 3 - NIGHTWOLF
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Nightwolf works as a historian and preserver of his peoples culture. When Kahn's portal opens over North America, Nightwolf uses the magic of his Shamen to protect his tribes sacred land. This area becomes a vital threat to Kahn's occupation of Earth.";
+  "<p>Nightwolf works as a historian and preserver of his peoples culture. When"
+  + " Kahn's portal opens over North America, Nightwolf uses the magic of his"
+  + " Shamen to protect his tribes sacred land. This area becomes a vital threat"
+  + " to Kahn's occupation of Earth.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1338,7 +1440,11 @@ function mk3Sheeva() { // MORTAL KOMBAT 3 - SHEEVA
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Sheeva was hand picked by Shao Kahn to serve as Sindel's personal protector. She becomes suspicious of Shao Kahn's loyalty toward her race of Shokan when he places Motaro as the head of his extermination squads. On the Outworld, Motaro's race of Centurions is the natural enemy of the Shokan.";
+  "<p>Sheeva was hand picked by Shao Kahn to serve as Sindel's personal"
+  + " protector. She becomes suspicious of Shao Kahn's loyalty toward her race"
+  + " of Shokan when he places Motaro as the head of his extermination squads."
+  + " On the Outworld, Motaro's race of Centurions is the natural enemy of the"
+  + " Shokan.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1373,7 +1479,10 @@ function mk3KungLao() { // MORTAL KOMBAT 3 - KUNG LAO
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Kung Lao's plan to reform the White Lotus Society comes to a halt when Shao Kahn's invasion takes the Earth by storm. As a chosen warrior, Kung Lao must use his greatest fighting skills to bring down Shao Kahn's reign of terror.";
+  "<p>Kung Lao's plan to reform the White Lotus Society comes to a halt when"
+  + " Shao Kahn's invasion takes the Earth by storm. As a chosen warrior, Kung"
+  + " Lao must use his greatest fighting skills to bring down Shao Kahn's reign"
+  + " of terror.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1408,7 +1517,10 @@ function mk3Kabal() { // MORTAL KOMBAT 3 - KABAL
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "As a chosen warrior, his identity is a mystery to all. It is believed he is a survivor of a attack by Shao Kahn's extermination squads. As a result, he is viciously scarred, kept alive by artificial respirators and a rage for ending Shao Kahn's conquest.";
+  "<p>As a chosen warrior, his identity is a mystery to all. It is believed he"
+  + " is a survivor of a attack by Shao Kahn's extermination squads. As a"
+  + " result, he is viciously scarred, kept alive by artificial respirators and"
+  + " a rage for ending Shao Kahn's conquest.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
@@ -1443,7 +1555,11 @@ function mk3Smoke() { // MORTAL KOMBAT 3 - SMOKE
 
   document.getElementById("displayName").innerHTML = "";  
   document.getElementById("bio").innerHTML = 
-  "Smoke, unit LK-7T2, is the third prototype cyber-ninja built by the Lin Kuei. He tried to escape the automation process with Sub-Zero but was captured. His memories were stripped away, leaving behind an emotionless killer. However, Sub-Zero believes that within this machine is a human soul trying to escape.";
+  "<p>Smoke, unit LK-7T2, is the third prototype cyber-ninja built by the Lin"
+  + " Kuei. He tried to escape the automation process with Sub-Zero but was"
+  + " captured. His memories were stripped away, leaving behind an emotionless"
+  + " killer. However, Sub-Zero believes that within this machine is a human"
+  + " soul trying to escape.</p>";
   document.getElementById("specialMoves").innerHTML = 
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
