@@ -878,7 +878,7 @@ function mk2Scorpion() { // MORTAL KOMBAT 2 - SCORPION
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Scorpion";  
   document.getElementById("bio").innerHTML = 
   "<p>The hell-spawned spectre rises from the pits. After learning of"
   + " Sub-Zero's return, he again stalks the ninja assassin - following"
@@ -923,7 +923,7 @@ function mk2Raiden() { // MORTAL KOMBAT 2 - RAIDEN
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Raiden";  
   document.getElementById("bio").innerHTML = 
   "<p>Watching events unfold from high above, the thunder god realises the"
   + " grim intentions of Shao Kahn. After warning the remaining members of"
@@ -975,7 +975,7 @@ function mk3ShangTsung() { // MORTAL KOMBAT 3 - SHANG TSUNG
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Shang Tsung";  
   document.getElementById("bio").innerHTML = 
   "Tsung is Shao Kahn's lead sorcerer. He once fell out of favor with his"
   + " emperor after failing to win the Earth Realm through tournament battle."
@@ -1055,7 +1055,7 @@ function mk3Sindel() { // MORTAL KOMBAT 3 - SINDEL
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Sindel";  
   document.getElementById("bio").innerHTML = 
   "<p>Sindel once ruled the Outworld at Shao Kahn's side as queen. Now 10,000"
   + " years later after her untimely death, she is reborn on Earth with evil"
@@ -1085,14 +1085,20 @@ function mk3Sindel() { // MORTAL KOMBAT 3 - SINDEL
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>Sindel receives visions of her true past and turns against Shao Kahn. She"
+  + " discovers that her true king was named Jerrod. They once had a daughter"
+  + " named Kitana and ruled a realm called Edenia, before Kahn took it away in"
+  + " their own Mortal Kombat. He uses Sindel as a pawn in his quest for Earth"
+  + " and took Kitana as his own daughter. But in defeating Shao Kahn, Sindel"
+  + " frees the Earth. In doing so, she also liberates Edenia and assures a"
+  + " reunion with her 10,000 year old daughter - Kitana.</p>"; 
 }
 
 function mk3Jax() { // MORTAL KOMBAT 3 - JAX
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Jax";  
   document.getElementById("bio").innerHTML = 
   "<p>After failing to convince his superiors of the coming Outworld invasion,"
   + "Jax prepares to covertly for the future battle with Kahn's minions. He"
@@ -1123,14 +1129,20 @@ function mk3Jax() { // MORTAL KOMBAT 3 - JAX
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>The second time Jax battles the forces of Shao Kahn he comes prepared."
+  + " Thought to be the strongest man on Earth, he has no problem proving it:"
+  + " First by beating Kahn's armies and then by defeating the Emperor himself." 
+  + " When the world reverts back to normal, Jax and Sonya start the Outerworld"
+  + " Investigation Agency. Jax runs the exploratory division which learns to"
+  + " open portals through science rather than magic. He leads the first"
+  + " expedition into a mysterious new realm.</p>"; 
 }
 
 function mk3Kano() { // MORTAL KOMBAT 3 - KANO
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Kano";  
   document.getElementById("bio").innerHTML = 
   "<p>Kano was thought to have been killed in the first tournament. Instead,"
   + " he is found alive in the Outworld where he again escapes capture by"
@@ -1162,14 +1174,21 @@ function mk3Kano() { // MORTAL KOMBAT 3 - KANO
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>When Shao Kahn lets Kano live he fails to realize the resourcefulness"
+  + " of the scheming human. Kano lures Kahn's armies away on a false mission:"
+  + " then nukes them using a stolen weapon. He fights the remaining warriors"
+  + " and finally defeats Kahn himself. Kano's true intention is to take over"
+  + " the souls which Kahn once possessed. But Kano is unable to control the"
+  + " spirits as they escape and attack him. Rumored to have suffered a violent"
+  + " death, Kano was ignorant of the fact that he saved the world he tried to"
+  + " conquer.</p>"; 
 }
 
 function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Sonya Blade";  
   document.getElementById("bio").innerHTML = 
   "<p>Sonya disappears in the first tournament, but is later rescued by Jax."
   + " After returning to Earth, she and Jax try to warn the U.S government"
@@ -1200,14 +1219,19 @@ function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>Sonya defeats her arch-enemy Kano high atop a skyscraper near Shao Kahn's"
+  + " fortress. She then comes face to face with the emperor himself. In an"
+  + " incredible display of courage, Sonya wins. When the world returns to its"
+  + " normal state, Sonya has no trouble convincing her superiors to form the"
+  + " Outerworld Investigation Agency, devoted to protecting the Earth against"
+  + " possible future invasions from other realms.</p>"; 
 }
 
 function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Liu Kang";  
   document.getElementById("bio").innerHTML = 
   "<p>After the Outworld invasion, Liu Kang finds himself the prime target of"
   + " Kahn's extermination squads. He is the Shaolin Champion and has thwarted"
@@ -1238,14 +1262,20 @@ function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>After thwarting Shao Kahn in the past, Liu Kang finds himself the prime"
+  + " target of Shao Kahn's extermination squads. But Kang is the reigning Mortal"
+  + " Kombat champion and proves it by easily defeating Kahn's minions. But it's"
+  + " the apparent death of his friend Kung Lao that enrages Kang and enables him"
+  + " to find the strength to defeat Shao Kahn. Then, before the portal closes,"
+  + " Liu Kang is greeted by Princess Kitana and thanked for saving the Earth and"
+  + " the Outworld.</p>"; 
 }
 
 function mk3Stryker() { // MORTAL KOMBAT 3 - STRYKER
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Stryker";  
   document.getElementById("bio").innerHTML = 
   "<p>When the Outworld portal opens over a large city in North America, panic"
   + " and chaos rage out of control. Kurtis Stryker was the leader of the Riot"
@@ -1276,14 +1306,20 @@ function mk3Stryker() { // MORTAL KOMBAT 3 - STRYKER
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>Ignorant of why his soul was spared from the Outworld invasion, Stryker"
+  + " receives a vision from Raiden. He is instructed to travel west. He"
+  + " eventually meets the rest of Earth's warriors and learns the true meaning"
+  + " of his survival. He travels back to the city he swore to protect. Kahn is"
+  + " unfamiliar with this new kombatant and is caught off guard. Stryker"
+  + " defeats the warlord and saves the entire planet. The chaos that consumed"
+  + " the city in the hours before the invasion are gone.</p>"; 
 }
 
 function mk3SubZero() { // MORTAL KOMBAT 3 - SUB-ZERO
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Sub-Zero";  
   document.getElementById("bio").innerHTML = 
   "<p>The ninja returns- unmasked. Betrayed by his own clan, the Lin Kuei, he"
   + " broke sacred codes of honor by leaving his clan and is marked for death."
@@ -1315,14 +1351,20 @@ function mk3SubZero() { // MORTAL KOMBAT 3 - SUB-ZERO
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>In vicious battle, Sub-Zero faces Cyrax and Sektor: but not alone. He"
+  + " finds his third Lin Kuei assassin - the elusive Smoke. Before automation,"
+  + " Smoke and Sub-Zero were allies. Sub-Zero helps Smoke recall his past and" 
+  + " gains him as an ally once again. Sub-Zero defeats his cyborg assassins with"
+  + " the help of Smoke and finds it takes all of his own inner strengths to"
+  + " defeat Kahn and his Outworld minions. The former ninja once again disappears"
+  + " into the shadows, his legacy known only by a select few.</p>"; 
 }
 
 function mk3Cyrax() { // MORTAL KOMBAT 3 - CYRAX
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Cyrax";  
   document.getElementById("bio").innerHTML = 
   "<p>Cyrax is unit LK-4D4, The second of three prototype Cybernetic Ninjas"
   + " built by the Lin Kuei. Like his counterparts, his last program is to"
@@ -1354,14 +1396,19 @@ function mk3Cyrax() { // MORTAL KOMBAT 3 - CYRAX
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>Cyrax is captured by Sub-Zero and reprogrammed with new orders: to destroy"
+  + " Shao Kahn. With Kahn unable to detect his assassin's souless presence,"
+  + " Cyrax delivers a successful sneak attack. However, after eliminating Kahn"
+  + " and saving Earth, Cyrax awaits new orders from his Lin Kuei headquarters."
+  + " The orders never come and Cyrax malfunctions. He ends up stranded in the"
+  + " middle of a vast desert, blindly heading toward his base.</p>"; 
 }
 
 function mk3Sektor() { // MORTAL KOMBAT 3 - SEKTOR
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Sektor";  
   document.getElementById("bio").innerHTML = 
   "<p>Sektor is actually the code name for unit LK-9T9. He was the first of"
   + " three prototype cybernetic ninjas built by the Lin Kuei. Sektor was once"
@@ -1393,14 +1440,19 @@ function mk3Sektor() { // MORTAL KOMBAT 3 - SEKTOR
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>After eventually terminating Sub-Zero, Sektor is attacked by Shao Kahn's"
+  + " army. Unfamiliar with the Outworld warriors, Sektor fights back. He targets"
+  + " Kahn and all Outworld beings as threats to the Lin Kuei. Kahn's minions are"
+  + " no match for Sektor, who fights his way into the fortress. Once inside,"
+  + " Sektor initiates his self-destruct sequence. The resulting explosion is so"
+  + " massive that it closes the portal and returns Earth back to normal.</p>"; 
 }
 
 function mk3Nightwolf() { // MORTAL KOMBAT 3 - NIGHTWOLF
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Nightwolf";  
   document.getElementById("bio").innerHTML = 
   "<p>Nightwolf works as a historian and preserver of his peoples culture. When"
   + " Kahn's portal opens over North America, Nightwolf uses the magic of his"
@@ -1431,14 +1483,20 @@ function mk3Nightwolf() { // MORTAL KOMBAT 3 - NIGHTWOLF
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>Nightwolf helps the other Earth warriors escape to his sacred land. Once"
+  + " there, they regroup and plan a form of attack against Shao Kahn's"
+  + " invasion. Nightwolf has trained hard for this battle. Finally, he faces"
+  + " Shao Kahn and emerges victorious. When the Earth returns to its normal"
+  + " state, Nightwolf peacefully regains his land his Native-American people"
+  + " lost over many years. They establish their own proud nation and soon"
+  + " become the great leaders of Earth.</p>"; 
 }
 
 function mk3Sheeva() { // MORTAL KOMBAT 3 - SHEEVA
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Sheeva";  
   document.getElementById("bio").innerHTML = 
   "<p>Sheeva was hand picked by Shao Kahn to serve as Sindel's personal"
   + " protector. She becomes suspicious of Shao Kahn's loyalty toward her race"
@@ -1470,14 +1528,19 @@ function mk3Sheeva() { // MORTAL KOMBAT 3 - SHEEVA
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>While Sheeva serves her master on Earth, her race of Shokan are being"
+  + " punished on the Outworld. Kahn now favors Motaro's race of centaurs and"
+  + " aids them in defeating the Shokan. After learning of these events, Sheeva"
+  + " turns on her master. She defeats Motaro and in a rage brings down Kahn."
+  + " In freeing the Earth, she also frees the Outworld. She then returns home"
+  + " and works to restore the pride and respect of her race.</p>"; 
 }
 
 function mk3KungLao() { // MORTAL KOMBAT 3 - KUNG LAO
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Kung Lao";  
   document.getElementById("bio").innerHTML = 
   "<p>Kung Lao's plan to reform the White Lotus Society comes to a halt when"
   + " Shao Kahn's invasion takes the Earth by storm. As a chosen warrior, Kung"
@@ -1508,14 +1571,20 @@ function mk3KungLao() { // MORTAL KOMBAT 3 - KUNG LAO
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>When Shao Kahn invades Earth, Kung Lao must scrap his plans of reuniting the"
+  + " White Lotus Society. He instead must focus on the new tournament. He seeks"
+  + " Liu Kang and together they battle Kahn's forces fearlessly. Using the"
+  + " knowledge he obtained as a Shaolin monk he fights in the name of his great"
+  + " ancestor - the original Kung Lao. He emerges victorious but suffers from"
+  + " injuries during battle with Kahn. Believed to have passed away, Kung Lao"
+  + " joins his ancestors in a new life.</p>"; 
 }
 
 function mk3Kabal() { // MORTAL KOMBAT 3 - KABAL
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Kabal";  
   document.getElementById("bio").innerHTML = 
   "<p>As a chosen warrior, his identity is a mystery to all. It is believed he"
   + " is a survivor of a attack by Shao Kahn's extermination squads. As a"
@@ -1546,14 +1615,19 @@ function mk3Kabal() { // MORTAL KOMBAT 3 - KABAL
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>After returning from near death, Kabal swears revenge against his attackers."
+  + " He fights alongside the other Earth warriors. When he defeats Motaro and"
+  + " the mighty Shao Kahn he proves that he truly is the chosen one. Before the"
+  + " invasion, Kabal lived a life of crime. He was once a member of the Black"
+  + " Dragon along with Kano. Now Kabal devotes his life to fighting injustice."
+  + " He will give crime's inner circles a new reason to fear.</p>"; 
 }
 
 function mk3Smoke() { // MORTAL KOMBAT 3 - SMOKE
   hideEnding();
   clearAllButMoves();
 
-  document.getElementById("displayName").innerHTML = "";  
+  document.getElementById("displayName").innerHTML = "Smoke";  
   document.getElementById("bio").innerHTML = 
   "<p>Smoke, unit LK-7T2, is the third prototype cyber-ninja built by the Lin"
   + " Kuei. He tried to escape the automation process with Sub-Zero but was"
@@ -1585,7 +1659,13 @@ function mk3Smoke() { // MORTAL KOMBAT 3 - SMOKE
   + "<div class='moveName'>Stage:</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
-  "Ending"; 
+  "<p>Smoke was once a friend and ally of Sub-Zero when they both tried to escape"
+  + " from being turned into machines by their ninja clan. But Smoke is captured"
+  + " and transformed into a cyborg with a mission to find and kill his own"
+  + " partner. But Smoke soon finds himself being persued by Shao Khan's minions."
+  + " He learns he still has a soul and his true mission is the destruction of"
+  + " the Outworld invaders. He defeats Kahn and saves the world, but is forever"
+  + " trapped in his artificial body.</p>"; 
 }
 
 function showEnding() {
