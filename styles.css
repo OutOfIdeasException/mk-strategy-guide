@@ -201,73 +201,73 @@ color: yellow;
   column-gap: auto;
 }
 
-#mk2LiuKang {
+#mk2LiuKang { /* MK2 - LIU KANG */
   background-image: url("images/mk2/liukang.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk2KungLao {
+#mk2KungLao { /* MK2 - KUNG LAO */
   background-image: url("images/mk2/kunglao.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk2JohnnyCage {
+#mk2JohnnyCage { /* MK2 - JOHNNY CAGE */
   background-image: url("images/mk2/johnnycage.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#mk2Reptile {
+#mk2Reptile { /* MK2 - REPTILE */
   background-image: url("images/mk2/reptile.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#mk2SubZero {
+#mk2SubZero { /* MK2 - SUB-ZERO */
   background-image: url("images/mk2/subzero.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#mk2Kitana {
+#mk2Kitana { /* MK2 - KITANA */
   background-image: url("images/mk2/kitana.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk2ShangTsung {
+#mk2ShangTsung { /* MK2 - SHANG TSUNG */
   background-image: url("images/mk2/shangtsung.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk2Jax {
+#mk2Jax { /* MK2 - JAX */
   background-image: url("images/mk2/jax.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#mk2Mileena {
+#mk2Mileena { /* MK2 - MILEENA */
   background-image: url("images/mk2/mileena.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk2Baraka {
+#mk2Baraka { /* MK2 - BARAKA */
   background-image: url("images/mk2/baraka.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#mk2Scorpion {
+#mk2Scorpion { /* MK2 - SCORPION */
   background-image: url("images/mk2/scorpion.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk2Raiden {
+#mk2Raiden { /* MK2 - RAIDEN */
   background-image: url("images/mk2/raiden.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,61 +292,61 @@ color: yellow;
   column-gap: auto;
 }
 
-#mk3ShangTsung {
+#mk3ShangTsung { /* MK3 - SHANG TSUNG */
   background-image: url("images/mk3/shangtsung.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3Sindel {
+#mk3Sindel { /* MK3 - SINDEL */
   background-image: url("images/mk3/sindel.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3Jax {
+#mk3Jax { /* MK3 - JAX */
   background-image: url("images/mk3/jax.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3Kano {
+#mk3Kano { /* MK3 - KANO */
   background-image: url("images/mk3/kano.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3LiuKang {
+#mk3LiuKang { /* MK3 - LIU KANG */
   background-image: url("images/mk3/liukang.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3SonyaBlade {
+#mk3SonyaBlade { /* MK3 - SONYA BLADE */
   background-image: url("images/mk3/sonyablade.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3Stryker {
+#mk3Stryker { /* MK3 - STRYKER */
   background-image: url("images/mk3/stryker.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3SubZero {
+#mk3SubZero { /* MK3 SUB-ZERO */
   background-image: url("images/mk3/subzero.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3Cyrax {
+#mk3Cyrax { /* MK3 - CYRAX */
   background-image: url("images/mk3/cyrax.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3Sektor {
+#mk3Sektor { /* MK3 - SEKTOR */
   background-image: url("images/mk3/sektor.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -358,25 +358,25 @@ color: yellow;
   background-size: cover;
 }
 
-#mk3Sheeva {
+#mk3Sheeva { /* MK3 - SHEEVA */
   background-image: url("images/mk3/sheeva.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3KungLao {
+#mk3KungLao { /* MK3 - KUNG LAO */
   background-image: url("images/mk3/kunglao.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3Kabal {
+#mk3Kabal { /* MK3 - KABAL */
   background-image: url("images/mk3/kabal.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#mk3Smoke {
+#mk3Smoke { /* MK3 SMOKE */
   background-image: url("images/mk3/smoke.png");
   background-repeat: no-repeat;
   background-size: cover;
