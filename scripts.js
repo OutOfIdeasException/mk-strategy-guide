@@ -1040,7 +1040,7 @@ function mk3ShangTsung() { // MORTAL KOMBAT 3 - SHANG TSUNG
   + "<div class='moveName'>Babality</div> <br>"
   + "Run, Run, Run, Low Kick <br><br>" 
   + "<div class='moveName'>Stage</div> <br>"
-  + "Up, Up, Back, Low Punch <br><br>";
+  + "Up, Up, Back, Low Punch";
   document.getElementById("ending").innerHTML = 
   "<p>When Shao Kahn overtakes the Earth, he needs Shang Tsung to help locate"
   + " the surviving humans.Granted new powers, Tsung soon discovers his dark"
@@ -1061,29 +1061,42 @@ function mk3Sindel() { // MORTAL KOMBAT 3 - SINDEL
   + " years later after her untimely death, she is reborn on Earth with evil"
   + " intentions. Sindel is the key to Kahn's occupation of Earth.";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>MOVE</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
+  "<div class='moveName'>Fireball</div> <br>"
+  + "Forward, Forward, Low Punch<br><br>" 
+  + "<div class='moveName'>Air Fireball</div> <br>" 
+  + "Down, Forward, Low Kick <i>(In Air)</i> <br><br>" 
+  + "<div class='moveName'>Sonic Scream</div> <br>" 
+  + "Forward, Forward, Forward, High Punch <br><br>" 
+  + "<div class='moveName'>Levitate</div> <br>" 
+  + "Back, Back, Forward, High Kick<br>"
+  + "<i>Press Block to Land</i><br><br>" 
+  + "<h3>Combos</h3>" /* Sindel's Combos */
+  + "<div class='moveName'>3 Hits</div> <br>" 
+  + "High Punch, High Punch, Down + High Punch <br><br>" 
+  + "<div class='moveName'>4 Hits</div> <br>" 
+  + "High Punch, High Punch, High Punch, Down + High Punch <br><br>" 
+  + "<div class='moveName'>5 Hits</div> <br>" 
+  + "High Punch, High Punch, High Punch, Low Punch, High Kick <br><br>"
+  + "<div class='moveName'>4 Hits</div> <br>" 
+  + "High Punch, High Punch, Low Punch, High Kick <br><br>" 
+  + "<div class='moveName'>3 Hits</div> <br>" 
+  + "High Kick, High Kick, Back + High Kick" 
   document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>FATALITY:</div> <br>"
-  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
-  + "<div class='moveName'>FATALITY:</div> <br>"
-  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
-  + "<div class='moveName'>Animality:</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Friendship:</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Babality:</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Stage:</div> <br>"
-  + "BUTTONENTRY <br><br>" ;
+  "<div class='moveName'>FATALITY: Hair Spin</div> <br>"
+  + "Run, Run, Block, Run, Block <div class='distance'>(Sweep)</div>"
+  + "<br><br>"
+  + "<div class='moveName'>FATALITY: Super Sonic Scream</div> <br>"
+  + "Run, Block, Block, Run + Block <div class='distance'>(Close)</div>"
+  + "<br><br>"
+  + "<div class='moveName'>Animality</div> <br>"
+  + "Forward, Forward, Up, High Punch <div class='distance'>(Close)</div>"
+  + "<br><br>" 
+  + "<div class='moveName'>Friendship</div> <br>"
+  + "Run, Run, Run, Run, Run, Up <br><br>" 
+  + "<div class='moveName'>Babality</div> <br>"
+  + "Run, Run, Run, Up <br><br>" 
+  + "<div class='moveName'>Stage</div> <br>"
+  + "Down, Down, Down, Low Punch";
   document.getElementById("ending").innerHTML = 
   "<p>Sindel receives visions of her true past and turns against Shao Kahn. She"
   + " discovers that her true king was named Jerrod. They once had a daughter"
@@ -1105,29 +1118,45 @@ function mk3Jax() { // MORTAL KOMBAT 3 - JAX
   + " fits both arms with indestructible bionic implants. This is a war Jax is"
   + " prepared to win.</p>";
   document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>MOVE</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
+  "<div class='moveName'>Missle</div> <br>"
+  + "Back, Forward, High Punch <br><br>" 
+  + "<div class='moveName'>Double Missil</div> <br>" 
+  + "Forward, Forward, Back, Back, High Punch <br><br>" 
+  + "<div class='moveName'>Gotcha Grab</div> <br>" 
+  + "Forward, Forward, Low Punch <br>"
+  + "<i>Keep Pressing Low Punch to Add Punches</i><br><br>" 
+  + "<div class='moveName'>Dash Punch</div> <br>" 
+  + "Forward, Forward, Low Kick <br><br>" 
+  + "<div class='moveName'>Ground Pound</div> <br>" 
+  + "<i>(Hold Low Punch)</i> 3 Seconds <i>(Release Low Punch)</i><br><br>" 
+  + "<div class='moveName'>Body Slam</div> <br>" 
+  + "Throw, then tap High Punch repeatedly to add Slams <br><br>" 
+  + "<div class='moveName'>Back Breaker</div> <br>" 
+  + "Block <i>(While in air near opponent)</i> <br><br>" 
+  + "<h3>Combos</h3>" /* Jax's Combos */
+  + "<div class='moveName'>3 Hits</div> <br>" 
+  + "High Kick, High Kick, Back + High Kick <br><br>" 
+  + "<div class='moveName'>5 Hits</div> <br>" 
+  + "High Punch, High Punch, Block, Low Punch, Back + High Punch <br><br>" 
+  + "<div class='moveName'>7 Hits</div> <br>" 
+  + "High Kick, High Kick, Down + High Punch, High Punch, Block, Low Punch,"
+  + " Back + High Punch <br><br>";
   document.getElementById("finishingMoves").innerHTML = 
   "<div class='moveName'>FATALITY:</div> <br>"
-  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<i>(Hold Block)</i> Up, Down, Forward, Up <i>(Release Block)</i>"
+  + "<div class='distance'> (Close)</div><br><br>"
   + "<div class='moveName'>FATALITY:</div> <br>"
-  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
-  + "<div class='moveName'>Animality:</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Friendship:</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Babality:</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Stage:</div> <br>"
-  + "BUTTONENTRY <br><br>" ;
+  + "Run, Block, Run, Run, Low Kick" 
+  + "<div class='distance'> (Full Screen)</div><br><br>"
+  + "<div class='moveName'>Animality</div> <br>"
+  + "<i>(Hold Low Punch)</i> Forward, Forward, Down, Forward <i>(Release Low" 
+  + " Punch)</i> <div class='distance'>(Close)</div><br><br>" 
+  + "<div class='moveName'>Friendship</div> <br>"
+  + "Low Kick, Run, Run, Low Kick <br><br>" 
+  + "<div class='moveName'>Babality</div> <br>"
+  + "Down, Down, Down, Low Kick <br><br>" 
+  + "<div class='moveName'>Stage</div> <br>"
+  + "Down, Forward, Down, Low Punch <br><br>";
   document.getElementById("ending").innerHTML = 
   "<p>The second time Jax battles the forces of Shao Kahn he comes prepared."
   + " Thought to be the strongest man on Earth, he has no problem proving it:"
@@ -1150,6 +1179,19 @@ function mk3Kano() { // MORTAL KOMBAT 3 - KANO
   + " spare his soul. Kahn needs someone to teach his warriors how to use"
   + " Earth's weapons... Kano is the man to do it.</p>";
   document.getElementById("specialMoves").innerHTML = 
+  /*
+Knife Throw: D, B, HP
+Knife Uppercut: D, F, HP
+Roll: Hold LK for 3 seconds, then release
+Strangle Grab: D, F, LP
+Air Throw: BL (in air)
+HP, HP, D + LP, D + HP (22%)
+HP, HP, B + LP (18%)
+HP, HP, HK, LK, B + HK (26%)
+LK, LP (15%)
+LK, D + LP, D + HP (19%)
+HK, HK, LK, B + HK (23%)
+  */
   "<div class='moveName'>MOVE</div> <br>"
   + "BUTTONENTRY <br><br>" 
   + "<div class='moveName'>MOVE</div> <br>" 
@@ -1161,6 +1203,14 @@ function mk3Kano() { // MORTAL KOMBAT 3 - KANO
   + "<div class='moveName'>MOVE</div> <br>" 
   + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
+/*
+Fatality 1: Hold LP, F, D, D, F, release LP (close)
+Fatality 2: LP, BL, BL, HK (sweep)
+Animality: Hold HP, BL, BL, BL, release HP (close)
+Babality: F, F, D, D, LK
+Friendship: LK, R, R, HK (outside sweep)
+Stage: Up, Up, B, LK
+*/
   "<div class='moveName'>FATALITY:</div> <br>"
   + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
   + "<div class='moveName'>FATALITY:</div> <br>"
@@ -1182,6 +1232,68 @@ function mk3Kano() { // MORTAL KOMBAT 3 - KANO
   + " spirits as they escape and attack him. Rumored to have suffered a violent"
   + " death, Kano was ignorant of the fact that he saved the world he tried to"
   + " conquer.</p>"; 
+}
+
+function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
+  hideEnding();
+  clearAllButMoves();
+
+  document.getElementById("displayName").innerHTML = "Liu Kang";  
+  document.getElementById("bio").innerHTML = 
+  "<p>After the Outworld invasion, Liu Kang finds himself the prime target of"
+  + " Kahn's extermination squads. He is the Shaolin Champion and has thwarted"
+  + " Kahn's schemes in the past. Of all the humans, Kang poses the greatest"
+  + " threat to Shao Kahn's rule.</p>";
+  document.getElementById("specialMoves").innerHTML = 
+  /*
+High Fireball: F, F, HP - can be done in air too
+Low Fireball: F, F, LP
+Flying Kick: F, F, HK
+Bicycle Kick: Hold LK for 3 seconds, then release
+LK, LK, HK, LK (25%)
+HP, LK, LK, HK, B+ HK (28%)
+HP, HP, BL, LK, LK, HK, B + LK (36%)
+Jump Kick, High Fireball, Flying Kick (28%)
+  */
+  "<div class='moveName'>MOVE</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>MOVE</div> <br>" 
+  + "BUTTONENTRY <br><br>" 
+  document.getElementById("finishingMoves").innerHTML = 
+  /*
+Fatality 1: F, F, D, D, LK
+Fatality 2: hold BL, Up, D, Up, Up, release BL, BL + R
+Animality: D, D, Up (sweep)
+Babality: D, D, D, HK
+Friendship: R, R, R, D + R
+Stage: R, BL, BL, LK
+  */
+  "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>FATALITY:</div> <br>"
+  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<div class='moveName'>Animality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Friendship:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Babality:</div> <br>"
+  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>Stage:</div> <br>"
+  + "BUTTONENTRY <br><br>" ;
+  document.getElementById("ending").innerHTML = 
+  "<p>After thwarting Shao Kahn in the past, Liu Kang finds himself the prime"
+  + " target of Shao Kahn's extermination squads. But Kang is the reigning Mortal"
+  + " Kombat champion and proves it by easily defeating Kahn's minions. But it's"
+  + " the apparent death of his friend Kung Lao that enrages Kang and enables him"
+  + " to find the strength to defeat Shao Kahn. Then, before the portal closes,"
+  + " Liu Kang is greeted by Princess Kitana and thanked for saving the Earth and"
+  + " the Outworld.</p>"; 
 }
 
 function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
@@ -1225,50 +1337,6 @@ function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
   + " normal state, Sonya has no trouble convincing her superiors to form the"
   + " Outerworld Investigation Agency, devoted to protecting the Earth against"
   + " possible future invasions from other realms.</p>"; 
-}
-
-function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
-  hideEnding();
-  clearAllButMoves();
-
-  document.getElementById("displayName").innerHTML = "Liu Kang";  
-  document.getElementById("bio").innerHTML = 
-  "<p>After the Outworld invasion, Liu Kang finds himself the prime target of"
-  + " Kahn's extermination squads. He is the Shaolin Champion and has thwarted"
-  + " Kahn's schemes in the past. Of all the humans, Kang poses the greatest"
-  + " threat to Shao Kahn's rule.</p>";
-  document.getElementById("specialMoves").innerHTML = 
-  "<div class='moveName'>MOVE</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  document.getElementById("finishingMoves").innerHTML = 
-  "<div class='moveName'>FATALITY:</div> <br>"
-  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
-  + "<div class='moveName'>FATALITY:</div> <br>"
-  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
-  + "<div class='moveName'>Animality:</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Friendship:</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Babality:</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Stage:</div> <br>"
-  + "BUTTONENTRY <br><br>" ;
-  document.getElementById("ending").innerHTML = 
-  "<p>After thwarting Shao Kahn in the past, Liu Kang finds himself the prime"
-  + " target of Shao Kahn's extermination squads. But Kang is the reigning Mortal"
-  + " Kombat champion and proves it by easily defeating Kahn's minions. But it's"
-  + " the apparent death of his friend Kung Lao that enrages Kang and enables him"
-  + " to find the strength to defeat Shao Kahn. Then, before the portal closes,"
-  + " Liu Kang is greeted by Princess Kitana and thanked for saving the Earth and"
-  + " the Outworld.</p>"; 
 }
 
 function mk3Stryker() { // MORTAL KOMBAT 3 - STRYKER
