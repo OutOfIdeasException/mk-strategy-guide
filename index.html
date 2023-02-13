@@ -10,6 +10,12 @@
  
     <header>
       <h1>Mortal Kombat Interactive Strategy Guide</h1>
+      <div id="sound">
+        <button id="soundOn" onClick="soundOn()">On</button>
+        Sound
+        <button id="soundOff" onClick="soundOff()">Off</button>
+      </div>
+      
       <!-- Title and Game Selection Buttons -->
       <div id="mainMenu">
         <button class="menuButton" onClick="displayMK1()">Mortal Kombat</button>
@@ -112,6 +118,33 @@
       </div>
     </div>
     </main>
+
+    <!-- Audio Sources -->
+    <audio id = "audioEnabled">
+        <source src="audio/mk1/excellent.mp3" type="audio/mpeg">
+    </audio>
+    <audio id = "johnnycage1">
+        <source src="audio/mk1/johnnycage.mp3" type="audio/mpeg">
+    </audio>
+    <audio id = "kano1">
+        <source src="audio/mk1/kano.mp3" type="audio/mpeg">
+    </audio>
+    <audio id = "subzero1">
+        <source src="audio/mk1/subzero.mp3" type="audio/mpeg">
+    </audio>
+    <audio id = "sonyablade1">
+        <source src="audio/mk1/sonyablade.mp3" type="audio/mpeg">
+    </audio>
+    <audio id = "raiden1">
+        <source src="audio/mk1/raiden.mp3" type="audio/mpeg">
+    </audio>
+    <audio id = "liukang1">
+        <source src="audio/mk1/liukang.mp3" type="audio/mpeg">
+    </audio>
+    <audio id = "scorpion1">
+        <source src="audio/mk1/scorpion.mp3" type="audio/mpeg">
+    </audio>
+
     <script src="scripts.js"></script>
   </body>
 </html>

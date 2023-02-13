@@ -1,4 +1,25 @@
 var gameSelected = 1;
+var sound = 1;
+
+/* 
+  AUDIO FUNCTIONS
+  - Will be used to acknowledge specific actions 
+  - Will be called in later functions depending on whether
+    or not the user has Audio enabled  
+*/
+
+function soundOn() {
+  sound = 1;
+  var audioEnabled = document.getElementById("audioEnabled");
+  audioEnabled.play();
+  console.log (sound)
+}
+
+function soundOff() {
+  sound = 0;
+  console.log (sound)
+}
+
 /*
   SELECTION MANAGEMENT FUNCTIONS
   - Used to show and hide specific elements
@@ -217,6 +238,11 @@ function mk1JohnnyCage() { // MORTAL KOMBAT 1 - JOHNNY CAGE
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var johnnycage1 = document.getElementById("johnnycage1");
+    johnnycage1.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Johnny Cage"; 
   document.getElementById("characterStance").src = "images/mk1/johnnycage.gif";
   document.getElementById("bio").innerHTML = 
@@ -245,6 +271,11 @@ function mk1JohnnyCage() { // MORTAL KOMBAT 1 - JOHNNY CAGE
 function mk1Kano() { // MORTAL KOMBAT 1 - KANO
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var kano1 = document.getElementById("kano1");
+    kano1.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Kano"; 
     document.getElementById("characterStance").src = "images/mk1/kano.gif";
@@ -275,6 +306,11 @@ function mk1Kano() { // MORTAL KOMBAT 1 - KANO
 function mk1SubZero() { // MORTAL KOMBAT 1 - SUB ZERO
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var subzero1 = document.getElementById("subzero1");
+    subzero1.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Sub-Zero"; 
   document.getElementById("characterStance").src = "images/mk1/subzero.gif";
@@ -307,6 +343,11 @@ function mk1SonyaBlade() { // MORTAL KOMBAT 1 - SONYA BLADE
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var sonyablade1 = document.getElementById("sonyablade1");
+    sonyablade1.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Sonya Blade"; 
   document.getElementById("characterStance").src = "images/mk1/sonyablade.gif";
   document.getElementById("bio").innerHTML = 
@@ -335,6 +376,11 @@ function mk1SonyaBlade() { // MORTAL KOMBAT 1 - SONYA BLADE
 function mk1Raiden() { // MORTAL KOMBAT 1 - RAIDEN
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var raiden1 = document.getElementById("raiden1");
+    raiden1.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Raiden"; 
   document.getElementById("characterStance").src = "images/mk1/raiden.gif";
@@ -365,6 +411,11 @@ function mk1LiuKang() { // MORTAL KOMBAT 1 - LIU KANG
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var liukang1 = document.getElementById("liukang1");
+    liukang1.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Liu Kang"; 
   document.getElementById("characterStance").src = "images/mk1/liukang.gif";
   document.getElementById("bio").innerHTML = 
@@ -392,6 +443,11 @@ function mk1LiuKang() { // MORTAL KOMBAT 1 - LIU KANG
 function mk1Scorpion() { // MORTAL KOMBAT 1 - SCORPION
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var scorpion1 = document.getElementById("scorpion1");
+    scorpion1.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Scorpion"; 
   document.getElementById("characterStance").src = "images/mk1/scorpion.gif";

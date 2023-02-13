@@ -29,6 +29,20 @@
   -webkit-text-stroke-color: black;
  }
 
+ #sound {
+  text-align: center;
+ }
+
+ #soundOn {
+  background-color: green; 
+ }
+
+ #soundOff {
+  background-color: red; 
+ }
+
+ 
+
  /* MENU STYLES */
 
  #mainMenu {
