@@ -11,13 +11,15 @@ var sound = 1;
 function soundOn() {
   sound = 1;
   var audioEnabled = document.getElementById("audioEnabled");
+  document.getElementById("soundOn").disabled = true;
+  document.getElementById("soundOff").disabled = false;
   audioEnabled.play();
-  console.log (sound)
 }
 
 function soundOff() {
   sound = 0;
-  console.log (sound)
+  document.getElementById("soundOn").disabled = false;
+  document.getElementById("soundOff").disabled = true;
 }
 
 /*
