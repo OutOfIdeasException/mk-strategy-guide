@@ -483,6 +483,11 @@ MORTAL KOMBAT 2 CHARACTER SELECT AREA
 function mk2LiuKang() { // MORTAL KOMBAT 2 - LIU KANG
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var liukang2 = document.getElementById("liukang2");
+    liukang2.play();
+  }
   
   document.getElementById("displayName").innerHTML = "Liu Kang";
   document.getElementById("characterStance").src = "images/mk2/liukang.gif";
@@ -527,6 +532,11 @@ function mk2LiuKang() { // MORTAL KOMBAT 2 - LIU KANG
 function mk2KungLao() { // MORTAL KOMBAT 2 - KUNG LAO
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var kunglao2 = document.getElementById("kunglao2");
+    kunglao2.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Kung Lao"; 
   document.getElementById("characterStance").src = "images/mk2/kunglao.gif";
@@ -575,6 +585,11 @@ function mk2JohnnyCage() { // MORTAL KOMBAT 2 - JOHNNY CAGE
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var johnnycage2 = document.getElementById("johnnycage2");
+    johnnycage2.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Johnny Cage"; 
   document.getElementById("characterStance").src = "images/mk2/johnnycage.gif";
   document.getElementById("bio").innerHTML = 
@@ -621,6 +636,11 @@ function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var reptile2 = document.getElementById("reptile2");
+    reptile2.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Reptile";  
   document.getElementById("characterStance").src = "images/mk2/reptile.gif";
   document.getElementById("bio").innerHTML = 
@@ -663,6 +683,11 @@ function mk2Reptile() { // MORTAL KOMBAT 2 - REPTILE
 function mk2SubZero() { // MORTAL KOMBAT 2 - SUB ZERO 
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var subzero2 = document.getElementById("subzero2");
+    subzero2.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Sub Zero"; 
   document.getElementById("characterStance").src = "images/mk2/subzero.gif"; 
@@ -707,6 +732,11 @@ function mk2SubZero() { // MORTAL KOMBAT 2 - SUB ZERO
 function mk2ShangTsung() { // MORTAL KOMBAT 2 - SHANG TSUNG
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var shangtsung2 = document.getElementById("shangtsung2");
+    shangtsung2.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Shang Tsung"; 
   document.getElementById("characterStance").src = "images/mk2/shangtsung.gif"; 
@@ -776,6 +806,11 @@ function mk2Kitana() { // MORTAL KOMBAT 2 - KITANA
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var kitana2 = document.getElementById("kitana2");
+    kitana2.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Kitana";
   document.getElementById("characterStance").src = "images/mk2/kitana.gif"; 
   document.getElementById("bio").innerHTML = 
@@ -818,6 +853,11 @@ function mk2Kitana() { // MORTAL KOMBAT 2 - KITANA
 function mk2Jax() { // MORTAL KOMBAT 2 - JAX
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var jax2 = document.getElementById("jax2");
+    jax2.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Jax";  
   document.getElementById("characterStance").src = "images/mk2/jax.gif";
@@ -866,6 +906,11 @@ function mk2Mileena() { // MORTAL KOMBAT 2 - MILEENA
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var mileena2 = document.getElementById("mileena2");
+    mileena2.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Mileena";  
   document.getElementById("characterStance").src = "images/mk2/mileena.gif";
   document.getElementById("bio").innerHTML = 
@@ -906,6 +951,11 @@ function mk2Mileena() { // MORTAL KOMBAT 2 - MILEENA
 function mk2Baraka() { // MORTAL KOMBAT 2 - BARAKA
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var baraka2 = document.getElementById("baraka2");
+    baraka2.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Baraka";  
   document.getElementById("characterStance").src = "images/mk2/baraka.gif";
@@ -950,6 +1000,11 @@ function mk2Baraka() { // MORTAL KOMBAT 2 - BARAKA
 function mk2Scorpion() { // MORTAL KOMBAT 2 - SCORPION
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var scorpion2 = document.getElementById("scorpion2");
+    scorpion2.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Scorpion";  
   document.getElementById("characterStance").src = "images/mk2/scorpion.gif";
@@ -996,6 +1051,11 @@ function mk2Scorpion() { // MORTAL KOMBAT 2 - SCORPION
 function mk2Raiden() { // MORTAL KOMBAT 2 - RAIDEN
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var raiden2 = document.getElementById("raiden2");
+    raiden2.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Raiden";  
   document.getElementById("characterStance").src = "images/mk2/raiden.gif";
@@ -1049,6 +1109,11 @@ MORTAL KOMBAT 3 CHARACTER SELECT AREA
 function mk3ShangTsung() { // MORTAL KOMBAT 3 - SHANG TSUNG
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var shangtsung3 = document.getElementById("shangtsung3");
+    shangtsung3.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Shang Tsung";  
   document.getElementById("characterStance").src = "images/mk3/shangtsung.gif";
@@ -1131,6 +1196,11 @@ function mk3Sindel() { // MORTAL KOMBAT 3 - SINDEL
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var sindel3 = document.getElementById("sindel3");
+    sindel3.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Sindel"; 
   document.getElementById("characterStance").src = "images/mk3/sindel.gif"; 
   document.getElementById("bio").innerHTML = 
@@ -1187,6 +1257,11 @@ function mk3Sindel() { // MORTAL KOMBAT 3 - SINDEL
 function mk3Jax() { // MORTAL KOMBAT 3 - JAX
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var jax3 = document.getElementById("jax3");
+    jax3.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Jax";  
   document.getElementById("characterStance").src = "images/mk3/jax.gif";
@@ -1248,6 +1323,11 @@ function mk3Jax() { // MORTAL KOMBAT 3 - JAX
 function mk3Kano() { // MORTAL KOMBAT 3 - KANO
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var kano3 = document.getElementById("kano3");
+    kano3.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Kano"; 
   document.getElementById("characterStance").src = "images/mk3/kano.gif"; 
@@ -1314,6 +1394,11 @@ Stage: Up, Up, B, LK
 function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var liukang3 = document.getElementById("liukang3");
+    liukang3.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Liu Kang";  
   document.getElementById("characterStance").src = "images/mk3/liukang.gif";
@@ -1394,6 +1479,11 @@ function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var sonyablade3 = document.getElementById("sonyablade3");
+    sonyablade3.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Sonya Blade";
   document.getElementById("characterStance").src = "images/mk3/sonyablade.gif";  
   document.getElementById("bio").innerHTML = 
@@ -1444,6 +1534,11 @@ function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
 function mk3Stryker() { // MORTAL KOMBAT 3 - STRYKER
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var stryker3 = document.getElementById("stryker3");
+    stryker3.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Stryker";
   document.getElementById("characterStance").src = "images/mk3/stryker.gif"; 
@@ -1496,6 +1591,11 @@ function mk3Stryker() { // MORTAL KOMBAT 3 - STRYKER
 function mk3SubZero() { // MORTAL KOMBAT 3 - SUB-ZERO
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var subzero3 = document.getElementById("subzero3");
+    subzero3.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Sub-Zero"; 
   document.getElementById("characterStance").src = "images/mk3/subzero.gif"; 
@@ -1555,6 +1655,11 @@ function mk3Cyrax() { // MORTAL KOMBAT 3 - CYRAX
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var cyrax3 = document.getElementById("cyrax3");
+    cyrax3.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Cyrax";  
   document.getElementById("characterStance").src = "images/mk3/cyrax.gif";
   document.getElementById("bio").innerHTML = 
@@ -1608,6 +1713,11 @@ function mk3Cyrax() { // MORTAL KOMBAT 3 - CYRAX
 function mk3Sektor() { // MORTAL KOMBAT 3 - SEKTOR
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var sektor3 = document.getElementById("sektor3");
+    sektor3.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Sektor";  
   document.getElementById("characterStance").src = "images/mk3/sektor.gif";
@@ -1663,6 +1773,11 @@ function mk3Nightwolf() { // MORTAL KOMBAT 3 - NIGHTWOLF
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var nightwolf3 = document.getElementById("nightwolf3");
+    nightwolf3.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Nightwolf";  
   document.getElementById("characterStance").src = "images/mk3/nightwolf.gif";
   document.getElementById("bio").innerHTML = 
@@ -1716,6 +1831,11 @@ function mk3Nightwolf() { // MORTAL KOMBAT 3 - NIGHTWOLF
 function mk3Sheeva() { // MORTAL KOMBAT 3 - SHEEVA
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var sheeva3 = document.getElementById("sheeva3");
+    sheeva3.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Sheeva";  
   document.getElementById("characterStance").src = "images/mk3/sheeva.gif";
@@ -1771,6 +1891,11 @@ function mk3KungLao() { // MORTAL KOMBAT 3 - KUNG LAO
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var kunglao3 = document.getElementById("kunglao3");
+    kunglao3.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Kung Lao";  
   document.getElementById("characterStance").src = "images/mk3/kunglao.gif";
   document.getElementById("bio").innerHTML = 
@@ -1825,6 +1950,11 @@ function mk3Kabal() { // MORTAL KOMBAT 3 - KABAL
   hideEnding();
   clearAllButMoves();
 
+  if (sound === 1) {
+    var kabal3 = document.getElementById("kabal3");
+    kabal3.play();
+  }
+
   document.getElementById("displayName").innerHTML = "Kabal";  
   document.getElementById("characterStance").src = "images/mk3/kabal.gif";
   document.getElementById("bio").innerHTML = 
@@ -1877,6 +2007,11 @@ function mk3Kabal() { // MORTAL KOMBAT 3 - KABAL
 function mk3Smoke() { // MORTAL KOMBAT 3 - SMOKE
   hideEnding();
   clearAllButMoves();
+
+  if (sound === 1) {
+    var smoke3 = document.getElementById("smoke3");
+    smoke3.play();
+  }
 
   document.getElementById("displayName").innerHTML = "Smoke";  
   document.getElementById("characterStance").src = "images/mk3/smoke.gif";
