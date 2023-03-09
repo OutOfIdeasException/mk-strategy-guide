@@ -1362,26 +1362,21 @@ function mk3Kano() { // MORTAL KOMBAT 3 - KANO
   + "<div class='moveName'>4 Hits</div> <br>" 
   + "High Kick, High Kick, Low Kick, Back + High Kick <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
-/*
-Fatality 1: Hold LP, F, D, D, F, release LP (close)
-Fatality 2: LP, BL, BL, HK (sweep)
-Animality: Hold HP, BL, BL, BL, release HP (close)
-Babality: F, F, D, D, LK
-Friendship: LK, R, R, HK (outside sweep)
-Stage: Up, Up, B, LK
-*/
   "<div class='moveName'>FATALITY</div> <br>"
-  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "<i>(Hold Low Punch)</i> Forward, Down, Down, Forward <i>(Release Low"
+  + "Punch)</i> <div class='distance'>(Close)</div><br><br>"
   + "<div class='moveName'>FATALITY</div> <br>"
-  + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
+  + "Low Punch, Block, Block, High Kick"
+  + "<div class='distance'>( Sweep)</div><br><br>"
   + "<div class='moveName'>Animality</div> <br>"
-  + "BUTTONENTRY <br><br>" 
+  + "<i>(Hold High Punch)</i> Block, Block, Block <i>(Release High Punch)</i>"
+  + " <div class='distance'>(Close)</div><br><br>" 
   + "<div class='moveName'>Friendship</div> <br>"
-  + "BUTTONENTRY <br><br>" 
+  + "Low Kick, Run, Run, High Kick <br><br>" 
   + "<div class='moveName'>Babality</div> <br>"
-  + "BUTTONENTRY <br><br>" 
+  + "Forward, Forward, Down, Down, Low Kick <br><br>" 
   + "<div class='moveName'>Stage</div> <br>"
-  + "BUTTONENTRY <br><br>" ;
+  + "Up, Up, Back, Low Kick <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "<p>When Shao Kahn lets Kano live he fails to realize the resourcefulness"
   + " of the scheming human. Kano lures Kahn's armies away on a false mission:"
@@ -1410,63 +1405,38 @@ function mk3LiuKang() { // MORTAL KOMBAT 3 - LIU KANG
   + " Kahn's schemes in the past. Of all the humans, Kang poses the greatest"
   + " threat to Shao Kahn's rule.</p>";
   document.getElementById("specialMoves").innerHTML = 
-  /*
-High Fireball: F, F, HP - can be done in air too
-Low Fireball: F, F, LP
-Flying Kick: F, F, HK
-Bicycle Kick: Hold LK for 3 seconds, then release
-LK, LK, HK, LK (25%)
-HP, LK, LK, HK, B+ HK (28%)
-HP, HP, BL, LK, LK, HK, B + LK (36%)
-Jump Kick, High Fireball, Flying Kick (28%)
-  */
-  "<div class='moveName'>MOVE</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
+  "<div class='moveName'>High Fireball</div> <br>"
+  + "Forward, Forward, High Punch <br>"
+  + "<i>(Can Be Done In Air)</i> <br><br>" 
+  + "<div class='moveName'>Low Fireball</div> <br>" 
+  + "Forward, Forward, Low Punch <br><br>" 
+  + "<div class='moveName'>Flying Kick</div> <br>" 
+  + "Forward, Forward, High Kick <br><br>" 
+  + "<div class='moveName'>Bicycle Kick</div> <br>" 
+  + "<i>(Hold Low Kick)</i> 3 Seconds <i>(Release Low Kick)</i> <br>" 
   + "<h3>Combos</h3>" /* Liu Kang's Combos */
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>4 Hits</div> <br>" 
+  + "Low Kick, Low Kick, High Kick, Low Kick <br><br>" 
+  + "<div class='moveName'>5 Hits</div> <br>" 
+  + "High Punch, Low Kick, Low Kick, High Kick, Back + High Kick <br><br>" 
+  + "<div class='moveName'>7 Hits</div> <br>" 
+  + "High Punch, High Punch, Block, Low Kick, Low Kick, High Kick, Back + Low Kick" 
   document.getElementById("finishingMoves").innerHTML = 
-  /*
-Fatality 1: F, F, D, D, LK
-Fatality 2: hold BL, Up, D, Up, Up, release BL, BL + R
-Animality: D, D, Up (sweep)
-Babality: D, D, D, HK
-Friendship: R, R, R, D + R
-Stage: R, BL, BL, LK
-  */
-  "<div class='moveName'>MOVE</div> <br>"
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<h3>Combos</h3>" /* Liu Kang's Combos */
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
+  "<div class='moveName'>FATALITY</div> <br>"
+  + "Forward, Forward, Down, Down, Low Kick"
+  + "<div class='distance'> (Any)</div><br><br>"
+  + "<div class='moveName'>FATALITY</div> <br>"
+  + "<i>(Hold Block)</i> Up, Down, Up, Up <i>(Releae Block), Block + Run</i>" 
+  + "<div class='distance'> (Any)</div><br><br>"
+  + "<div class='moveName'>Animality</div> <br>"
+  + "Down, Down, Up " 
+  + "<div class='distance'> (Sweep)</div><br><br>"
+  + "<div class='moveName'>Friendship</div> <br>"
+  + "Run, Run, Run, Down + Run <br><br>" 
+  + "<div class='moveName'>Babality</div> <br>"
+  + "Down, Down, Down, High Kick <br><br>" 
+  + "<div class='moveName'>Stage</div> <br>"
+  + "Run, Block, Block, Low Kick <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "<p>After thwarting Shao Kahn in the past, Liu Kang finds himself the prime"
   + " target of Shao Kahn's extermination squads. But Kang is the reigning Mortal"
@@ -1503,12 +1473,13 @@ function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
   + "<div class='moveName'>Diagonal Bicycle Kick</div> <br>" 
   + "Back, Back, Down, High Kick <br><br>" 
   + "<h3>Combos</h3>" /* Sonya Blade's Combos */
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>MOVE</div> <br>" 
-  + "BUTTONENTRY <br><br>" 
+  + "<div class='moveName'>4 Hits</div> <br>" 
+  + "High Punch, High Punch, Low Punch, High Punch <br><br>" 
+  + "<div class='moveName'>3 Hits</div> <br>" 
+  + "High Kick, High Kick, Back + High Kick <br><br>" 
+  + "<div class='moveName'>6 Hits</div> <br>" 
+  + "High Kick, High Kick, High Punch, High Punch, Low Punch, Back + High "
+  + "Punch <br><br>" 
   + "<div class='moveName'>MOVE</div> <br>" 
   + "BUTTONENTRY <br><br>" 
   document.getElementById("finishingMoves").innerHTML = 
@@ -1516,13 +1487,13 @@ function mk3SonyaBlade() { // MORTAL KOMBAT 3 - SONYA BLADE
   + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
   + "<div class='moveName'>FATALITY:</div> <br>"
   + "BUTTONENTRY <div class='distance'>(DISTANCE)</div><br><br>"
-  + "<div class='moveName'>Animality:</div> <br>"
+  + "<div class='moveName'>Animality</div> <br>"
   + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Friendship:</div> <br>"
+  + "<div class='moveName'>Friendship</div> <br>"
   + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Babality:</div> <br>"
+  + "<div class='moveName'>Babality</div> <br>"
   + "BUTTONENTRY <br><br>" 
-  + "<div class='moveName'>Stage:</div> <br>"
+  + "<div class='moveName'>Stage</div> <br>"
   + "BUTTONENTRY <br><br>" ;
   document.getElementById("ending").innerHTML = 
   "<p>Sonya defeats her arch-enemy Kano high atop a skyscraper near Shao Kahn's"
